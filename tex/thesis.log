@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  11 DEC 2014 18:19
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  11 DEC 2014 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,7 +556,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Reference `' on page 9 undefined on input line 26.
 
 File: ./img/TEMP.eps Graphic file (type eps)
-<./img/TEMP.eps> [9] [10] [11]) [12]
+<./img/TEMP.eps> [9] [10]
+
+LaTeX Warning: Reference `' on page 11 undefined on input line 86.
+
+[11]
+
+LaTeX Warning: Reference `' on page 12 undefined on input line 106.
+
+) [12]
 \openout2 = `chaps/result.aux'.
 
  (./chaps/result.tex
@@ -601,6 +609,6 @@ Here is how much of TeX's memory you used:
  6309 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 28i,9n,26p,276b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,10n,26p,292b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (26 pages, 26220 bytes).
+Output written on thesis.dvi (26 pages, 28032 bytes).
