@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  12 DEC 2014 17:23
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  12 DEC 2014 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,42 +556,46 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Reference `' on page 9 undefined on input line 26.
 
 File: ./img/TEMP.eps Graphic file (type eps)
-<./img/TEMP.eps> [9] [10]
+<./img/TEMP.eps> [9] [10] [11]
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 86.
+LaTeX Warning: Reference `' on page 12 undefined on input line 87.
 
-[11]
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 96.
+LaTeX Warning: Reference `' on page 12 undefined on input line 97.
 
-) [12] [13]
+[12]
+File: ./img/TEMP.eps Graphic file (type eps)
+ <./img/TEMP.eps> [13]
+File: ./img/TEMP.eps Graphic file (type eps)
+ <./img/TEMP.eps> [14]) [15]
 \openout2 = `chaps/result.aux'.
 
- (./chaps/result.tex [14
+ (./chaps/result.tex
+[16
 
 
 
 ]
 第6章
-) [15]
+) [17]
 \openout2 = `chaps/conclusion.aux'.
 
- (./chaps/conclusion.tex [16
+ (./chaps/conclusion.tex [18
 
 
 
 ]
 第7章
-) [17]
+) [19]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex [18
+ (./chaps/acknowledgement.tex [20
 
 
 
-]) [19]
+]) [21]
 No file thesis.bbl.
-[20
+[22
 
 
 
@@ -603,12 +607,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2991 strings out of 493799
- 36132 string characters out of 6153369
- 93049 words of memory out of 5000000
- 6311 multiletter control sequences out of 15000+600000
+ 3005 strings out of 493799
+ 36236 string characters out of 6153369
+ 94210 words of memory out of 5000000
+ 6325 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 28i,10n,26p,276b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,11n,26p,276b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (28 pages, 29608 bytes).
+Output written on thesis.dvi (30 pages, 37452 bytes).

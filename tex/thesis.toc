@@ -15,12 +15,12 @@
 \contentsline {subsection}{\numberline {5.1.2}アルゴリズムの全体像}{10}
 \contentsline {section}{\numberline {5.2}オブジェクトファイルフォーマット}{11}
 \contentsline {section}{\numberline {5.3}転送データ}{11}
-\contentsline {subsection}{\numberline {5.3.1}接ベクトル作成}{12}
-\contentsline {section}{\numberline {5.4}GPU処理}{13}
-\contentsline {subsection}{\numberline {5.4.1}新しいサブsekusyon}{13}
-\contentsline {chapter}{\numberline {第6章}結果と考察}{15}
-\contentsline {section}{\numberline {6.1}＊サブセクション＊}{15}
-\contentsline {chapter}{\numberline {第7章}結論}{17}
-\contentsline {section}{\numberline {7.1}結論}{17}
-\contentsline {section}{\numberline {7.2}今後の展望}{17}
-\contentsline {chapter}{謝辞}{18}
+\contentsline {subsection}{\numberline {5.3.1}テクスチャ座標軸方向3次元単位ベクトル}{12}
+\contentsline {section}{\numberline {5.4}GPU処理}{15}
+\contentsline {subsection}{\numberline {5.4.1}新しいサブsekusyon}{15}
+\contentsline {chapter}{\numberline {第6章}結果と考察}{17}
+\contentsline {section}{\numberline {6.1}＊サブセクション＊}{17}
+\contentsline {chapter}{\numberline {第7章}結論}{19}
+\contentsline {section}{\numberline {7.1}結論}{19}
+\contentsline {section}{\numberline {7.2}今後の展望}{19}
+\contentsline {chapter}{謝辞}{20}
