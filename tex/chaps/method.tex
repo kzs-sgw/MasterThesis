@@ -48,6 +48,34 @@
 アプリケーションでは通常の手法で作成されたオブジェクトファイル情報を加工し、計算に必要な変数をGPU（シェーダ）へ送る。
 シェーダでは屈折などを考慮した物理計算を行い、最終的に画面に描画する色情報を計算する。
 
+\section{テクスチャと球の配列}
+\label{STextureandsphere}
+
+テクスチャおよび球は複眼における個眼をモデル化したものである。
+そのため、実際の個眼と同様にひとつのテクスチャ単位とひとつの球の位置を合わせて配置する必要がある\figref{FTexturesphereposition}。
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=3.0in]{./img/TEMP}
+  \caption{テクスチャと球の位置関係}
+  \label{FTexturesphereposition}
+\end{figure}
+
+今回用いた手法では、格子状に球を配置させてテクスチャとの位置合わせをおこなう\figref{FGrid}。
+具体的には、テクスチャとして用いている正方形画像の各頂点と格子の各点を対応させ、テクスチャ座標軸方向と格子の平行線を一致させる。
+正規化されたテクスチャをタイル状に繰り返し適用し、格子の中心と面の法線方向から見た球の中心座標を一致させる。すなわち、法線方向の奥行きは一致しておらず間隙がある。
+球の半径を$r$とすると、ポリゴンとテクスチャ平面との距離は$2r$となる\figref{}。
+
+正確には、色素細胞として用いるテクスチャ座標値と球の配列に利用するテクスチャ座標値は独立して扱うことができるため、必ずしも同一のものを利用する必要はない。
+ここでは、両者を同一化しても計算上問題が無いためそのまま利用する。
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=3.0in]{./img/TEMP}
+  \caption{テクスチャおよび球の格子状配置}
+  \label{FGrid}
+\end{figure}
+
 \section{計算用データ}
 \label{SObjfile}
 
@@ -100,6 +128,8 @@
 \equref{EPc}のように表される。また、\equref{EPuv}の$a$および$b$は点$\bm{P}$におけるテクスチャ座標値$(a, b)$を表している。
 すなわち、3次元空間上のテクスチャ座標軸方向単位ベクトル$\bm{U}_p, \bm{V}_p$が既知であれば、\equref{EPuv}の係数を利用してポリゴン上の任意の点におけるそのテクスチャ座標値$(a, b)$を逆算することが可能になる。
 本手法では、シェーダでの処理に3次元ベクトル$\bm{P}_c$, $\bm{U}_p$および$\bm{V}_p$が必要となるため、これらの値を作成しシェーダへ転送する必要がある。
+
+\subsubsection*{3次元単位ベクトル計算手順}
 
 テクスチャ座標軸方向3次元単位ベクトル$\bm{U}_p$および$\bm{V}_p$は以下の手順で求める。
 $\bm{U}_p$および$\bm{V}_p$はポリゴン毎に変化するベクトル変数であり、ポリゴンを構成する各頂点の頂点情報としてバッファに格納される。
@@ -240,8 +270,110 @@ j &l
 \end{eqnarray}
 
 \noindent
-以上から$i,j,k,l$を求めることができた。
+以上から$i,j,k,l$を求めることができる。
 
 さらに、\equref{EPc}において$\bm{P}_e = \bm{P}_0$, $(a_e, b_e) = \bm{T}_0$として$\bm{P}_c$を作成し、$\bm{U}_p$, $\bm{V}_p$と合わせて利用する。
 
+\section{入射球推定}
+\label{SFirstsphere}
 
+ポリゴン内部に仮想的に配置した球のうち、どの球と視線が交わるかを求める。
+フラグメントシェーダでは球と視線との交点を直接与えられず、ポリゴンと視線ベクトル$\bm{V}$との交点のみが与えられる。
+すなわち、ポリゴン上の同じ点に視線が到達したとしても同一の球に入射するとは限らない。
+そのため、視線が入射する球を正確に推定する必要がある。
+
+まず、視線ベクトルとポリゴンとの交点を$\bm{P}$とし、その点のテクスチャ座標を$\bm{T} = (a, b)$とすると\secref{SSUnitvec}の$\bm{P}_c$を用いて
+
+\begin{equation}
+\bm{P} = \bm{P}_c + a\bm{U}_p + b\bm{V}_p
+\label{EP}
+\end{equation}
+
+\noindent
+と書ける。ここで、$a, b$をそれぞれの値が正のとき
+
+\begin{eqnarray}
+a' = \lfloor a \rfloor + 0.5\\
+b' = \lfloor b \rfloor + 0.5
+\label{Eabplus}
+\end{eqnarray}
+
+\noindent
+負のとき
+
+\begin{eqnarray}
+a' = \lceil a \rceil - 0.5\\
+b' = \lceil b \rceil - 0.5
+\label{Eabminus}
+\end{eqnarray}
+
+\noindent
+以上のようにすると、テクスチャの格子の中心を示す$\bm{P}'$は次式のようになり
+
+\begin{equation}
+\bm{P}' = \bm{P}_c + a'\bm{U}_p + b'\bm{V}_p 
+\label{EPdash}
+\end{equation}
+
+\noindent
+さらに球の半径$r$および$\bm{P}$における法線ベクトル$\bm{N}$を用いて
+
+\begin{equation}
+\bm{S} = \bm{P}' - r\bm{N} 
+\label{ESpherepos}
+\end{equation}
+
+\noindent
+とすると$\bm{S}$は近傍球の中心座標の推定値となる。
+推定した球と視線ベクトル$\bm{V}$との交差判定を行い、交差する場合には次の屈折計算へ進む。
+
+しかし、この操作を一度のみ行うだけでは不十分であり正確な近傍球を推定できておらず不具合を生じてしまう。
+間違った近傍球推定を行ってしまうと\figref{}のように、表示されるべき球の一部が消失してしまう。
+これを防止するために仮想的なスライス平面を作成し、オブジェクト内部方向へ段階的に移動させる\figref{}。
+球の半径$r$よりも小さい値のオフセット距離を取り、法線の逆方向へポリゴンと平行に平面を順次作成していく。
+
+視線ベクトル$\bm{V}$を作成した仮想平面まで伸ばし両者の交点位置を求め、再度近傍球の推定を行う。
+球の推定にはこの交点位置におけるテクスチャ座標値が必要であるが、3次元空間の点からテクスチャ座標値を逆計算するためには点がポリゴンの平面上に位置している必要がある。
+そのため、交点をポリゴンの平面上に投影した位置におけるテクスチャ座標値を再計算する。
+交点を$\bm{P}_s$とすると、これをポリゴンの平面上に戻すためには$h$を仮想平面のポリゴンとの距離として
+
+\begin{equation}
+\bm{P}_s' = \bm{P}_s + h\bm{N}
+\label{EPsdash}
+\end{equation}
+
+\noindent
+とすればよい。$\bm{P}_s$はポリゴン平面上の点なので
+
+\begin{equation}
+\bm{P}_s' = \bm{P}_c + a_s\bm{U}_p + b_s\bm{V}_p 
+\label{EPsdash2}
+\end{equation}
+
+\noindent
+以上の式が成り立つ。未知数$(a_s, b_s)$は最小二乗法を用いて計算を行うと以下のように求めることができる。
+
+\begin{equation}
+\bm{P}_{s'c} = \bm{P}_s' - \bm{P}_c\\
+\label{EPsdashc}
+\end{equation}
+
+\begin{eqnarray}
+a_s &=& \frac{(\bm{V}_p \cdot \bm{V}_p)(\bm{P}_{s'c} \cdot \bm{U}_p) - (\bm{V}_p \cdot \bm{U}_p)(\bm{P}_{s'c} \cdot \bm{V}_p)}
+{(\bm{U}_p \cdot \bm{U}_p)(\bm{V}_p \cdot \bm{V}_p) - (\bm{U}_p \cdot \bm{V}_p)(\bm{V}_p \cdot \bm{U}_p)}\\
+b_s &=& \frac{(\bm{U}_p \cdot \bm{U}_p)(\bm{P}_{s'c} \cdot \bm{V}_p) - (\bm{U}_p \cdot \bm{V}_p)(\bm{P}_{s'c} \cdot \bm{U}_p)}
+{(\bm{U}_p \cdot \bm{U}_p)(\bm{V}_p \cdot \bm{V}_p) - (\bm{U}_p \cdot \bm{V}_p)(\bm{V}_p \cdot \bm{U}_p)}
+\label{Eabminus}
+\end{eqnarray}
+
+
+
+
+\section{屈折計算処理}
+\label{SRefraction}
+
+\section{テクスチャ座標再計算}
+\label{STexturerecalculation}
+
+\section{光源および陰影処理}
+\label{SPhongandshade}

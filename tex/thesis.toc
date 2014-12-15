@@ -18,11 +18,16 @@
 \contentsline {section}{\numberline {6.1}フレームワーク}{11}
 \contentsline {subsection}{\numberline {6.1.1}複眼モデル}{11}
 \contentsline {subsection}{\numberline {6.1.2}アルゴリズムの全体像}{12}
-\contentsline {section}{\numberline {6.2}計算用データ}{13}
-\contentsline {subsection}{\numberline {6.2.1}テクスチャ座標軸方向3次元単位ベクトル}{13}
-\contentsline {chapter}{\numberline {第7章}結果と考察}{19}
-\contentsline {section}{\numberline {7.1}＊サブセクション＊}{19}
-\contentsline {chapter}{\numberline {第8章}結論}{21}
-\contentsline {section}{\numberline {8.1}結論}{21}
-\contentsline {section}{\numberline {8.2}今後の展望}{21}
-\contentsline {chapter}{謝辞}{22}
+\contentsline {section}{\numberline {6.2}テクスチャと球の配列}{13}
+\contentsline {section}{\numberline {6.3}計算用データ}{14}
+\contentsline {subsection}{\numberline {6.3.1}テクスチャ座標軸方向3次元単位ベクトル}{15}
+\contentsline {section}{\numberline {6.4}入射球推定}{18}
+\contentsline {section}{\numberline {6.5}屈折計算処理}{20}
+\contentsline {section}{\numberline {6.6}テクスチャ座標再計算}{20}
+\contentsline {section}{\numberline {6.7}光源および陰影処理}{20}
+\contentsline {chapter}{\numberline {第7章}結果と考察}{21}
+\contentsline {section}{\numberline {7.1}＊サブセクション＊}{21}
+\contentsline {chapter}{\numberline {第8章}結論}{23}
+\contentsline {section}{\numberline {8.1}結論}{23}
+\contentsline {section}{\numberline {8.2}今後の展望}{23}
+\contentsline {chapter}{謝辞}{24}
