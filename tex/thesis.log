@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  12 DEC 2014 21:50
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  15 DEC 2014 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -319,8 +319,8 @@ eX Live/ChoF)
 File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 )) (./thesis.aux
 (./chaps/introduction.aux) (./chaps/relatedwork.aux) (./chaps/technology.aux)
-(./chaps/experiment.aux) (./chaps/method.aux) (./chaps/result.aux)
-(./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
+(./chaps/experiment.aux) (./chaps/basicmethod.aux) (./chaps/method.aux)
+(./chaps/result.aux) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 103.
@@ -437,13 +437,13 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 2.
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 21.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 21.
+(Font)              scaled to size 9.60999pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 21.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 21.
+(Font)              scaled to size 9.60999pt on input line 22.
  [3
 
 
@@ -518,101 +518,119 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 ]
 第4章
 ) [7]
-\openout2 = `chaps/method.aux'.
+\openout2 = `chaps/basicmethod.aux'.
 
- (./chaps/method.tex [8
+ (./chaps/basicmethod.tex [8
 
 
 
 ]
 第5章
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 15.
+(c:/w32tex/share/texmf-dist/tex/latex/txr/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 13.
+(Font)              scaled to size 11.53198pt on input line 28.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 13.
+(Font)              scaled to size 11.53198pt on input line 28.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 13.
+(Font)              scaled to size 11.53198pt on input line 28.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 13.
+(Font)              scaled to size 11.53198pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 13.
+(Font)              scaled to size 11.39996pt on input line 28.
+) [9] [10]
+\openout2 = `chaps/method.aux'.
+
+
+(./chaps/method.tex
+第6章
 File: ./img/TEMP.eps Graphic file (type eps)
 <./img/TEMP.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 19.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 19.
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 19.
- (c:/w32tex/share/texmf-dist/tex/latex/txr/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 19.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 26.
+LaTeX Warning: Reference `' on page 11 undefined on input line 26.
 
 File: ./img/TEMP.eps Graphic file (type eps)
-<./img/TEMP.eps> [9] [10] [11]
-
-LaTeX Warning: Reference `' on page 12 undefined on input line 87.
+<./img/TEMP.eps> [11
 
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 97.
 
-[12]
+] [12]
+
+LaTeX Warning: Reference `' on page 13 undefined on input line 77.
+
+[13]
 File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [13]
+ <./img/TEMP.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14]
 File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [14]) [15]
+ <./img/TEMP.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] [16]) [17]
 \openout2 = `chaps/result.aux'.
 
- (./chaps/result.tex
-[16
-
-
-
-]
-第6章
-) [17]
-\openout2 = `chaps/conclusion.aux'.
-
- (./chaps/conclusion.tex [18
+ (./chaps/result.tex [18
 
 
 
 ]
 第7章
 ) [19]
+\openout2 = `chaps/conclusion.aux'.
+
+ (./chaps/conclusion.tex [20
+
+
+
+]
+第8章
+) [21]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex [20
+ (./chaps/acknowledgement.tex [22
 
 
 
-]) [21]
+]) [23]
 No file thesis.bbl.
-[22
+[24
 
 
 
 ] (./thesis.aux (./chaps/introduction.aux) (./chaps/relatedwork.aux)
-(./chaps/technology.aux) (./chaps/experiment.aux) (./chaps/method.aux)
-(./chaps/result.aux) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
+(./chaps/technology.aux) (./chaps/experiment.aux) (./chaps/basicmethod.aux)
+(./chaps/method.aux) (./chaps/result.aux) (./chaps/conclusion.aux)
+(./chaps/acknowledgement.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3005 strings out of 493799
- 36236 string characters out of 6153369
- 94210 words of memory out of 5000000
- 6325 multiletter control sequences out of 15000+600000
+ 3015 strings out of 493799
+ 36438 string characters out of 6153369
+ 94562 words of memory out of 5000000
+ 6328 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 28i,11n,26p,276b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 31i,11n,26p,270b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (30 pages, 37452 bytes).
+Output written on thesis.dvi (32 pages, 38928 bytes).
