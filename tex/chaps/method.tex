@@ -256,6 +256,7 @@ j &l
 \equref{EAx=I}が成り立ち、これを変形すると以下のようになる。
 
 \begin{eqnarray}
+\label{EIjkl}
 \begin{pmatrix}
 i &k\\
 j &l
@@ -265,8 +266,8 @@ j &l
 1 &0\\
 0 &1
 \end{pmatrix}\nonumber\\
+\nonumber\\
 &=& \bm{A}^{-1}
-\label{EIjkl}
 \end{eqnarray}
 
 \noindent
@@ -285,26 +286,30 @@ j &l
 まず、視線ベクトルとポリゴンとの交点を$\bm{P}$とし、その点のテクスチャ座標を$\bm{T} = (a, b)$とすると\secref{SSUnitvec}の$\bm{P}_c$を用いて
 
 \begin{equation}
-\bm{P} = \bm{P}_c + a\bm{U}_p + b\bm{V}_p
 \label{EP}
+\bm{P} = \bm{P}_c + a\bm{U}_p + b\bm{V}_p
 \end{equation}
 
 \noindent
 と書ける。ここで、$a, b$をそれぞれの値が正のとき
 
 \begin{eqnarray}
+\label{Eadashplus}
 a' = \lfloor a \rfloor + 0.5\\
+\nonumber\\
+\label{Ebdashplus}
 b' = \lfloor b \rfloor + 0.5
-\label{Eabplus}
 \end{eqnarray}
 
 \noindent
 負のとき
 
 \begin{eqnarray}
+\label{Eadashminus}
 a' = \lceil a \rceil - 0.5\\
+\nonumber\\
+\label{Ebdashminus}
 b' = \lceil b \rceil - 0.5
-\label{Eabminus}
 \end{eqnarray}
 
 \noindent
@@ -335,7 +340,7 @@ b' = \lceil b \rceil - 0.5
 視線ベクトル$\bm{V}$を作成した仮想平面まで伸ばし両者の交点位置を求め、再度近傍球の推定を行う。
 球の推定にはこの交点位置におけるテクスチャ座標値が必要であるが、3次元空間の点からテクスチャ座標値を逆計算するためには点がポリゴンの平面上に位置している必要がある。
 そのため、交点をポリゴンの平面上に投影した位置におけるテクスチャ座標値を再計算する。
-交点を$\bm{P}_s$とすると、これをポリゴンの平面上に戻すためには$h$を仮想平面のポリゴンとの距離として
+交点を$\bm{P}_s$とすると、これをポリゴンの平面上に戻すためには$h$を仮想平面とポリゴンとの距離として
 
 \begin{equation}
 \bm{P}_s' = \bm{P}_s + h\bm{N}
@@ -359,18 +364,25 @@ b' = \lceil b \rceil - 0.5
 \end{equation}
 
 \begin{eqnarray}
+\label{Eas}
 a_s &=& \frac{(\bm{V}_p \cdot \bm{V}_p)(\bm{P}_{s'c} \cdot \bm{U}_p) - (\bm{V}_p \cdot \bm{U}_p)(\bm{P}_{s'c} \cdot \bm{V}_p)}
 {(\bm{U}_p \cdot \bm{U}_p)(\bm{V}_p \cdot \bm{V}_p) - (\bm{U}_p \cdot \bm{V}_p)(\bm{V}_p \cdot \bm{U}_p)}\\
+\nonumber\\
+\nonumber\\
+\label{Ebs}
 b_s &=& \frac{(\bm{U}_p \cdot \bm{U}_p)(\bm{P}_{s'c} \cdot \bm{V}_p) - (\bm{U}_p \cdot \bm{V}_p)(\bm{P}_{s'c} \cdot \bm{U}_p)}
 {(\bm{U}_p \cdot \bm{U}_p)(\bm{V}_p \cdot \bm{V}_p) - (\bm{U}_p \cdot \bm{V}_p)(\bm{V}_p \cdot \bm{U}_p)}
-\label{Eabminus}
-\end{eqnarray}
-
-
-
+\end{eqnarray}\\
+\indent
+求めた$a_s, b_s$をもとに、\equref{Eadashplus}から\equref{ESpherepos}までの操作を行い、再度交差判定を行う。
+最初に交差した球を第一の入射球として扱い、球の推定探索を終了する。
+交差していなければこの仮想平面による処理を仮想平面とポリゴンとの距離が$r$になるまで行い、交差する球があれば\secref{SRefraction}の処理へ進み、最後まで交差する球がなければ次の\secref{STexturerecalculation}の処理へ進む。
 
 \section{屈折計算処理}
 \label{SRefraction}
+
+
+
 
 \section{テクスチャ座標再計算}
 \label{STexturerecalculation}
