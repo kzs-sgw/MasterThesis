@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  16 DEC 2014 14:01
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  16 DEC 2014 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -592,34 +592,38 @@ LaTeX Warning: Reference `' on page 19 undefined on input line 336.
 
 LaTeX Warning: Reference `' on page 19 undefined on input line 337.
 
-[19]) [20]
+[19]
+
+LaTeX Warning: Reference `' on page 20 undefined on input line 385.
+
+[20]) [21]
 \openout2 = `chaps/result.aux'.
 
- (./chaps/result.tex
-第7章
-) [21
+ (./chaps/result.tex [22
 
 
 
 ]
+第7章
+) [23]
 \openout2 = `chaps/conclusion.aux'.
 
- (./chaps/conclusion.tex [22
+ (./chaps/conclusion.tex [24
 
 
 
 ]
 第8章
-) [23]
+) [25]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex [24
+ (./chaps/acknowledgement.tex [26
 
 
 
-]) [25]
+]) [27]
 No file thesis.bbl.
-[26
+[28
 
 
 
@@ -632,12 +636,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3034 strings out of 493799
- 36667 string characters out of 6153369
- 95783 words of memory out of 5000000
- 6347 multiletter control sequences out of 15000+600000
+ 3037 strings out of 493799
+ 36689 string characters out of 6153369
+ 95819 words of memory out of 5000000
+ 6350 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,11n,26p,297b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (34 pages, 50608 bytes).
+Output written on thesis.dvi (36 pages, 54516 bytes).

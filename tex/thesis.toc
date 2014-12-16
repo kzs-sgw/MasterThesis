@@ -23,11 +23,11 @@
 \contentsline {subsection}{\numberline {6.3.1}テクスチャ座標軸方向3次元単位ベクトル}{15}
 \contentsline {section}{\numberline {6.4}入射球推定}{18}
 \contentsline {section}{\numberline {6.5}屈折計算処理}{20}
-\contentsline {section}{\numberline {6.6}テクスチャ座標再計算}{20}
-\contentsline {section}{\numberline {6.7}光源および陰影処理}{20}
-\contentsline {chapter}{\numberline {第7章}結果と考察}{21}
-\contentsline {section}{\numberline {7.1}＊サブセクション＊}{21}
-\contentsline {chapter}{\numberline {第8章}結論}{23}
-\contentsline {section}{\numberline {8.1}結論}{23}
-\contentsline {section}{\numberline {8.2}今後の展望}{23}
-\contentsline {chapter}{謝辞}{24}
+\contentsline {section}{\numberline {6.6}テクスチャ座標再計算}{21}
+\contentsline {section}{\numberline {6.7}光源処理および陰影処理}{21}
+\contentsline {chapter}{\numberline {第7章}結果と考察}{23}
+\contentsline {section}{\numberline {7.1}＊サブセクション＊}{23}
+\contentsline {chapter}{\numberline {第8章}結論}{25}
+\contentsline {section}{\numberline {8.1}結論}{25}
+\contentsline {section}{\numberline {8.2}今後の展望}{25}
+\contentsline {chapter}{謝辞}{26}
