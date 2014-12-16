@@ -9,6 +9,7 @@
 \contentsline {chapter}{\numberline {第4章}予備実験}{7}
 \contentsline {section}{\numberline {4.1}実験の目的}{7}
 \contentsline {section}{\numberline {4.2}実験方法}{7}
+\contentsline {section}{\numberline {4.3}結果と議論}{7}
 \contentsline {chapter}{\numberline {第5章}本手法の基礎技術}{9}
 \contentsline {section}{\numberline {5.1}グラフィックスパイプライン}{9}
 \contentsline {section}{\numberline {5.2}オブジェクトファイルフォーマット}{9}
@@ -23,7 +24,7 @@
 \contentsline {subsection}{\numberline {6.3.1}テクスチャ座標軸方向3次元単位ベクトル}{15}
 \contentsline {section}{\numberline {6.4}入射球推定}{18}
 \contentsline {section}{\numberline {6.5}屈折計算処理}{20}
-\contentsline {section}{\numberline {6.6}テクスチャ座標再計算}{21}
+\contentsline {section}{\numberline {6.6}テクスチャ座標再計算}{20}
 \contentsline {section}{\numberline {6.7}光源処理および陰影処理}{21}
 \contentsline {chapter}{\numberline {第7章}結果と考察}{23}
 \contentsline {section}{\numberline {7.1}＊サブセクション＊}{23}
