@@ -5,11 +5,11 @@
 \contentsline {chapter}{\numberline {第2章}関連研究}{3}
 \contentsline {section}{\numberline {2.1}微細構造を扱った研究}{3}
 \contentsline {section}{\numberline {2.2}本研究の位置づけ}{3}
-\contentsline {chapter}{\numberline {第3章}周辺技術}{5}
+\contentsline {chapter}{\numberline {第3章}周辺知識}{5}
 \contentsline {chapter}{\numberline {第4章}予備実験}{7}
 \contentsline {section}{\numberline {4.1}実験の目的}{7}
 \contentsline {section}{\numberline {4.2}実験方法}{7}
-\contentsline {section}{\numberline {4.3}結果と議論}{7}
+\contentsline {section}{\numberline {4.3}結果と議論}{8}
 \contentsline {chapter}{\numberline {第5章}本手法の基礎技術}{9}
 \contentsline {section}{\numberline {5.1}グラフィックスパイプライン}{9}
 \contentsline {section}{\numberline {5.2}オブジェクトファイルフォーマット}{9}
