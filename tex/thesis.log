@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  17 DEC 2014 23:34
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  19 DEC 2014 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,11 +529,27 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 27.
- [7]) [8]
+ [7]
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 50.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 51.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 52.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 55.
+
+[8]) [9]
 \openout2 = `chaps/basicmethod.aux'.
 
+ (./chaps/basicmethod.tex [10
 
-(./chaps/basicmethod.tex
+
+
+]
 第5章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 28.
@@ -545,11 +561,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 28.
-) [9
-
-
-
-] [10]
+) [11] [12]
 \openout2 = `chaps/method.aux'.
 
  (./chaps/method.tex
@@ -565,71 +577,71 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 26.
+LaTeX Warning: Reference `' on page 13 undefined on input line 26.
 
 File: ./img/TEMP.eps Graphic file (type eps)
-<./img/TEMP.eps> [11
+<./img/TEMP.eps> [13
 
 
 
-] [12]
+] [14]
 File: ./img/TEMP.eps Graphic file (type eps)
  <./img/TEMP.eps>
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 68.
+LaTeX Warning: Reference `' on page 15 undefined on input line 68.
 
 File: ./img/TEMP.eps Graphic file (type eps)
 <./img/TEMP.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13]
+[15]
 
-LaTeX Warning: Reference `' on page 14 undefined on input line 103.
+LaTeX Warning: Reference `' on page 16 undefined on input line 103.
 
-[14] [15]
+[16] [17]
 File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [16]
+ <./img/TEMP.eps> [18]
 File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [17] [18]
+ <./img/TEMP.eps> [19] [20]
 
-LaTeX Warning: Reference `' on page 19 undefined on input line 336.
+LaTeX Warning: Reference `' on page 21 undefined on input line 336.
 
 
-LaTeX Warning: Reference `' on page 19 undefined on input line 337.
+LaTeX Warning: Reference `' on page 21 undefined on input line 337.
 
-[19]
+[21]
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 385.
+LaTeX Warning: Reference `' on page 22 undefined on input line 385.
 
-[20]) [21]
+[22]) [23]
 \openout2 = `chaps/result.aux'.
 
- (./chaps/result.tex [22
+ (./chaps/result.tex [24
 
 
 
 ]
 第7章
-) [23]
+) [25]
 \openout2 = `chaps/conclusion.aux'.
 
- (./chaps/conclusion.tex [24
+ (./chaps/conclusion.tex [26
 
 
 
 ]
 第8章
-) [25]
+) [27]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex [26
+ (./chaps/acknowledgement.tex [28
 
 
 
-]) [27]
+]) [29]
 No file thesis.bbl.
-[28
+[30
 
 
 
@@ -644,10 +656,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  3039 strings out of 493799
  36712 string characters out of 6153369
- 95829 words of memory out of 5000000
+ 95833 words of memory out of 5000000
  6352 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,11n,26p,325b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 31i,11n,26p,323b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (36 pages, 58696 bytes).
+Output written on thesis.dvi (38 pages, 61796 bytes).
