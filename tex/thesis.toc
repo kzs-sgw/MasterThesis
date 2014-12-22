@@ -10,7 +10,11 @@
 \contentsline {section}{\numberline {4.1}実験の目的}{7}
 \contentsline {section}{\numberline {4.2}実験方法}{7}
 \contentsline {section}{\numberline {4.3}結果と議論}{8}
-\contentsline {chapter}{\numberline {第5章}本手法の基礎技術}{11}
+\contentsline {subsection}{\numberline {4.3.1}ビー玉がひとつの場合}{8}
+\contentsline {subsection}{\numberline {4.3.2}木枠を用いてビー玉を密集させた場合}{9}
+\contentsline {subsection}{\numberline {4.3.3}ビー玉とパンチングメタルの穴の配置を合わせた場合}{9}
+\contentsline {section}{\numberline {4.4}まとめ}{10}
+\contentsline {chapter}{\numberline {第5章}本手法の基礎技術\\ \leavevmode {\color {red} たぶんこの章は消去する}}{11}
 \contentsline {section}{\numberline {5.1}グラフィックスパイプライン}{11}
 \contentsline {section}{\numberline {5.2}オブジェクトファイルフォーマット}{11}
 \contentsline {section}{\numberline {5.3}GPU処理}{12}

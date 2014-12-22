@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  19 DEC 2014 19:05
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  22 DEC 2014 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,6 +521,10 @@ LaTeX Warning: Reference `CTechnology' on page 1 undefined on input line 22.
 ]
 第4章
 
+LaTeX Warning: Citation `永田敏夫:2008-03-10' on page 7 undefined on input line
+ 10.
+
+
 LaTeX Warning: Reference `' on page 7 undefined on input line 24.
 
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 27.
@@ -531,37 +535,56 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 27.
  [7]
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 50.
+LaTeX Warning: Reference `FExpparts' on page 8 undefined on input line 48.
+
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 59.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 59.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 59.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 59.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 59.
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 62.
 
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 51.
+LaTeX Warning: Reference `' on page 8 undefined on input line 63.
 
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 52.
+LaTeX Warning: Reference `' on page 8 undefined on input line 64.
+
+[8]
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 70.
 
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 55.
+LaTeX Warning: Reference `' on page 9 undefined on input line 72.
 
-[8]) [9]
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 79.
+
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 83.
+
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 88.
+
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 89.
+
+[9]) [10]
 \openout2 = `chaps/basicmethod.aux'.
 
- (./chaps/basicmethod.tex [10
-
-
-
-]
+ (./chaps/basicmethod.tex
 第5章
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 28.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 28.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 28.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 28.
-) [11] [12]
+) [11
+
+
+
+] [12]
 \openout2 = `chaps/method.aux'.
 
  (./chaps/method.tex
@@ -654,12 +677,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3039 strings out of 493799
- 36712 string characters out of 6153369
- 95833 words of memory out of 5000000
- 6352 multiletter control sequences out of 15000+600000
+ 3045 strings out of 493799
+ 36805 string characters out of 6153369
+ 95880 words of memory out of 5000000
+ 6358 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,11n,26p,323b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 30i,11n,26p,314b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (38 pages, 61796 bytes).
+Output written on thesis.dvi (38 pages, 68896 bytes).
