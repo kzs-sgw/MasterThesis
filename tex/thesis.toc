@@ -6,6 +6,9 @@
 \contentsline {section}{\numberline {2.1}微細構造を扱った研究}{3}
 \contentsline {section}{\numberline {2.2}本研究の位置づけ}{3}
 \contentsline {chapter}{\numberline {第3章}周辺知識}{5}
+\contentsline {section}{\numberline {3.1}複眼をもつ生物}{5}
+\contentsline {section}{\numberline {3.2}複眼の性質}{5}
+\contentsline {section}{\numberline {3.3}偽瞳孔に関する研究}{5}
 \contentsline {chapter}{\numberline {第4章}予備実験}{7}
 \contentsline {section}{\numberline {4.1}実験の目的}{7}
 \contentsline {section}{\numberline {4.2}実験方法}{7}

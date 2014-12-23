@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  23 DEC 2014 17:37
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  23 DEC 2014 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -319,8 +319,8 @@ eX Live/ChoF)
 File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 )) (./thesis.aux
 (./chaps/introduction.aux) (./chaps/relatedwork.aux) (./chaps/knowledge.aux)
-(./chaps/experiment.aux) (./chaps/basicmethod.aux) (./chaps/method.aux)
-(./chaps/result.aux) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
+(./chaps/experiment.aux) (./chaps/method.aux) (./chaps/result.aux)
+(./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 103.
@@ -437,13 +437,13 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 2.
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 22.
+(Font)              scaled to size 9.60999pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 22.
+(Font)              scaled to size 9.60999pt on input line 23.
  [3
 
 
@@ -487,9 +487,6 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 4.
-
-LaTeX Warning: Reference `CTechnology' on page 1 undefined on input line 22.
-
 ) [1
 
 
@@ -611,6 +608,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
 
+LaTeX Warning: Reference `SSShader' on page 14 undefined on input line 94.
+
+
 LaTeX Warning: Reference `' on page 14 undefined on input line 103.
 
 [14] [15]
@@ -665,17 +665,14 @@ No file thesis.bbl.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 3041 strings out of 493799
- 36717 string characters out of 6153369
- 95880 words of memory out of 5000000
- 6358 multiletter control sequences out of 15000+600000
+ 3032 strings out of 493799
+ 36568 string characters out of 6153369
+ 95493 words of memory out of 5000000
+ 6352 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 30i,11n,26p,314b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 31i,11n,26p,314b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (36 pages, 67252 bytes).
+Output written on thesis.dvi (36 pages, 67500 bytes).
