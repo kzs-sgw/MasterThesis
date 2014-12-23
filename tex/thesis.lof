@@ -3,12 +3,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces シェーディングモデル}}{14}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces アルゴリズムフレームワーク}}{14}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces テクスチャと球の位置関係}}{15}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces テクスチャおよび球の格子状配置}}{16}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{18}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces 平面上の変位ベクトル}}{19}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces シェーディングモデル}}{12}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces アルゴリズムフレームワーク}}{12}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{13}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{14}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{16}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

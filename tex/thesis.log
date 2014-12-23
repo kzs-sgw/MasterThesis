@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  22 DEC 2014 23:03
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  23 DEC 2014 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,19 +576,10 @@ LaTeX Warning: Reference `' on page 9 undefined on input line 88.
 LaTeX Warning: Reference `' on page 9 undefined on input line 89.
 
 [9]) [10]
-\openout2 = `chaps/basicmethod.aux'.
-
- (./chaps/basicmethod.tex
-第5章
-) [11
-
-
-
-] [12]
 \openout2 = `chaps/method.aux'.
 
  (./chaps/method.tex
-第6章
+第5章
 File: ./img/TEMP.eps Graphic file (type eps)
 <./img/TEMP.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -600,89 +591,91 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 26.
+LaTeX Warning: Reference `' on page 11 undefined on input line 26.
 
 File: ./img/TEMP.eps Graphic file (type eps)
-<./img/TEMP.eps> [13
+<./img/TEMP.eps> [11
 
 
 
-] [14]
+] [12]
 File: ./img/TEMP.eps Graphic file (type eps)
  <./img/TEMP.eps>
 
-LaTeX Warning: Reference `' on page 15 undefined on input line 68.
+LaTeX Warning: Reference `' on page 13 undefined on input line 68.
 
 File: ./img/TEMP.eps Graphic file (type eps)
 <./img/TEMP.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
+[13]
 
-LaTeX Warning: Reference `' on page 16 undefined on input line 103.
+LaTeX Warning: Reference `' on page 14 undefined on input line 103.
 
-[16] [17]
+[14] [15]
 File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [18]
+ <./img/TEMP.eps> [16]
 File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [19] [20]
+ <./img/TEMP.eps> [17] [18]
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 336.
+LaTeX Warning: Reference `' on page 19 undefined on input line 336.
 
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 337.
+LaTeX Warning: Reference `' on page 19 undefined on input line 337.
 
-[21]
+[19]
 
-LaTeX Warning: Reference `' on page 22 undefined on input line 385.
+LaTeX Warning: Reference `' on page 20 undefined on input line 385.
 
-[22]) [23]
+[20]) [21]
 \openout2 = `chaps/result.aux'.
 
- (./chaps/result.tex [24
+ (./chaps/result.tex [22
+
+
+
+]
+第6章
+) [23]
+\openout2 = `chaps/conclusion.aux'.
+
+ (./chaps/conclusion.tex [24
 
 
 
 ]
 第7章
 ) [25]
-\openout2 = `chaps/conclusion.aux'.
-
- (./chaps/conclusion.tex [26
-
-
-
-]
-第8章
-) [27]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex [28
+ (./chaps/acknowledgement.tex [26
 
 
 
-]) [29]
+]) [27]
 No file thesis.bbl.
-[30
+[28
 
 
 
 ] (./thesis.aux (./chaps/introduction.aux) (./chaps/relatedwork.aux)
-(./chaps/knowledge.aux) (./chaps/experiment.aux) (./chaps/basicmethod.aux)
-(./chaps/method.aux) (./chaps/result.aux) (./chaps/conclusion.aux)
-(./chaps/acknowledgement.aux))
+(./chaps/knowledge.aux) (./chaps/experiment.aux) (./chaps/method.aux)
+(./chaps/result.aux) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3045 strings out of 493799
- 36805 string characters out of 6153369
+ 3041 strings out of 493799
+ 36717 string characters out of 6153369
  95880 words of memory out of 5000000
  6358 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  30i,11n,26p,314b,317s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (38 pages, 68896 bytes).
+Output written on thesis.dvi (36 pages, 67252 bytes).
