@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  25 DEC 2014 22:58
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  26 DEC 2014 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -487,55 +487,55 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 4.
-) [1
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 17.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 17.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 17.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 17.
+[1
 
 
-]
+]) [2] [3]
 \openout2 = `chaps/relatedwork.aux'.
 
- (./chaps/relatedwork.tex [2
+ (./chaps/relatedwork.tex [4
 
 
 
 ]
 第2章
-) [3]
+) [5]
 \openout2 = `chaps/knowledge.aux'.
 
- (./chaps/knowledge.tex [4
+ (./chaps/knowledge.tex [6
 
 
 
 ]
 第3章
 
-LaTeX Warning: Citation `yagi' on page 5 undefined on input line 12.
-
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 18.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 18.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 18.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 18.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 18.
-
-LaTeX Warning: Citation `yagi' on page 5 undefined on input line 21.
+LaTeX Warning: Citation `yagi' on page 7 undefined on input line 12.
 
 
-LaTeX Warning: Citation `蟻川謙太郎' on page 5 undefined on input line 22.
+LaTeX Warning: Citation `yagi' on page 7 undefined on input line 21.
 
 
-LaTeX Warning: Citation `nilsson1989' on page 5 undefined on input line 23.
+LaTeX Warning: Citation `蟻川謙太郎' on page 7 undefined on input line 22.
 
 
-LaTeX Warning: Citation `arikawa' on page 5 undefined on input line 25.
+LaTeX Warning: Citation `nilsson1989' on page 7 undefined on input line 23.
 
-[5]
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 54.
+LaTeX Warning: Citation `arikawa' on page 7 undefined on input line 25.
+
+[7]
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 54.
 
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
 (Font)              Font shape `JT1/mc/m/n' tried instead on input line 85.
@@ -546,33 +546,33 @@ LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 85.
 
-LaTeX Warning: Citation `yagi' on page 6 undefined on input line 89.
+LaTeX Warning: Citation `yagi' on page 8 undefined on input line 89.
 
-[6]
+[8]
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 97.
+LaTeX Warning: Reference `' on page 9 undefined on input line 97.
 
 
-LaTeX Warning: Citation `yagi' on page 7 undefined on input line 111.
+LaTeX Warning: Citation `yagi' on page 9 undefined on input line 111.
 
-[7]
+[9]
 File: ./img/sidepupil_exp.eps Graphic file (type eps)
  <./img/sidepupil_exp.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 127.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 127.
-) [8]
+) [10]
 \openout2 = `chaps/experiment.aux'.
 
  (./chaps/experiment.tex
 第4章
 
-LaTeX Warning: Citation `永田敏夫:2008-03-10' on page 9 undefined on input line
- 10.
+LaTeX Warning: Citation `永田敏夫:2008-03-10' on page 11 undefined on input lin
+e 10.
 
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 24.
+LaTeX Warning: Reference `' on page 11 undefined on input line 24.
 
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/txr/omstxr.fd
@@ -580,43 +580,43 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 27.
- [9
+ [11
 
 
 
 ]
 
-LaTeX Warning: Reference `FExpparts' on page 10 undefined on input line 48.
+LaTeX Warning: Reference `FExpparts' on page 12 undefined on input line 48.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 62.
+LaTeX Warning: Reference `' on page 12 undefined on input line 62.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 63.
+LaTeX Warning: Reference `' on page 12 undefined on input line 63.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 64.
+LaTeX Warning: Reference `' on page 12 undefined on input line 64.
 
-[10]
+[12]
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 70.
-
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 72.
+LaTeX Warning: Reference `' on page 13 undefined on input line 70.
 
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 79.
+LaTeX Warning: Reference `' on page 13 undefined on input line 72.
 
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 83.
+LaTeX Warning: Reference `' on page 13 undefined on input line 79.
 
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 88.
+LaTeX Warning: Reference `' on page 13 undefined on input line 83.
 
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 89.
+LaTeX Warning: Reference `' on page 13 undefined on input line 88.
 
-[11]) [12]
+
+LaTeX Warning: Reference `' on page 13 undefined on input line 89.
+
+[13]) [14]
 \openout2 = `chaps/method.aux'.
 
  (./chaps/method.tex
@@ -627,74 +627,74 @@ File: ./img/TEMP.eps Graphic file (type eps)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 26.
+LaTeX Warning: Reference `' on page 15 undefined on input line 26.
 
 File: ./img/TEMP.eps Graphic file (type eps)
-<./img/TEMP.eps> [13
+<./img/TEMP.eps> [15
 
 
 
-] [14]
+] [16]
 File: ./img/TEMP.eps Graphic file (type eps)
  <./img/TEMP.eps>
 
-LaTeX Warning: Reference `' on page 15 undefined on input line 68.
+LaTeX Warning: Reference `' on page 17 undefined on input line 68.
 
 File: ./img/TEMP.eps Graphic file (type eps)
 <./img/TEMP.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
+[17]
 
-LaTeX Warning: Reference `SSShader' on page 16 undefined on input line 94.
+LaTeX Warning: Reference `SSShader' on page 18 undefined on input line 94.
 
 
-LaTeX Warning: Reference `' on page 16 undefined on input line 103.
+LaTeX Warning: Reference `' on page 18 undefined on input line 103.
 
-[16] [17]
+[18] [19]
 File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [18]
+ <./img/TEMP.eps> [20]
 File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [19] [20]
+ <./img/TEMP.eps> [21] [22]
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 336.
+LaTeX Warning: Reference `' on page 23 undefined on input line 336.
 
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 337.
+LaTeX Warning: Reference `' on page 23 undefined on input line 337.
 
-[21]
+[23]
 
-LaTeX Warning: Reference `' on page 22 undefined on input line 385.
+LaTeX Warning: Reference `' on page 24 undefined on input line 385.
 
-[22]) [23]
+[24]) [25]
 \openout2 = `chaps/result.aux'.
 
- (./chaps/result.tex [24
+ (./chaps/result.tex [26
 
 
 
 ]
 第6章
-) [25]
+) [27]
 \openout2 = `chaps/conclusion.aux'.
 
- (./chaps/conclusion.tex [26
+ (./chaps/conclusion.tex [28
 
 
 
 ]
 第7章
-) [27]
+) [29]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex [28
+ (./chaps/acknowledgement.tex [30
 
 
 
-]) [29]
+]) [31]
 No file thesis.bbl.
-[30
+[32
 
 
 
@@ -704,14 +704,17 @@ No file thesis.bbl.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3041 strings out of 493799
- 36699 string characters out of 6153369
- 95507 words of memory out of 5000000
- 6360 multiletter control sequences out of 15000+600000
+ 3044 strings out of 493799
+ 36755 string characters out of 6153369
+ 95531 words of memory out of 5000000
+ 6363 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 30i,11n,26p,314b,315s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 31i,11n,26p,327b,315s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (38 pages, 79696 bytes).
+Output written on thesis.dvi (40 pages, 85976 bytes).
