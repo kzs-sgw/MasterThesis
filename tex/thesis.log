@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  26 DEC 2014 19:45
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  29 DEC 2014 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,13 +437,13 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 2.
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 24.
+(Font)              scaled to size 9.60999pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 24.
+(Font)              scaled to size 9.60999pt on input line 23.
  [3
 
 
@@ -500,23 +500,33 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 [1
 
 
-]) [2] [3]
+]
+
+LaTeX Warning: Citation `jorge jimenez' on page 2 undefined on input line 37.
+
+[2]
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 74.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 74.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 75.
+
+[3]) [4]
 \openout2 = `chaps/relatedwork.aux'.
 
- (./chaps/relatedwork.tex [4
-
-
-
-]
+ (./chaps/relatedwork.tex
 第2章
-) [5]
+[5
+
+
+
+]) [6]
 \openout2 = `chaps/knowledge.aux'.
 
- (./chaps/knowledge.tex [6
-
-
-
-]
+ (./chaps/knowledge.tex
 第3章
 
 LaTeX Warning: Citation `yagi' on page 7 undefined on input line 12.
@@ -533,7 +543,11 @@ LaTeX Warning: Citation `nilsson1989' on page 7 undefined on input line 23.
 
 LaTeX Warning: Citation `arikawa' on page 7 undefined on input line 25.
 
-[7]
+[7
+
+
+
+]
 
 LaTeX Warning: Reference `' on page 8 undefined on input line 54.
 
@@ -710,11 +724,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  ) 
 Here is how much of TeX's memory you used:
  3044 strings out of 493799
- 36755 string characters out of 6153369
- 95531 words of memory out of 5000000
+ 36762 string characters out of 6153369
+ 95536 words of memory out of 5000000
  6363 multiletter control sequences out of 15000+600000
  31967 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,11n,26p,327b,315s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,11n,26p,327b,315s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (40 pages, 85976 bytes).
+Output written on thesis.dvi (40 pages, 96440 bytes).
