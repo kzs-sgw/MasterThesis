@@ -1,14 +1,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 一つめの図}}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 二つめの図}}{6}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 一つめの図}}{6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 二つめの図}}{6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ハイヒールとオーナメントの絵}}{7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces 一つめの図}}{8}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 二つめの図}}{8}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces クッション}}{8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Side pupilの原理}}{10}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Side pupilの原理}}{14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces シェーディングモデル}}{16}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces アルゴリズムフレームワーク}}{16}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{17}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{18}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{20}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{21}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces シェーディングモデル}}{20}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces アルゴリズムフレームワーク}}{20}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{21}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{22}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{24}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{25}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

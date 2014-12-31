@@ -8,40 +8,41 @@
 \contentsline {section}{\numberline {1.3}本論文の構成}{4}
 \contentsline {chapter}{\numberline {第2章}関連研究}{5}
 \contentsline {section}{\numberline {2.1}微細構造を扱った研究}{5}
-\contentsline {subsection}{\numberline {2.1.1}離散的な確率論的マイクロファセットモデル（ざらついた表面のやつ）}{5}
-\contentsline {subsection}{\numberline {2.1.2}構造色をいくつか}{6}
-\contentsline {subsection}{\numberline {2.1.3}織り目のレンダリングに関するやつ}{6}
-\contentsline {section}{\numberline {2.2}本研究の位置づけ}{6}
-\contentsline {chapter}{\numberline {第3章}周辺知識}{7}
-\contentsline {section}{\numberline {3.1}複眼の性質}{7}
-\contentsline {subsection}{\numberline {3.1.1}連立像眼}{7}
-\contentsline {subsection}{\numberline {3.1.2}重複像眼}{8}
-\contentsline {section}{\numberline {3.2}個眼のしくみ}{8}
-\contentsline {section}{\numberline {3.3}偽瞳孔}{8}
-\contentsline {subsection}{\numberline {3.3.1}Central Pupil}{9}
-\contentsline {subsection}{\numberline {3.3.2}Side Pupil}{9}
-\contentsline {chapter}{\numberline {第4章}予備実験}{11}
-\contentsline {section}{\numberline {4.1}実験の目的}{11}
-\contentsline {section}{\numberline {4.2}実験方法}{11}
-\contentsline {section}{\numberline {4.3}結果と議論}{12}
-\contentsline {subsection}{\numberline {4.3.1}ビー玉がひとつの場合}{12}
-\contentsline {subsection}{\numberline {4.3.2}木枠を用いてビー玉を密集させた場合}{13}
-\contentsline {subsection}{\numberline {4.3.3}ビー玉とパンチングメタルの穴の配置を合わせた場合}{13}
-\contentsline {section}{\numberline {4.4}まとめ}{14}
-\contentsline {chapter}{\numberline {第5章}提案手法}{15}
-\contentsline {section}{\numberline {5.1}フレームワーク}{15}
-\contentsline {subsection}{\numberline {5.1.1}複眼モデル}{15}
-\contentsline {subsection}{\numberline {5.1.2}アルゴリズムの全体像}{16}
-\contentsline {section}{\numberline {5.2}テクスチャと球の配列}{17}
-\contentsline {section}{\numberline {5.3}計算用データ}{18}
-\contentsline {subsection}{\numberline {5.3.1}テクスチャ座標軸方向3次元単位ベクトル}{19}
-\contentsline {section}{\numberline {5.4}入射球推定}{22}
-\contentsline {section}{\numberline {5.5}屈折計算処理}{24}
-\contentsline {section}{\numberline {5.6}テクスチャ座標再計算}{24}
-\contentsline {section}{\numberline {5.7}光源処理および陰影処理}{25}
-\contentsline {chapter}{\numberline {第6章}結果と考察}{27}
-\contentsline {section}{\numberline {6.1}＊サブセクション＊}{27}
-\contentsline {chapter}{\numberline {第7章}結論}{29}
-\contentsline {section}{\numberline {7.1}結論}{29}
-\contentsline {section}{\numberline {7.2}今後の展望}{29}
-\contentsline {chapter}{謝辞}{30}
+\contentsline {subsection}{\numberline {2.1.1}マイクロファセットモデル}{5}
+\contentsline {subsection}{\numberline {2.1.2}構造色をいくつか}{7}
+\contentsline {subsection}{\numberline {2.1.3}織り目のレンダリングに関するやつ}{7}
+\contentsline {section}{\numberline {2.2}本研究の位置づけ}{7}
+\contentsline {chapter}{\numberline {第3章}周辺知識}{11}
+\contentsline {section}{\numberline {3.1}複眼の性質}{11}
+\contentsline {subsection}{\numberline {3.1.1}連立像眼}{11}
+\contentsline {subsection}{\numberline {3.1.2}重複像眼}{12}
+\contentsline {section}{\numberline {3.2}個眼のしくみ}{12}
+\contentsline {section}{\numberline {3.3}偽瞳孔}{12}
+\contentsline {subsection}{\numberline {3.3.1}Central Pupil}{13}
+\contentsline {subsection}{\numberline {3.3.2}Side Pupil}{13}
+\contentsline {chapter}{\numberline {第4章}予備実験}{15}
+\contentsline {section}{\numberline {4.1}実験の目的}{15}
+\contentsline {section}{\numberline {4.2}実験方法}{15}
+\contentsline {section}{\numberline {4.3}結果と議論}{16}
+\contentsline {subsection}{\numberline {4.3.1}ビー玉がひとつの場合}{16}
+\contentsline {subsection}{\numberline {4.3.2}木枠を用いてビー玉を密集させた場合}{17}
+\contentsline {subsection}{\numberline {4.3.3}ビー玉とパンチングメタルの穴の配置を合わせた場合}{17}
+\contentsline {section}{\numberline {4.4}まとめ}{18}
+\contentsline {chapter}{\numberline {第5章}提案手法}{19}
+\contentsline {section}{\numberline {5.1}フレームワーク}{19}
+\contentsline {subsection}{\numberline {5.1.1}複眼モデル}{19}
+\contentsline {subsection}{\numberline {5.1.2}アルゴリズムの全体像}{20}
+\contentsline {section}{\numberline {5.2}テクスチャと球の配列}{21}
+\contentsline {section}{\numberline {5.3}計算用データ}{22}
+\contentsline {subsection}{\numberline {5.3.1}テクスチャ座標軸方向3次元単位ベクトル}{23}
+\contentsline {section}{\numberline {5.4}入射球推定}{26}
+\contentsline {section}{\numberline {5.5}屈折計算処理}{28}
+\contentsline {section}{\numberline {5.6}テクスチャ座標再計算}{28}
+\contentsline {section}{\numberline {5.7}光源処理および陰影処理}{29}
+\contentsline {chapter}{\numberline {第6章}結果と考察}{31}
+\contentsline {section}{\numberline {6.1}＊サブセクション＊}{31}
+\contentsline {chapter}{\numberline {第7章}結論}{33}
+\contentsline {section}{\numberline {7.1}結論}{33}
+\contentsline {section}{\numberline {7.2}今後の展望}{33}
+\contentsline {chapter}{謝辞}{34}
+\contentsline {chapter}{参考文献}{37}
