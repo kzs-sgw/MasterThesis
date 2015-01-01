@@ -4,19 +4,25 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 二つめの図}}{6}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 一つめの図}}{6}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces 二つめの図}}{6}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ハイヒールとオーナメントの絵}}{7}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces 一つめの図}}{8}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces 二つめの図}}{8}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces クッション}}{8}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ハイヒールとオーナメントの絵\cite {}}}{7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces シャボン玉の薄膜干渉\cite {}}}{7}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 鉱石の多層膜干渉\cite {}}}{8}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces CAPTION}}{9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAPTIONa\cite {}}}}{9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CAPTIONb\cite {}}}}{9}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CAPTIONc\cite {}}}}{9}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces 一つめの図}}{10}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 二つめの図}}{10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces クッション}}{11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Side pupilの原理}}{14}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Side pupilの原理}}{16}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces シェーディングモデル}}{20}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces アルゴリズムフレームワーク}}{20}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{21}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{22}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{24}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{25}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces シェーディングモデル}}{22}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces アルゴリズムフレームワーク}}{22}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{23}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{24}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{26}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{27}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
