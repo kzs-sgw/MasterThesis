@@ -1,21 +1,174 @@
 \chapter{結果と考察}
 \label{CResult}
 
-\textcolor{red}{****メモ始め****}
-\begin{itemize}
-\item 球がひとつの場合の実物との比較
-\item 平面オブジェクトに対する実行結果と解像度$R_t$の評価
-\item 球体オブジェクト
-\item 実行結果の処理速度のグラフを作る
-\item 結果の実物との比較
-\item 定性的評価
-\item さまざまなオブジェクトへの適用
-\item 鹿児島アートフェスタ
-\end{itemize}
-\textcolor{red}{****メモ終わり****}
+%% \textcolor{red}{****メモ始め****}
+%% \begin{itemize}
+%% \item 使用したテクスチャとかの画像を載せる
+%% \item 形状モデルのワイヤフレーム画像
+%% \item ポリゴン数とか面の数、頂点の数でテーブルを作成する
+%% \item 球がひとつの場合の実物との比較
+%% \item 平面オブジェクトに対する実行結果と解像度$R_t$の評価
+%% \item 球体オブジェクト
+%% \item 実行結果の処理速度のグラフを作る
+%% \item 結果の実物との比較
+%% \item 定性的評価
+%% \item さまざまなオブジェクトへの適用
+%% \item 鹿児島アートフェスタ
+%% \end{itemize}
+%% \textcolor{red}{****メモ終わり****}
 
 \section{実装方法および実行環境}
 \label{SEnvironment}
 
+本手法ではグラフィックスライブラリとしてOpenGL(オープンジーエル: Open Graphics Library)を利用し、プログラムの実装にあたってはC++言語を用いている。
+本手法を適用する形状データはAutodesk Maya \textcolor{red}{2013}で作成したオブジェクトファイルを使って作成した。
 
-\section{}
+プログラムの実行に使用した計算機のハードウェア構成は\tabref{tab:experiment-hadrware}のとおりである。
+
+\begin{table}
+\centering
+\caption{実行環境 \label{tab:experiment-hadrware}}
+\begin{tabular}{r|l}
+\hline
+CPU & Intel Core i7 960 3.20 GHz \\ \hline
+メモリ & 30 GB \\ \hline
+GPU & NVIDIA GeForce GTX 660 \\ \hline
+%グラフィックメモリ & 3 GB GDDR5 \\ \hline
+\end{tabular}
+\end{table}
+
+%------------------------------------------------------------------------------------------
+\section{処理系}
+\label{S}
+
+\subsection{内処理、外処理}
+\label{SSInnerOuterProcess}
+
+\chapref{CMethod}で述べた隣接球を通過する光の挙動について、平面オブジェクトおよび球体オブジェクトを例に問題点を指摘する。
+%% 本手法で用いた複眼の近似モデル（\secref{SSModel}）では、個眼のレンズの代わりに球体レンズを利用している。
+%% また、本来は予備実験\secref{SSMarbleOnHole}のように最密に球を配置することが理想であるが、本手法では評価実験のためにアルゴリズムが簡略な格子状の配置を採択している。
+本手法では、球体レンズ同士の間にできる隙間を埋めるために、球の直径を球同士の中心距離よりも大きく設定している（\secref{SSMultiRefraction}）。
+また、複数の球を通過する光を想定し、光が球の外部を経由して隣接する球に入射する場合のアルゴリズムを実装していた。
+しかし、外部を経由する場合の実装（以下、外部通過処理）によって得られる結果画像にはノイズが多く、求める画像とは異なる結果となってしまった\figref{FNoise}。
+\begin{figure}[htbp]
+  \centering
+\subfigure[平面オブジェクト]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Noise/pscreenshot005.bmp}
+\label{FNoisePlane}}
+\subfigure[球体オブジェクト]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Noise/screenshot000.bmp}
+\label{FNoiseSphere}}
+  \caption{外部通過処理に見られるノイズ}
+  \label{FNoise}
+\end{figure}
+そのため、手法の修正として外部通過処理を実装から排除し、球の内部から内部への光の通過のみを考慮した実装（以下、内部通過処理）を採択することにした。
+
+外部通過処理を排除しても、本手法で想定される範囲内では問題ではないと考えられる。
+理由として、外部通過処理と内部通過処理のそれぞれによって得られる画像にはノイズの有無以外に大きな差異が観測されなかったことと、球の半径を十分に大きい値で設定すれば、球の外部を経由して隣接する球に入射する光はあまり存在しないと推測されることが挙げられる。
+ゆえに、本章での考察は主に内部通過処理によって得られるものに対して行う。
+
+\subsection{隣接球の処理ON/OFF}
+\label{SS}
+
+光がどの程度の回数、隣接球を通過する必要があるのかについての考察を行う。
+光が複眼表面に対して平行に近い角度で入射した場合、光はひとつの球だけではなくふたつ以上の球を通過すると考えられる。
+通過する球の数が増えればそれだけ処理に時間がかかるため、通過する球の数には上限値を設定する必要がある。
+すなわち、物理的な正確さと処理速度はトレードオフの関係にあると言える。
+
+通過する球の数の上限値をパラメータとして
+
+
+\subsection{カメラとの距離}
+\label{SSCameraDist}
+
+\subsection{テクスチャ解像度}
+\label{SSTexReso}
+
+\subsection{実行速度}
+\label{SS}
+
+%------------------------------------------------------------------------------------------
+\section{ジオメトリ}
+\label{S}
+
+\subsection{偽瞳孔の数}
+\label{SS}
+
+\subsection{視点との距離による偽瞳孔の分布}
+\label{SS}
+
+\subsection{歪みとテクスチャの関係}
+\label{SS}
+
+\subsection{さまざまなテクスチャ}
+\label{SS}
+
+%------------------------------------------------------------------------------------------
+\section{その他}
+\label{S}
+
+\section{さまざまなオブジェクト}
+\label{S}
+
+\section{応用事例}
+\label{S}
+
+
+
+
+
+%--前書いてたやつ----------------------------------------------------------------------------------------
+%% \newpage
+%% \section{平面オブジェクトに適用した結果}
+%% \label{SPlaneObject}
+
+%% 本研究で提案した屈折を表現する手法の有用性を評価するため、平面オブジェクトに対して球体レンズを適用する実験を行った。
+
+
+%% \begin{figure}[htbp]
+%%   \centering
+%% \subfigure[CAPTIONa]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot001.bmp}
+%% \label{F}}
+%% \subfigure[CAPTIONb]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot002.bmp}
+%% \label{F}}\\
+%% \subfigure[CAPTIONc]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot003.bmp}
+%% \label{F}}
+%% \subfigure[CAPTIONd]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot004.bmp}
+%% \label{F}}\\
+%% \subfigure[CAPTIONa]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot005.bmp}
+%% \label{F}}
+%% \subfigure[CAPTIONb]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot006.bmp}
+%% \label{F}}\\
+%%   \caption{CAPTION}
+%%   \label{F}
+%% \end{figure}
+
+%% \begin{figure}[htbp]
+%%   \centering
+%% \subfigure[CAPTIONa]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot007.bmp}
+%% \label{F}}
+%% \subfigure[CAPTIONb]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot008.bmp}
+%% \label{F}}\\
+%% \subfigure[CAPTIONc]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot009.bmp}
+%% \label{F}}
+%% \subfigure[CAPTIONd]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot010.bmp}
+%% \label{F}}\\
+%% \subfigure[CAPTIONa]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot011.bmp}
+%% \label{F}}
+%% \subfigure[CAPTIONb]{
+%% \includegraphics*[width=.45\columnwidth]{./img/single/screenshot012.bmp}
+%% \label{F}}\\
+%%   \caption{CAPTION}
+%%   \label{F}
+%% \end{figure}

@@ -37,13 +37,27 @@
 \contentsline {subsection}{\numberline {5.3.1}テクスチャ座標軸方向3次元単位ベクトル}{25}
 \contentsline {section}{\numberline {5.4}入射球推定}{28}
 \contentsline {section}{\numberline {5.5}屈折計算処理}{30}
+\contentsline {subsection}{\numberline {5.5.1}複数回屈折}{30}
 \contentsline {section}{\numberline {5.6}テクスチャ座標再計算}{30}
 \contentsline {section}{\numberline {5.7}光源処理および陰影処理}{31}
 \contentsline {chapter}{\numberline {第6章}結果と考察}{33}
 \contentsline {section}{\numberline {6.1}実装方法および実行環境}{33}
-\contentsline {section}{\numberline {6.2}}{33}
-\contentsline {chapter}{\numberline {第7章}結論}{35}
-\contentsline {section}{\numberline {7.1}結論}{35}
-\contentsline {section}{\numberline {7.2}今後の展望}{35}
-\contentsline {chapter}{謝辞}{36}
-\contentsline {chapter}{参考文献}{39}
+\contentsline {section}{\numberline {6.2}処理系}{33}
+\contentsline {subsection}{\numberline {6.2.1}内処理、外処理}{33}
+\contentsline {subsection}{\numberline {6.2.2}隣接球の処理ON/OFF}{34}
+\contentsline {subsection}{\numberline {6.2.3}カメラとの距離}{35}
+\contentsline {subsection}{\numberline {6.2.4}テクスチャ解像度}{35}
+\contentsline {subsection}{\numberline {6.2.5}実行速度}{35}
+\contentsline {section}{\numberline {6.3}ジオメトリ}{35}
+\contentsline {subsection}{\numberline {6.3.1}偽瞳孔の数}{35}
+\contentsline {subsection}{\numberline {6.3.2}視点との距離による偽瞳孔の分布}{35}
+\contentsline {subsection}{\numberline {6.3.3}歪みとテクスチャの関係}{35}
+\contentsline {subsection}{\numberline {6.3.4}さまざまなテクスチャ}{35}
+\contentsline {section}{\numberline {6.4}その他}{35}
+\contentsline {section}{\numberline {6.5}さまざまなオブジェクト}{35}
+\contentsline {section}{\numberline {6.6}応用事例}{35}
+\contentsline {chapter}{\numberline {第7章}結論}{37}
+\contentsline {section}{\numberline {7.1}結論}{37}
+\contentsline {section}{\numberline {7.2}今後の展望}{37}
+\contentsline {chapter}{謝辞}{38}
+\contentsline {chapter}{参考文献}{41}

@@ -25,4 +25,7 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{26}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{27}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 外部通過処理に見られるノイズ}}{34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト}}}{34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト}}}{34}
 \addvspace {10\p@ }

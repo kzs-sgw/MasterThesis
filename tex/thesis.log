@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  1 JAN 2015 15:38
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  5 JAN 2015 01:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,7 +335,38 @@ LaTeX Warning: Label `fig:two' multiply defined.
 LaTeX Warning: Label `F' multiply defined.
 
 ) (./chaps/knowledge.aux) (./chaps/experiment.aux) (./chaps/method.aux)
-(./chaps/result.aux) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
+(./chaps/result.aux
+
+LaTeX Warning: Label `SS' multiply defined.
+
+
+LaTeX Warning: Label `SS' multiply defined.
+
+
+LaTeX Warning: Label `S' multiply defined.
+
+
+LaTeX Warning: Label `SS' multiply defined.
+
+
+LaTeX Warning: Label `SS' multiply defined.
+
+
+LaTeX Warning: Label `SS' multiply defined.
+
+
+LaTeX Warning: Label `SS' multiply defined.
+
+
+LaTeX Warning: Label `S' multiply defined.
+
+
+LaTeX Warning: Label `S' multiply defined.
+
+
+LaTeX Warning: Label `S' multiply defined.
+
+) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 103.
@@ -462,24 +493,24 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
  [3
 
 
-])
+] [4])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [4] (./thesis.lof)
+ [5] [6
+
+]
+(./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
-
-[5
-
-] [6
+ [7] [8
 
 ] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [7] [8
+ [9] [10
 
 ]
 \openout2 = `chaps/introduction.aux'.
@@ -774,27 +805,32 @@ LaTeX Warning: Reference `' on page 30 undefined on input line 385.
 
 ]
 第6章
-) [33]
+File: ./img/screenshot/sphere/Noise/pscreenshot005.bmp Graphic file (type bmp)
+<./img/screenshot/sphere/Noise/pscreenshot005.bmp>
+File: ./img/screenshot/sphere/Noise/screenshot000.bmp Graphic file (type bmp)
+
+<./img/screenshot/sphere/Noise/screenshot000.bmp> [33]) [34] [35]
 \openout2 = `chaps/conclusion.aux'.
 
- (./chaps/conclusion.tex [34
+
+(./chaps/conclusion.tex [36
 
 
 
 ]
 第7章
-) [35]
+) [37]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex [36
+ (./chaps/acknowledgement.tex [38
 
 
 
-]) [37] (./thesis.bbl [38
+]) [39] (./thesis.bbl [40
 
 
-]) [39]
-[40
+]) [41]
+[42
 
 
 ] (./thesis.aux (./chaps/introduction.aux) (./chaps/relatedwork.aux)
@@ -808,12 +844,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3090 strings out of 493799
- 37475 string characters out of 6153369
- 95717 words of memory out of 5000000
- 6392 multiletter control sequences out of 15000+600000
+ 3108 strings out of 493799
+ 37848 string characters out of 6153369
+ 95839 words of memory out of 5000000
+ 6406 multiletter control sequences out of 15000+600000
  32545 words of font info for 114 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  28i,11n,26p,351b,371s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (48 pages, 113152 bytes).
+Output written on thesis.dvi (52 pages, 123640 bytes).
