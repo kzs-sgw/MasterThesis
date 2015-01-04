@@ -67,27 +67,8 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 理由として、外部通過処理と内部通過処理のそれぞれによって得られる画像にはノイズの有無以外に大きな差異が観測されなかったことと、球の半径を十分に大きい値で設定すれば、球の外部を経由して隣接する球に入射する光はあまり存在しないと推測されることが挙げられる。
 ゆえに、本章での考察は主に内部通過処理によって得られるものに対して行う。
 
-\subsection{隣接球の処理ON/OFF}
-\label{SS}
-
-光がどの程度の回数、隣接球を通過する必要があるのかについての考察を行う。
-光が複眼表面に対して平行に近い角度で入射した場合、光はひとつの球だけではなくふたつ以上の球を通過すると考えられる。
-通過する球の数が増えればそれだけ処理に時間がかかるため、通過する球の数には上限値を設定する必要がある。
-すなわち、物理的な正確さと処理速度はトレードオフの関係にあると言える。
-
-通過する球の数の上限値をパラメータとして
-
-
-\subsection{カメラとの距離}
-\label{SSCameraDist}
-
-\subsection{テクスチャ解像度}
-\label{SSTexReso}
-
-\subsection{実行速度}
-\label{SS}
-
 %------------------------------------------------------------------------------------------
+
 \section{ジオメトリ}
 \label{S}
 
@@ -100,12 +81,148 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 \subsection{歪みとテクスチャの関係}
 \label{SS}
 
-\subsection{さまざまなテクスチャ}
-\label{SS}
+%------------------------------------------------------------------------------------------
+
+\section{パラメータと実行速度}
+\label{SParameterAndExeTime}
+
+それぞれのパラメータに応じて得られる結果画像や実行速度について比較、検討を行う。
+評価を行うパラメータは光が通過する球の数の上限値、カメラとの距離、テクスチャの解像度である。
+対象オブジェクトは以下に示す平面オブジェクトおよび球体オブジェクトとする。
+\begin{figure}[htbp]
+  \centering
+\subfigure[平面オブジェクト（ワイヤフレーム）]{
+\includegraphics*[width=.45\columnwidth]{./img/TEMP}
+\label{FNoisePlane}}
+\subfigure[球体オブジェクト（ワイヤフレーム）]{
+\includegraphics*[width=.45\columnwidth]{./img/TEMP}
+\label{FNoiseSphere}}
+  \caption{評価オブジェクト（ワイヤフレーム表示）}
+  \label{FEvalObject}
+\end{figure}
+
+
+\subsection{隣接球の処理ON/OFF}
+\label{SSLimitNeighborSphere}
+
+光がどの程度の回数、隣接球を通過する必要があるのかについての考察を行う。
+光が複眼表面に対して平行に近い角度で入射した場合、光はひとつの球だけではなくふたつ以上の球を通過すると考えられる。
+通過する球の数が増えればそれだけ処理に時間がかかるため、通過する球の数には上限値を設定する必要がある。
+すなわち、物理的な正確さと処理速度はトレードオフの関係にあると言える。
+
+では、通過する球の数の上限値を変化させることによって得られる結果について議論を行う。
+上限値を設定することによる操作をここでは隣接球処理と呼ぶことにする。
+以下では上限値$l = 0,1,2,3, ......$のように設定し、上限値$l$が$0$の場合には隣接球処理を行わないこととする。
+すなわち、$l = 0$の場合、最初の球に入射した光は他のいかなる隣接球にも入射せずテクスチャ平面(\secref{SSModel})へ到達するものとして考える。
+以下にまず、各$l$の値の場合の結果を示す\figref{FLimitCompare1}\figref{FLimitCompare2}。
+テクスチャは\figref{}を使用しており、球の半径$r$の値は約$3.3 \times 10^{-2}$、テクスチャ解像度$R_t = 300$を使用している。
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[$l = 0$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp}
+\label{FLimit0-4}}
+\subfigure[$l = 1$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/001/screenshot002.bmp}
+\label{FLimit1-4}}\\
+\subfigure[$l = 2$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/002/screenshot002.bmp}
+\label{FLimit2-4}}
+\subfigure[$l = 3$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/003/screenshot002.bmp}
+\label{FLimit3-4}}\\
+\subfigure[$l = 5$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/005/screenshot002.bmp}
+\label{FLimit5-4}}
+\subfigure[$l = 10$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/010/screenshot002.bmp}
+\label{FLimit10-4}}
+  \caption{上限値による画像の変化1}
+  \label{FLimitCompare1}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[$l = 0$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp}
+\label{FLimit0-3}}
+\subfigure[$l = 1$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/001/screenshot001.bmp}
+\label{FLimit1-3}}\\
+\subfigure[$l = 2$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/002/screenshot001.bmp}
+\label{FLimit2-3}}
+\subfigure[$l = 3$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/003/screenshot001.bmp}
+\label{FLimit3-3}}\\
+\subfigure[$l = 5$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/005/screenshot001.bmp}
+\label{FLimit5-3}}
+\subfigure[$l = 10$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/010/screenshot001.bmp}
+\label{FLimit10-3}}\\
+  \caption{上限値による画像の変化2}
+  \label{FLimitCompare2}
+\end{figure}
+
+
+
+\newpage
+結果画像からは$l = 0$の場合とそれ以外とで顕著な差異が見られ、$l = 1$および$l = 2$の場合とそれ以外の場合でわずかな差異が確認できた。
+また、$l = 3$以上の場合については肉眼で判別できるほどの差異は見つからなかった。
+まず、$l = 0$の場合とそれ以外との差異について述べる。
+$l = 0$の場合、side pupil(\secref{SSSidePupil})の存在が確認できるものの、他の場合と比較するとやや黒色が薄く、隣接球処理をした場合のほうがはっきりとしたside pupilとなっていることがわかる。
+\begin{figure}[htbp]
+  \centering
+\subfigure[$l = 1$]{
+\includegraphics*[width=.75\columnwidth]{./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png}
+\label{FPupil4}}\\
+\subfigure[$l = 1$]{
+\includegraphics*[width=.75\columnwidth]{./img/screenshot/sphere/RefracLimit/001/pupil3_explain.png}
+\label{FPupil3}}
+  \caption{各偽瞳孔の名称および場所}
+  \label{FPseudopupilName}
+\end{figure}
+$l = 1,2$の場合とそれ以外の場合を代表して$l = 3$の場合について比較を行うと、球体オブジェクトの縁において有意差が見られる。
+$l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(\figref{}印部)のあたりは$l = 3$の場合よりも黒点の形状が曖昧となっている。
+逆に、$l = 2$の場合は$l = 1,3$の場合と比較して白色領域が広くなっている。
+以上のことから、偽瞳孔のside pupilおよびsecond side pupilには隣接球を通過する光が影響していることがわかり、\secref{SSSidePupil}の理論と一致する。
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[$l = 0$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp}
+\label{FLimit0-3}}
+\subfigure[$l = 1$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/001/screenshot001.bmp}
+\label{FLimit1-3}}\\
+\subfigure[$l = 2$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/002/screenshot001.bmp}
+\label{FLimit2-3}}
+\subfigure[$l = 3$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/003/screenshot001.bmp}
+\label{FLimit3-3}}\\
+  \caption{上限値による画像の変化比較}
+  \label{FLimitCompare}
+\end{figure}
+
+\textcolor{red}{実行速度と$l = 10$程度で十分とかそういう話}
+
+\newpage
+\subsection{カメラとの距離}
+\label{SSCameraDist}
+
+\subsection{テクスチャ解像度}
+\label{SSTexReso}
+
 
 %------------------------------------------------------------------------------------------
+
 \section{その他}
 \label{S}
+
+\subsection{さまざまなテクスチャ}
+\label{SS}
 
 \section{さまざまなオブジェクト}
 \label{S}

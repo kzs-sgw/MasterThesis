@@ -28,4 +28,29 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces 外部通過処理に見られるノイズ}}{34}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト}}}{34}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト}}}{34}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 評価オブジェクト（ワイヤフレーム表示）}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト（ワイヤフレーム）}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト（ワイヤフレーム）}}}{35}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 上限値による画像の変化1}}{36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{36}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{36}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{36}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{36}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{36}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{36}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 上限値による画像の変化2}}{37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{37}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{37}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{37}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{37}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{37}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces 各偽瞳孔の名称および場所}}{39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 1$}}}{39}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{39}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces 上限値による画像の変化比較}}{40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{40}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{40}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{40}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{40}
 \addvspace {10\p@ }

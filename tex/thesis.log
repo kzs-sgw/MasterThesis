@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  5 JAN 2015 01:07
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  5 JAN 2015 03:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -337,12 +337,6 @@ LaTeX Warning: Label `F' multiply defined.
 ) (./chaps/knowledge.aux) (./chaps/experiment.aux) (./chaps/method.aux)
 (./chaps/result.aux
 
-LaTeX Warning: Label `SS' multiply defined.
-
-
-LaTeX Warning: Label `SS' multiply defined.
-
-
 LaTeX Warning: Label `S' multiply defined.
 
 
@@ -352,13 +346,22 @@ LaTeX Warning: Label `SS' multiply defined.
 LaTeX Warning: Label `SS' multiply defined.
 
 
-LaTeX Warning: Label `SS' multiply defined.
+LaTeX Warning: Label `FNoisePlane' multiply defined.
 
 
-LaTeX Warning: Label `SS' multiply defined.
+LaTeX Warning: Label `sub@FNoisePlane' multiply defined.
+
+
+LaTeX Warning: Label `FNoiseSphere' multiply defined.
+
+
+LaTeX Warning: Label `sub@FNoiseSphere' multiply defined.
 
 
 LaTeX Warning: Label `S' multiply defined.
+
+
+LaTeX Warning: Label `SS' multiply defined.
 
 
 LaTeX Warning: Label `S' multiply defined.
@@ -504,13 +507,13 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [7] [8
-
-] (./thesis.lot)
+ [7] [8] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [9] [10
+ [9
+
+] [10
 
 ]
 \openout2 = `chaps/introduction.aux'.
@@ -684,10 +687,10 @@ LaTeX Warning: Citation `yagi' on page 14 undefined on input line 89.
 
 [14]
 
-LaTeX Warning: Reference `' on page 15 undefined on input line 97.
+LaTeX Warning: Reference `' on page 15 undefined on input line 98.
 
 
-LaTeX Warning: Citation `yagi' on page 15 undefined on input line 111.
+LaTeX Warning: Citation `yagi' on page 15 undefined on input line 113.
 
 [15]
 File: ./img/sidepupil_exp.eps Graphic file (type eps)
@@ -809,28 +812,126 @@ File: ./img/screenshot/sphere/Noise/pscreenshot005.bmp Graphic file (type bmp)
 <./img/screenshot/sphere/Noise/pscreenshot005.bmp>
 File: ./img/screenshot/sphere/Noise/screenshot000.bmp Graphic file (type bmp)
 
-<./img/screenshot/sphere/Noise/screenshot000.bmp> [33]) [34] [35]
+<./img/screenshot/sphere/Noise/screenshot000.bmp> [33]
+File: ./img/TEMP.eps Graphic file (type eps)
+ <./img/TEMP.eps>
+File: ./img/TEMP.eps Graphic file (type eps)
+
+<./img/TEMP.eps> [34]
+
+LaTeX Warning: Reference `' on page 35 undefined on input line 118.
+
+File: ./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp Graphic file (t
+ype bmp)
+<./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp>
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 124.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 124.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 124.
+File: ./img/screenshot/sphere/RefracLimit/001/screenshot002.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/001/screenshot002.bmp>
+File: ./img/screenshot/sphere/RefracLimit/002/screenshot002.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/002/screenshot002.bmp>
+File: ./img/screenshot/sphere/RefracLimit/003/screenshot002.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/003/screenshot002.bmp>
+File: ./img/screenshot/sphere/RefracLimit/005/screenshot002.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/005/screenshot002.bmp>
+File: ./img/screenshot/sphere/RefracLimit/010/screenshot002.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/010/screenshot002.bmp>
+
+LaTeX Warning: Float too large for page by 7.85822pt on input line 142.
+
+File: ./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp Graphic file (t
+ype bmp)
+<./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp>
+File: ./img/screenshot/sphere/RefracLimit/001/screenshot001.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/001/screenshot001.bmp>
+File: ./img/screenshot/sphere/RefracLimit/002/screenshot001.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/002/screenshot001.bmp>
+File: ./img/screenshot/sphere/RefracLimit/003/screenshot001.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/003/screenshot001.bmp>
+File: ./img/screenshot/sphere/RefracLimit/005/screenshot001.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/005/screenshot001.bmp>
+File: ./img/screenshot/sphere/RefracLimit/010/screenshot001.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/010/screenshot001.bmp>
+
+LaTeX Warning: Float too large for page by 7.85822pt on input line 166.
+
+[35] [36] [37]
+File: ./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png Graphic file (
+type bmp)
+ <./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png>
+File: ./img/screenshot/sphere/RefracLimit/001/pupil3_explain.png Graphic file (
+type bmp)
+
+<./img/screenshot/sphere/RefracLimit/001/pupil3_explain.png>
+
+LaTeX Warning: Float too large for page by 1.53656pt on input line 185.
+
+
+LaTeX Warning: Reference `' on page 38 undefined on input line 187.
+
+File: ./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp Graphic file (t
+ype bmp)
+<./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp>
+File: ./img/screenshot/sphere/RefracLimit/001/screenshot001.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/001/screenshot001.bmp>
+File: ./img/screenshot/sphere/RefracLimit/002/screenshot001.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/002/screenshot001.bmp>
+File: ./img/screenshot/sphere/RefracLimit/003/screenshot001.bmp Graphic file (t
+ype bmp)
+
+<./img/screenshot/sphere/RefracLimit/003/screenshot001.bmp> [38] [39])
+Overfull \vbox (26.22168pt too high) has occurred while \output is active []
+
+
+[40]
 \openout2 = `chaps/conclusion.aux'.
 
-
-(./chaps/conclusion.tex [36
+ (./chaps/conclusion.tex
+第7章
+) [41
 
 
 
 ]
-第7章
-) [37]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex [38
+ (./chaps/acknowledgement.tex [42
 
 
 
-]) [39] (./thesis.bbl [40
+]) [43] (./thesis.bbl [44
 
 
-]) [41]
-[42
+]) [45]
+[46
 
 
 ] (./thesis.aux (./chaps/introduction.aux) (./chaps/relatedwork.aux)
@@ -844,12 +945,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3108 strings out of 493799
- 37848 string characters out of 6153369
- 95839 words of memory out of 5000000
- 6406 multiletter control sequences out of 15000+600000
- 32545 words of font info for 114 fonts, out of 8000000 for 9000
+ 3209 strings out of 493799
+ 40259 string characters out of 6153369
+ 96309 words of memory out of 5000000
+ 6485 multiletter control sequences out of 15000+600000
+ 40710 words of font info for 142 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 28i,11n,26p,351b,371s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,11n,29p,351b,371s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (52 pages, 123640 bytes).
+Output written on thesis.dvi (56 pages, 133504 bytes).
