@@ -28,29 +28,55 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces 外部通過処理に見られるノイズ}}{34}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト}}}{34}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト}}}{34}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces 評価オブジェクト（ワイヤフレーム表示）}}{35}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト（ワイヤフレーム）}}}{35}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト（ワイヤフレーム）}}}{35}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 上限値による画像の変化1}}{36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{36}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{36}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{36}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{36}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{36}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{36}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 上限値による画像の変化2}}{37}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{37}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{37}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{37}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{37}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{37}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{37}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces 各偽瞳孔の名称および場所}}{39}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 1$}}}{39}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces レンズ半径$r$と偽瞳孔の数の関係}}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$r = 0.03$}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$r = 0.03$}}}{35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$r = 0.03$}}}{35}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$r = 0.04$}}}{35}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$r = 0.04$}}}{35}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$r = 0.04$}}}{35}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$r = 0.06$}}}{35}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$r = 0.06$}}}{35}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$r = 0.06$}}}{35}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$r = 0.10$}}}{35}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$r = 0.10$}}}{35}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$r = 0.10$}}}{35}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces テクスチャの継ぎ目}}{37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{37}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{37}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{37}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 評価オブジェクト（ワイヤフレーム表示）}}{38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト（ワイヤフレーム）}}}{38}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト（ワイヤフレーム）}}}{38}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces 上限値による画像の変化1}}{39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{39}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{39}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces 上限値による画像の変化比較}}{40}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{39}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{39}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{39}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{39}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces 上限値による画像の変化2}}{40}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{40}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{40}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{40}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{40}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{40}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{40}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces 各偽瞳孔の名称および場所}}{41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 1$}}}{41}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{41}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces 実行速度と$l$の関係}}{42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平均値}}}{42}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {実測値}}}{42}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces 上限値による画像の変化比較3}}{43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{43}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{43}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{43}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{43}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces 上限値による画像の変化比較4}}{44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{44}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{44}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{44}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{44}
 \addvspace {10\p@ }

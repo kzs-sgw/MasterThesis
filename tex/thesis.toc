@@ -45,19 +45,19 @@
 \contentsline {section}{\numberline {6.2}処理系}{33}
 \contentsline {subsection}{\numberline {6.2.1}内処理、外処理}{33}
 \contentsline {section}{\numberline {6.3}ジオメトリ}{34}
-\contentsline {subsection}{\numberline {6.3.1}偽瞳孔の数}{34}
-\contentsline {subsection}{\numberline {6.3.2}視点との距離による偽瞳孔の分布}{34}
-\contentsline {subsection}{\numberline {6.3.3}歪みとテクスチャの関係}{34}
-\contentsline {section}{\numberline {6.4}パラメータと実行速度}{34}
-\contentsline {subsection}{\numberline {6.4.1}隣接球の処理ON/OFF}{35}
-\contentsline {subsection}{\numberline {6.4.2}カメラとの距離}{40}
-\contentsline {subsection}{\numberline {6.4.3}テクスチャ解像度}{40}
-\contentsline {section}{\numberline {6.5}その他}{40}
-\contentsline {subsection}{\numberline {6.5.1}さまざまなテクスチャ}{40}
-\contentsline {section}{\numberline {6.6}さまざまなオブジェクト}{40}
-\contentsline {section}{\numberline {6.7}応用事例}{40}
-\contentsline {chapter}{\numberline {第7章}結論}{41}
-\contentsline {section}{\numberline {7.1}結論}{41}
-\contentsline {section}{\numberline {7.2}今後の展望}{41}
-\contentsline {chapter}{謝辞}{42}
-\contentsline {chapter}{参考文献}{45}
+\contentsline {subsection}{\numberline {6.3.1}レンズ半径と偽瞳孔の数}{34}
+\contentsline {subsection}{\numberline {6.3.2}視点との距離による偽瞳孔の分布}{36}
+\contentsline {subsection}{\numberline {6.3.3}歪みとテクスチャの関係}{36}
+\contentsline {section}{\numberline {6.4}パラメータと実行速度}{36}
+\contentsline {subsection}{\numberline {6.4.1}隣接球の処理ON/OFF}{36}
+\contentsline {subsection}{\numberline {6.4.2}カメラとの距離}{44}
+\contentsline {subsection}{\numberline {6.4.3}テクスチャ解像度}{44}
+\contentsline {section}{\numberline {6.5}その他}{44}
+\contentsline {subsection}{\numberline {6.5.1}さまざまなテクスチャ}{44}
+\contentsline {section}{\numberline {6.6}さまざまなオブジェクト}{44}
+\contentsline {section}{\numberline {6.7}応用事例}{44}
+\contentsline {chapter}{\numberline {第7章}結論}{45}
+\contentsline {section}{\numberline {7.1}結論}{45}
+\contentsline {section}{\numberline {7.2}今後の展望}{45}
+\contentsline {chapter}{謝辞}{46}
+\contentsline {chapter}{参考文献}{49}
