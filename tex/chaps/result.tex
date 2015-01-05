@@ -131,12 +131,13 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 \subsection{視点との距離による偽瞳孔の分布}
 \label{SSViewDist}
 
-
+\secref{SSMarbleOnHole}では、偽瞳孔に相当する黒点の装置に対する大きさは視点との距離によって変化した。
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{歪みとテクスチャの関係}
 \label{SSDistortion}
 
-結果画像の一部には歪みが生じている部分が存在する\figref{}。
+結果画像の一部には歪みが生じている部分が存在する\figref{FTexTortion}。
 これは、オブジェクトに適用されたテクスチャに継ぎ目が存在し、なめらかに接続していないことが原因である。
 本手法の特性上、曲面オブジェクトの表面に対しては格子状にテクスチャを適用する必要があるため、立体表面でテクスチャの歪みが生じることは避けられない。
 すなわち、閉じた立体ではなく開いた曲面もしくはテクスチャの継ぎ目を表示しないモデルを使用するなどの工夫が要求される。
@@ -144,26 +145,74 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 
 \begin{figure}[htbp]
   \centering
-\subfigure[]{
-\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Distortion/screenshot000.bmp}
-\label{FTexTortion0}}
-\subfigure[]{
+\subfigure[テクスチャマップ]{
 \includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Distortion/tex_tortion1.png}
-\label{FTexTortion1}}\\
-\subfigure[]{
+\label{FTexTortion1}}
+\subfigure[結果]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Distortion/screenshot000.bmp}
+\label{FTexTortion1-s}}\\
+\subfigure[テクスチャマップ]{
 \includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Distortion/tex_tortion2.png}
 \label{FTexTortion2}}
-\subfigure[]{
+\subfigure[結果]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Distortion/screenshot001.bmp}
+\label{FTexTortion2-s}}\\
+\subfigure[テクスチャマップ]{
 \includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Distortion/tex_tortion3.png}
-\label{FTexTortion3}}\\
+\label{FTexTortion3}}
+\subfigure[結果]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/Distortion/screenshot002.bmp}
+\label{FTexTortion3-s}}\\
   \caption{テクスチャの継ぎ目}
   \label{FTexTortion}
 \end{figure}
 
+\newpage
+\subsection{さまざまなテクスチャ}
+\label{SS}
 
+本手法ではテクスチャを変更することにより外観が大幅に変化する。
+基本的には、モデルであるパンチングメタルを模して黒点のテクスチャをタイリングする。
+以下に、本手法で用いた基本のテクスチャおよび任意のテクスチャを使用した場合の結果を紹介する\figref{FBaseTextureAndResult}。
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[基本テクスチャ]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texture/spot.jpg}
+\label{FBaseTexture}}\\
+\subfigure[結果画像]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texture/spot.bmp}
+\label{FBaseResult}}
+  \caption{基本テクスチャと適用結果}
+  \label{FBaseTextureAndResult}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[テクスチャ]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/texture/a.jpg}
+\label{FTex1}}
+\subfigure[結果]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texture/a.bmp}
+\label{FTexResult1}}\\
+\subfigure[テクスチャ]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/texture/colormap.jpg}
+\label{FTex2}}
+\subfigure[結果]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texture/colormap.bmp}
+\label{FTexResult2}}\\
+\subfigure[テクスチャ]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/texture/spot5.jpg}
+\label{FTex3}}
+\subfigure[結果]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texture/spot5.bmp}
+\label{FTexResult3}}\\
+  \caption{テクスチャの変更による外観の変化}
+  \label{FTexResults}
+\end{figure}
 
 %------------------------------------------------------------------------------------------
-
+\newpage
 \section{パラメータと実行速度}
 \label{SParameterAndExeTime}
 
@@ -173,15 +222,27 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 \begin{figure}[htbp]
   \centering
 \subfigure[平面オブジェクト（ワイヤフレーム）]{
-\includegraphics*[width=.45\columnwidth]{./img/TEMP}
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/plane_wireframe.png}
 \label{FNoisePlane}}
 \subfigure[球体オブジェクト（ワイヤフレーム）]{
-\includegraphics*[width=.45\columnwidth]{./img/TEMP}
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere_wireframe.png}
 \label{FNoiseSphere}}
   \caption{評価オブジェクト（ワイヤフレーム表示）}
   \label{FEvalObject}
 \end{figure}
 
+\begin{table}[htbp]
+\centering
+\caption{オブジェクト情報 \label{TObjectInfo}}
+\begin{tabular}{r||l|l|}
+\hline
+ & 平面オブジェクト & 球体オブジェクト \\ \hline
+頂点数 & 4 & 9218 \\ \hline
+面の数 & 2 & 18432 \\ \hline
+ポリゴンの種類 & 三角形 & 三角形 \\ \hline
+%グラフィックメモリ & 3 GB GDDR5 \\ \hline
+\end{tabular}
+\end{table}
 
 \subsection{隣接球の処理ON/OFF}
 \label{SSLimitNeighborSphere}
@@ -196,7 +257,7 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 以下では上限値$l = 0,1,2,3, ......$のように設定し、上限値$l$が$0$の場合には隣接球処理を行わないこととする。
 すなわち、$l = 0$の場合、最初の球に入射した光は他のいかなる隣接球にも入射せずテクスチャ平面(\secref{SSModel})へ到達するものとして考える。
 以下にまず、各$l$の値に対する結果を示す\figref{FLimitCompare1}\figref{FLimitCompare2}。
-テクスチャは\figref{}を使用しており、球の半径$r$の値は約$3.3 \times 10^{-2}$、テクスチャ解像度$R_t = 300$を使用している。
+テクスチャは\figref{FBaseTexture}を使用しており、球の半径$r$の値は約$3.3 \times 10^{-2}$、テクスチャ解像度$R_t = 300$を使用している。
 
 \begin{figure}[htbp]
   \centering
@@ -328,7 +389,7 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
 
 
 \newpage
-\subsection{カメラとの距離}
+\subsection{カメラとの距離による実行速度}
 \label{SSCameraDist}
 
 \subsection{テクスチャ解像度}
@@ -340,8 +401,6 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
 \section{その他}
 \label{S}
 
-\subsection{さまざまなテクスチャ}
-\label{SS}
 
 \section{さまざまなオブジェクト}
 \label{S}
