@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  6 JAN 2015 00:06
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  6 JAN 2015 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -955,19 +955,17 @@ File: ./img/screenshot/texture/spot5.bmp Graphic file (type bmp)
 
 <./img/screenshot/texture/spot5.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 212.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 217.
 
-[47] [48]
+[47]
 File: ./img/screenshot/plane_wireframe.png Graphic file (type bmp)
  <./img/screenshot/plane_wireframe.png>
 File: ./img/screenshot/sphere_wireframe.png Graphic file (type bmp)
 
-<./img/screenshot/sphere_wireframe.png> [49]
-
-LaTeX Warning: Reference `' on page 50 undefined on input line 260.
-
+<./img/screenshot/sphere_wireframe.png> [48] [49] [50]
 File: ./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp Graphic file (t
 ype bmp)
+
 <./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp>
 File: ./img/screenshot/sphere/RefracLimit/001/screenshot002.bmp Graphic file (t
 ype bmp)
@@ -990,7 +988,7 @@ ype bmp)
 
 <./img/screenshot/sphere/RefracLimit/010/screenshot002.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 284.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 292.
 
 File: ./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp Graphic file (t
 ype bmp)
@@ -1016,9 +1014,9 @@ ype bmp)
 
 <./img/screenshot/sphere/RefracLimit/010/screenshot001.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 308.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 316.
 
-[50] [51] [52]
+[51] [52] [53]
 File: ./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png Graphic file (
 type bmp)
  <./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png>
@@ -1030,8 +1028,8 @@ File: ./img/graph/exetime_average.png Graphic file (type bmp)
 
 <./img/graph/exetime_average.png>
 File: ./img/graph/exetime_samp.png Graphic file (type bmp)
- <./img/graph/exetime_samp.png> [53] [54]
-[55]
+ <./img/graph/exetime_samp.png> [54] [55]
+[56]
 File: ./img/screenshot/sphere/RefracLimit/000/marker4.png Graphic file (type bm
 p)
  <./img/screenshot/sphere/RefracLimit/000/marker4.png>
@@ -1062,20 +1060,20 @@ File: ./img/screenshot/sphere/RefracLimit/002/marker.png Graphic file (type bmp
 File: ./img/screenshot/sphere/RefracLimit/003/marker.png Graphic file (type bmp
 )
 
-<./img/screenshot/sphere/RefracLimit/003/marker.png> [56])
+<./img/screenshot/sphere/RefracLimit/003/marker.png> [57])
 Overfull \vbox (28.72089pt too high) has occurred while \output is active []
 
 
-[57]
+[58]
 \openout2 = `chaps/conclusion.aux'.
 
- (./chaps/conclusion.tex [58
-
-
-
-]
+ (./chaps/conclusion.tex
 第7章
-) [59] [60]
+) [59
+
+
+
+] [60]
 \openout2 = `chaps/acknowledgement.aux'.
 
  (./chaps/acknowledgement.tex) [61
@@ -1112,4 +1110,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  31i,11n,26p,351b,475s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (76 pages, 151972 bytes).
+Output written on thesis.dvi (76 pages, 153112 bytes).
