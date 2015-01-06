@@ -5,7 +5,7 @@
 \newlabel{CMethod}{{5}{27}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}フレームワーク}{27}}
 \newlabel{SFramework}{{5.1}{27}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}複眼モデル}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}複眼の光学モデル}{27}}
 \newlabel{SSModel}{{5.1.1}{27}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces シェーディングモデル}}{28}}
 \newlabel{FModel}{{5.1}{28}}
@@ -15,59 +15,61 @@
 \newlabel{FAlgoframework}{{5.2}{29}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}テクスチャと球の配列}{29}}
 \newlabel{STextureandsphere}{{5.2}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{29}}
-\newlabel{FTexturesphereposition}{{5.3}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{30}}
-\newlabel{FGrid}{{5.4}{30}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}計算用データ}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{30}}
+\newlabel{FTexturesphereposition}{{5.3}{30}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}オブジェクトファイルデータから計算用データの生成}{30}}
 \newlabel{SCalcData}{{5.3}{30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}テクスチャ座標軸方向3次元単位ベクトル}{31}}
-\newlabel{SSUnitvec}{{5.3.1}{31}}
-\newlabel{EPuv}{{5.2}{32}}
-\newlabel{EPc}{{5.3}{32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{33}}
-\newlabel{FVertexandtexture}{{5.5}{33}}
-\newlabel{EP10}{{5.4}{33}}
-\newlabel{EP20}{{5.5}{33}}
-\newlabel{ET10}{{5.6}{33}}
-\newlabel{ET20}{{5.7}{33}}
-\newlabel{EUp}{{5.8}{34}}
-\newlabel{EVp}{{5.9}{34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{34}}
-\newlabel{FAtoB}{{5.6}{34}}
-\newlabel{EPab}{{5.10}{34}}
-\newlabel{ETab}{{5.11}{35}}
-\newlabel{EUnit2u}{{5.12}{35}}
-\newlabel{EUnit2v}{{5.13}{35}}
-\newlabel{EAx=I}{{5.14}{35}}
-\newlabel{EIjkl}{{5.15}{35}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}入射球推定}{36}}
-\newlabel{SFirstsphere}{{5.4}{36}}
-\newlabel{EP}{{5.16}{36}}
-\newlabel{Eadashplus}{{5.17}{36}}
-\newlabel{Ebdashplus}{{5.18}{36}}
-\newlabel{Eadashminus}{{5.19}{36}}
-\newlabel{Ebdashminus}{{5.20}{36}}
-\newlabel{EPdash}{{5.21}{37}}
-\newlabel{ESpherepos}{{5.22}{37}}
-\newlabel{EPsdash}{{5.23}{37}}
-\newlabel{EPsdash2}{{5.24}{38}}
-\newlabel{EPsdashc}{{5.25}{38}}
-\newlabel{Eas}{{5.26}{38}}
-\newlabel{Ebs}{{5.27}{38}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}屈折計算処理}{38}}
-\newlabel{SRefraction}{{5.5}{38}}
-\newlabel{ENd}{{5.28}{39}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}複数回屈折}{39}}
-\newlabel{SSMultiRefraction}{{5.5.1}{39}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.6}テクスチャ座標再計算}{39}}
-\newlabel{STexturerecalculation}{{5.6}{39}}
-\newlabel{EPtdash}{{5.29}{39}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.7}光源処理および陰影処理}{40}}
-\newlabel{SPhongandshade}{{5.7}{40}}
-\newlabel{EColor}{{5.30}{40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{31}}
+\newlabel{FGrid}{{5.4}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}テクスチャ座標軸方向3次元単位ベクトル}{32}}
+\newlabel{SSUnitvec}{{5.3.1}{32}}
+\newlabel{EPuv}{{5.2}{33}}
+\newlabel{EPc}{{5.3}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{34}}
+\newlabel{FVertexandtexture}{{5.5}{34}}
+\newlabel{EP10}{{5.4}{34}}
+\newlabel{EP20}{{5.5}{34}}
+\newlabel{ET10}{{5.6}{34}}
+\newlabel{ET20}{{5.7}{34}}
+\newlabel{EUp}{{5.8}{35}}
+\newlabel{EVp}{{5.9}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{35}}
+\newlabel{FAtoB}{{5.6}{35}}
+\newlabel{EPab}{{5.10}{36}}
+\newlabel{ETab}{{5.11}{36}}
+\newlabel{EUnit2u}{{5.12}{36}}
+\newlabel{EUnit2v}{{5.13}{36}}
+\newlabel{EAx=I}{{5.14}{36}}
+\newlabel{EIjkl}{{5.15}{37}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}入射球推定}{37}}
+\newlabel{SFirstsphere}{{5.4}{37}}
+\newlabel{EP}{{5.16}{37}}
+\newlabel{Eadashplus}{{5.17}{37}}
+\newlabel{Ebdashplus}{{5.18}{37}}
+\newlabel{Eadashminus}{{5.19}{38}}
+\newlabel{Ebdashminus}{{5.20}{38}}
+\newlabel{EPdash}{{5.21}{38}}
+\newlabel{ESpherepos}{{5.22}{38}}
+\newlabel{EPsdash}{{5.23}{39}}
+\newlabel{EPsdash2}{{5.24}{39}}
+\newlabel{EPsdashc}{{5.25}{39}}
+\newlabel{Eas}{{5.26}{39}}
+\newlabel{Ebs}{{5.27}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}屈折計算処理}{40}}
+\newlabel{SRefraction}{{5.5}{40}}
+\newlabel{ENd}{{5.28}{40}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}隣接球処理}{40}}
+\newlabel{SSMultiRefraction}{{5.5.1}{40}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}テクスチャ座標再計算}{40}}
+\newlabel{STexturerecalculation}{{5.6}{40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces 隣接球処理アルゴリズム}}{41}}
+\newlabel{FAlgoNextSphere}{{5.7}{41}}
+\newlabel{EPtdash}{{5.29}{41}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.7}光源処理および陰影処理}{42}}
+\newlabel{SPhongandshade}{{5.7}{42}}
+\newlabel{EColor}{{5.30}{42}}
 \@setckpt{chaps/method}{
-\setcounter{page}{41}
+\setcounter{page}{43}
 \setcounter{equation}{30}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -82,7 +84,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{6}
+\setcounter{figure}{7}
 \setcounter{table}{0}
 \setcounter{parentequation}{0}
 \setcounter{subfigure}{0}

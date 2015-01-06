@@ -129,11 +129,6 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 再現性を高めるためには、対象生物の個眼のレンズの曲率を測定するか、ユーザが任意の半径値$r$を設定することが必要となるが、ある程度恣意的に結果を操作できる点はユーザビリティにつながるのではないだろうか。
 事実、生物種によって観察される偽瞳孔の密度や分布は異なるため、求める結果を得るための試行錯誤が必要である。
 
-%% \subsection{視点との距離による偽瞳孔の分布}%%-----remain---------!!!!!!!
-%% \label{SSViewDist}
-
-%% \secref{SSMarbleOnHole}では、偽瞳孔に相当する黒点の装置に対する大きさは視点との距離によって変化した。
-%% %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{歪みとテクスチャの関係}
 \label{SSDistortion}
@@ -513,7 +508,7 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
 \subsection{個眼密度}
 \label{SSTexReso}
 
-\secref{SCalcData}のテクスチャ解像度$R_t$によって決定されるレンズの密度を個眼密度と呼ぶことにする。
+\secref{SCalcData}のテクスチャ解像度$R_t$によって決定されるレンズの密度を個眼密度と呼称している。
 個眼密度は外観に大幅に影響を与えるため、各オブジェクトごとにユーザが適切な値を設定する必要がある。
 \figref{F}に、$R_t$の変化による外観の変化を示す。
 指定される球の半径$r$は$R_t$に反比例する値をそれぞれ与えてある。
@@ -570,14 +565,53 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
 %------------------------------------------------------------------------------------------
 
 
-\section{さまざまなオブジェクト}%%-----remain---------!!!!!!!
-\label{S}
+\section{さまざまなオブジェクト}
+\label{SVariousObject}
+
+本手法はさまざまなオブジェクトに対して適用可能である。
+以下にその例を示す。
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[図1]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/obj/shell/screenshot001.bmp}
+\label{FShell1}}
+\subfigure[図2]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/obj/shell/screenshot002.bmp}
+\label{FShell2}}\\
+\subfigure[図3]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/obj/shell/screenshot003.bmp}
+\label{FShell3}}
+\subfigure[図4]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/obj/shell/screenshot004.bmp}
+\label{FShell4}}
+  \caption{貝殻オブジェクトへの適用}
+  \label{FShell}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[図1]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/obj/tori_head/screenshot001.bmp}
+\label{FToriHead1}}
+\subfigure[図2]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/obj/tori_head/screenshot002.bmp}
+\label{FToriHead2}}\\
+\subfigure[図3]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/obj/tori_head/screenshot003.bmp}
+\label{FToriHead3}}
+\subfigure[図4]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/obj/tori_head/screenshot004.bmp}
+\label{FToriHead4}}
+  \caption{鳥頭オブジェクトへの適用}
+  \label{FToriHead}
+\end{figure}
 
 \section{応用事例}%%-----remain---------!!!!!!!
-\label{S}
+\label{SKagoshima}
 
-
-
+本研究の応用事例として、2014年12月？？日に行った「かごしまアートフェスタ2014」への展示の事例を紹介する。
+\textcolor{red}{ここです！残ってるとこ}
 
 
 %--前書いてたやつ----------------------------------------------------------------------------------------
