@@ -21,6 +21,7 @@
 \label{SEnvironment}
 
 本手法ではグラフィックスライブラリとしてOpenGL(オープンジーエル: Open Graphics Library)を利用し、プログラムの実装にあたってはC++言語を用いている。
+GPU上で動作するプログラムの実装にあたっては、GLSL(ジーエルエスエル: OpenGL Shading Language)を用いた。
 本手法を適用する形状データはAutodesk Maya \textcolor{red}{2013}で作成したオブジェクトファイルを使って作成した。
 
 プログラムの実行に使用した計算機のハードウェア構成は\tabref{tab:experiment-hadrware}のとおりである。
@@ -41,7 +42,7 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 \section{処理系}
 \label{S}
 
-\subsection{内処理、外処理}
+\subsection{内部通過処理および外部通過処理}
 \label{SSInnerOuterProcess}
 
 \chapref{CMethod}で述べた隣接球を通過する光の挙動について、平面オブジェクトおよび球体オブジェクトを例に問題点を指摘する。
@@ -128,11 +129,11 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 再現性を高めるためには、対象生物の個眼のレンズの曲率を測定するか、ユーザが任意の半径値$r$を設定することが必要となるが、ある程度恣意的に結果を操作できる点はユーザビリティにつながるのではないだろうか。
 事実、生物種によって観察される偽瞳孔の密度や分布は異なるため、求める結果を得るための試行錯誤が必要である。
 
-\subsection{視点との距離による偽瞳孔の分布}
-\label{SSViewDist}
+%% \subsection{視点との距離による偽瞳孔の分布}%%-----remain---------!!!!!!!
+%% \label{SSViewDist}
 
-\secref{SSMarbleOnHole}では、偽瞳孔に相当する黒点の装置に対する大きさは視点との距離によって変化した。
-%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% \secref{SSMarbleOnHole}では、偽瞳孔に相当する黒点の装置に対する大きさは視点との距離によって変化した。
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{歪みとテクスチャの関係}
 \label{SSDistortion}
@@ -168,7 +169,7 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 \end{figure}
 
 \newpage
-\subsection{さまざまなテクスチャ}
+\subsection{さまざまなテクスチャ}%%---done
 \label{SS}
 
 本手法ではテクスチャを変更することにより外観が大幅に変化する。
@@ -225,7 +226,9 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 \label{SParameterAndExeTime}
 
 それぞれのパラメータに応じて得られる結果画像や実行速度について比較、検討を行う。
-評価を行うパラメータは光が通過する球の数の上限値、カメラとの距離、テクスチャの解像度である。
+評価を行うパラメータは光が通過する球の数の上限値、視点との距離、個眼密度である。
+カメラの垂直画角およびレンズの屈折率は固定する。
+\chapref{CExperiment}でレンズとして用いたビー玉はガラス製であるため、屈折率はガラスの文献値$1.491$を用いる。
 対象オブジェクトは以下に示す平面オブジェクトおよび球体オブジェクトとする。
 \begin{figure}[htbp]
   \centering
@@ -252,7 +255,7 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 \end{tabular}
 \end{table}
 
-\subsection{隣接球の処理ON/OFF}
+\subsection{隣接球の処理ON/OFF}%%---done
 \label{SSLimitNeighborSphere}
 
 光がどの程度の回数、隣接球を通過する必要があるのかについての考察を行う。
@@ -397,23 +400,180 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
 
 
 \newpage
-\subsection{カメラとの距離による実行速度}
+\subsection{視点との距離による変化}
 \label{SSCameraDist}
 
-\subsection{テクスチャ解像度}
+\secref{SSMarbleOnHole}では、偽瞳孔に相当する黒点の、装置に対する大きさは視点との距離によって変化した。
+ここでは、視点とオブジェクトの距離を変化させた場合の本手法の実行結果について論じる。
+\chapref{CExperiment}の結果では、視点が近づくほど黒点の大きさは相対的に小さくなり、黒点同士の距離は短くなった。
+\figref{FDistanceSphere}および\figref{FDistancePlane}は隣接球処理の上限値および個眼密度を固定して視点との距離を変化させた場合の実行結果である。
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[遠]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/distance/screenshot000.bmp}
+\label{FDistancePlane1}}
+\subfigure[近]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/distance/screenshot003.bmp}
+\label{FDistancePlane2}}
+  \caption{視点距離と偽瞳孔の位置関係（平面オブジェクト）}
+  \label{FDistancePlane}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[遠]{
+\includegraphics*[width=.35\columnwidth]{./img/screenshot/distance/screenshot006.bmp}
+\label{FDistanceSphere1}}
+\subfigure[近]{
+\includegraphics*[width=.35\columnwidth]{./img/screenshot/distance/screenshot007.bmp}
+\label{FDistanceSphere2}}\\
+\subfigure[位置を合わせて合成]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/distance/merge.png}
+\label{FDistanceSphereMerge}}
+  \caption{視点距離と偽瞳孔の位置関係（球体オブジェクト）}
+  \label{FDistanceSphere}
+\end{figure}
+
+
+
+\figref{FDistanceSphereMerge}は\figref{FDistanceSphere1}と\figref{FDistanceSphere2}の画像を個眼の大きさを一致させて重ねたものである。
+この画像や\figref{FDistancePlane1}\figref{FDistancePlane2}の比較から、視点のとオブジェクトの距離が近づくほど偽瞳孔の相対的な距離が短くなっており、偽瞳孔の大きさが縮小していることが確認できる。
+ゆえに、本手法は\chapref{CExperiment}の結果と一致しており、特徴を再現できていると言える。
+
+続いて、視点との距離と実行速度との関係について考察を行う。
+\figref{FDistGraph}に視点距離と実行速度の関係のグラフを示す。
+図番号は平面オブジェクトおよび球体オブジェクトが\figref{FDistTimePlane}および\figref{FDistTimeSphere}に対応している。
+図番号が大きくなるにつれて、視点とオブジェクトとの距離は近づいている。
+グラフからは、視点距離が近づくとある程度までは実行速度が遅くなるが、さらに近づくと逆に実行速度がわずかながら速くなっていることがわかる。
+これは、視点が近づくことによりオブジェクト表面に対して平行に近く入射する視線が増えるため隣接球処理（\secref{SSLimitNeighborSphere}）を多く行うレンズが増え、結果的に処理速度が遅くなるが、一方で、視点がさらに近づくと画面内に表示されるオブジェクトが視点近傍の部分に限られるため隣接球処理を多く行わなくてはいけないレンズが画面内から減り、結果的にやや処理速度が速くなったものと考えられる。
+以上から、視点とオブジェクトとの距離は実行速度に少なからず影響を与えるが、隣接球処理の頻度による影響を間接的に受けているためであると言える。
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[平面オブジェクト]{
+\includegraphics*[width=.75\columnwidth]{./img/graph/dist_plane.png}
+\label{FDistGraphPlane}}\\
+\subfigure[球体オブジェクト]{
+\includegraphics*[width=.75\columnwidth]{./img/graph/dist_sphere.png}
+\label{FDistGraphSphere}}
+  \caption{視点距離と実行速度の関係}
+  \label{FDistGraph}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[図1]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/plane_fps/screenshot001.bmp}
+\label{FDistTimePlane1}}
+\subfigure[図2]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/plane_fps/screenshot002.bmp}
+\label{FDistTimePlane2}}
+\subfigure[図3]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/plane_fps/screenshot003.bmp}
+\label{FDistTimePlane3}}\\
+\subfigure[図4]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/plane_fps/screenshot004.bmp}
+\label{FDistTimePlane4}}
+\subfigure[図5]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/plane_fps/screenshot005.bmp}
+\label{FDistTimePlane5}}
+\subfigure[図6]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/plane_fps/screenshot006.bmp}
+\label{FDistTimePlane6}}
+  \caption{視点距離と実行速度（平面）}
+  \label{FDistTimePlane}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[図1]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/sphere_fps/screenshot001.bmp}
+\label{FDistTimeSphere1}}
+\subfigure[図2]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/sphere_fps/screenshot002.bmp}
+\label{FDistTimeSphere2}}
+\subfigure[図3]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/sphere_fps/screenshot003.bmp}
+\label{FDistTimeSphere3}}\\
+\subfigure[図4]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/sphere_fps/screenshot004.bmp}
+\label{FDistTimeSphere4}}
+\subfigure[図5]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/sphere_fps/screenshot005.bmp}
+\label{FDistTimeSphere5}}
+\subfigure[図6]{
+\includegraphics*[width=.3\columnwidth]{./img/screenshot/distance/sphere_fps/screenshot006.bmp}
+\label{FDistTimeSphere6}}
+  \caption{視点距離と実行速度（球体）}
+  \label{FDistTimeSphere}
+\end{figure}
+
+\newpage
+\subsection{個眼密度}
 \label{SSTexReso}
 
+\secref{SCalcData}のテクスチャ解像度$R_t$によって決定されるレンズの密度を個眼密度と呼ぶことにする。
+個眼密度は外観に大幅に影響を与えるため、各オブジェクトごとにユーザが適切な値を設定する必要がある。
+\figref{F}に、$R_t$の変化による外観の変化を示す。
+指定される球の半径$r$は$R_t$に反比例する値をそれぞれ与えてある。
+また、$R_t$のオーダーを変化させた場合、$R_t$が大きく個眼密度が大きいほどわずかに実行速度が遅くなったものの、同一オーダー内であれば、実行速度に有意な差は見られなかった。
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[$R_t = 1$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/plane_rs1.bmp}
+\label{FReso1Plane}}
+\subfigure[$R_t = 5$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/plane_rs5.bmp}
+\label{FReso5Plane}}\\
+\subfigure[$R_t = 10$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/plane_rs10.bmp}
+\label{FReso10Plane}}
+\subfigure[$R_t = 50$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/plane_rs50.bmp}
+\label{FReso50Plane}}\\
+\subfigure[$R_t = 100$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/plane_rs100.bmp}
+\label{FReso100Plane}}
+\subfigure[$R_t = 500$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/plane_rs500.bmp}
+\label{FReso500Plane}}
+  \caption{個眼密度による実行結果の変化（平面）}
+  \label{FResoPlane}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[$R_t = 1$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/sphere_rs1.bmp}
+\label{FReso1Sphere}}
+\subfigure[$R_t = 5$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/sphere_rs5.bmp}
+\label{FReso5Sphere}}\\
+\subfigure[$R_t = 10$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/sphere_rs10.bmp}
+\label{FReso10Sphere}}
+\subfigure[$R_t = 50$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/sphere_rs50.bmp}
+\label{FReso50Sphere}}\\
+\subfigure[$R_t = 100$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/sphere_rs100.bmp}
+\label{FReso100Sphere}}
+\subfigure[$R_t = 500$]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/texreso/sphere_rs500.bmp}
+\label{FReso500Sphere}}
+  \caption{個眼密度による実行結果の変化（球体）}
+  \label{FResoSphere}
+\end{figure}
 
 %------------------------------------------------------------------------------------------
 
-\section{その他}
+
+\section{さまざまなオブジェクト}%%-----remain---------!!!!!!!
 \label{S}
 
-
-\section{さまざまなオブジェクト}
-\label{S}
-
-\section{応用事例}
+\section{応用事例}%%-----remain---------!!!!!!!
 \label{S}
 
 

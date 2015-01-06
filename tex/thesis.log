@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  6 JAN 2015 00:37
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  6 JAN 2015 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,9 +381,6 @@ LaTeX Warning: Label `FMarker3' multiply defined.
 
 
 LaTeX Warning: Label `sub@FMarker3' multiply defined.
-
-
-LaTeX Warning: Label `S' multiply defined.
 
 
 LaTeX Warning: Label `S' multiply defined.
@@ -778,6 +775,9 @@ LaTeX Warning: Reference `' on page 24 undefined on input line 168.
 
  (./chaps/method.tex
 第5章
+
+LaTeX Warning: Reference `SCalcdata' on page 27 undefined on input line 7.
+
 File: ./img/TEMP.eps Graphic file (type eps)
 <./img/TEMP.eps>
 
@@ -845,17 +845,17 @@ File: ./img/screenshot/sphere/Noise/screenshot000.bmp Graphic file (type bmp)
 
 ] [42]
 
-LaTeX Warning: Reference `' on page 43 undefined on input line 81.
+LaTeX Warning: Reference `' on page 43 undefined on input line 82.
 
 File: ./img/screenshot/sphere/Radius/1_30/screenshot000.bmp Graphic file (type 
 bmp)
 <./img/screenshot/sphere/Radius/1_30/screenshot000.bmp>
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 87.
+(Font)              scaled to size 5.76599pt on input line 88.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 87.
+(Font)              scaled to size 7.68799pt on input line 88.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 87.
+(Font)              scaled to size 5.76599pt on input line 88.
 File: ./img/screenshot/sphere/Radius/1_30/screenshot001.bmp Graphic file (type 
 bmp)
 
@@ -901,10 +901,10 @@ bmp)
 
 <./img/screenshot/sphere/Radius/1_10/screenshot002.bmp>
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 121.
+(Font)              scaled to size 8.64899pt on input line 122.
 
 
-LaTeX Warning: Float too large for page by 8.39597pt on input line 123.
+LaTeX Warning: Float too large for page by 8.39597pt on input line 124.
 
 [43] [44]
 File: ./img/screenshot/sphere/Distortion/tex_tortion1.png Graphic file (type bm
@@ -931,7 +931,7 @@ mp)
 
 <./img/screenshot/sphere/Distortion/screenshot002.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 168.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 169.
 
 [45] [46]
 File: ./img/screenshot/texture/spot.jpg Graphic file (type bmp)
@@ -955,7 +955,7 @@ File: ./img/screenshot/texture/spot5.bmp Graphic file (type bmp)
 
 <./img/screenshot/texture/spot5.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 217.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 218.
 
 [47]
 File: ./img/screenshot/plane_wireframe.png Graphic file (type bmp)
@@ -988,7 +988,7 @@ ype bmp)
 
 <./img/screenshot/sphere/RefracLimit/010/screenshot002.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 292.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 295.
 
 File: ./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp Graphic file (t
 ype bmp)
@@ -1014,7 +1014,7 @@ ype bmp)
 
 <./img/screenshot/sphere/RefracLimit/010/screenshot001.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 316.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 319.
 
 [51] [52] [53]
 File: ./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png Graphic file (
@@ -1060,35 +1060,141 @@ File: ./img/screenshot/sphere/RefracLimit/002/marker.png Graphic file (type bmp
 File: ./img/screenshot/sphere/RefracLimit/003/marker.png Graphic file (type bmp
 )
 
-<./img/screenshot/sphere/RefracLimit/003/marker.png> [57])
-Overfull \vbox (28.72089pt too high) has occurred while \output is active []
+<./img/screenshot/sphere/RefracLimit/003/marker.png> [57]
+File: ./img/screenshot/distance/screenshot000.bmp Graphic file (type bmp)
 
+<./img/screenshot/distance/screenshot000.bmp>
+File: ./img/screenshot/distance/screenshot003.bmp Graphic file (type bmp)
 
-[58]
+<./img/screenshot/distance/screenshot003.bmp>
+File: ./img/screenshot/distance/screenshot006.bmp Graphic file (type bmp)
+
+<./img/screenshot/distance/screenshot006.bmp>
+File: ./img/screenshot/distance/screenshot007.bmp Graphic file (type bmp)
+
+<./img/screenshot/distance/screenshot007.bmp>
+File: ./img/screenshot/distance/merge.png Graphic file (type bmp)
+
+<./img/screenshot/distance/merge.png> [58]
+File: ./img/graph/dist_plane.png Graphic file (type bmp)
+ <./img/graph/dist_plane.png>
+File: ./img/graph/dist_sphere.png Graphic file (type bmp)
+
+<./img/graph/dist_sphere.png> [59]
+File: ./img/screenshot/distance/plane_fps/screenshot001.bmp Graphic file (type 
+bmp)
+
+<./img/screenshot/distance/plane_fps/screenshot001.bmp>
+File: ./img/screenshot/distance/plane_fps/screenshot002.bmp Graphic file (type 
+bmp)
+
+<./img/screenshot/distance/plane_fps/screenshot002.bmp>
+File: ./img/screenshot/distance/plane_fps/screenshot003.bmp Graphic file (type 
+bmp)
+
+<./img/screenshot/distance/plane_fps/screenshot003.bmp>
+File: ./img/screenshot/distance/plane_fps/screenshot004.bmp Graphic file (type 
+bmp)
+
+<./img/screenshot/distance/plane_fps/screenshot004.bmp>
+File: ./img/screenshot/distance/plane_fps/screenshot005.bmp Graphic file (type 
+bmp)
+
+<./img/screenshot/distance/plane_fps/screenshot005.bmp>
+File: ./img/screenshot/distance/plane_fps/screenshot006.bmp Graphic file (type 
+bmp)
+
+<./img/screenshot/distance/plane_fps/screenshot006.bmp>
+File: ./img/screenshot/distance/sphere_fps/screenshot001.bmp Graphic file (type
+ bmp)
+
+<./img/screenshot/distance/sphere_fps/screenshot001.bmp>
+File: ./img/screenshot/distance/sphere_fps/screenshot002.bmp Graphic file (type
+ bmp)
+
+<./img/screenshot/distance/sphere_fps/screenshot002.bmp>
+File: ./img/screenshot/distance/sphere_fps/screenshot003.bmp Graphic file (type
+ bmp)
+
+<./img/screenshot/distance/sphere_fps/screenshot003.bmp>
+File: ./img/screenshot/distance/sphere_fps/screenshot004.bmp Graphic file (type
+ bmp)
+
+<./img/screenshot/distance/sphere_fps/screenshot004.bmp>
+File: ./img/screenshot/distance/sphere_fps/screenshot005.bmp Graphic file (type
+ bmp)
+
+<./img/screenshot/distance/sphere_fps/screenshot005.bmp>
+File: ./img/screenshot/distance/sphere_fps/screenshot006.bmp Graphic file (type
+ bmp)
+
+<./img/screenshot/distance/sphere_fps/screenshot006.bmp> [60] [61]
+File: ./img/screenshot/texreso/plane_rs1.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/plane_rs1.bmp>
+File: ./img/screenshot/texreso/plane_rs5.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/plane_rs5.bmp>
+File: ./img/screenshot/texreso/plane_rs10.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/plane_rs10.bmp>
+File: ./img/screenshot/texreso/plane_rs50.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/plane_rs50.bmp>
+File: ./img/screenshot/texreso/plane_rs100.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/plane_rs100.bmp>
+File: ./img/screenshot/texreso/plane_rs500.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/plane_rs500.bmp>
+
+LaTeX Warning: Float too large for page by 3.05792pt on input line 544.
+
+File: ./img/screenshot/texreso/sphere_rs1.bmp Graphic file (type bmp)
+<./img/screenshot/texreso/sphere_rs1.bmp>
+File: ./img/screenshot/texreso/sphere_rs5.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/sphere_rs5.bmp>
+File: ./img/screenshot/texreso/sphere_rs10.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/sphere_rs10.bmp>
+File: ./img/screenshot/texreso/sphere_rs50.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/sphere_rs50.bmp>
+File: ./img/screenshot/texreso/sphere_rs100.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/sphere_rs100.bmp>
+File: ./img/screenshot/texreso/sphere_rs500.bmp Graphic file (type bmp)
+
+<./img/screenshot/texreso/sphere_rs500.bmp>
+
+LaTeX Warning: Float too large for page by 3.05792pt on input line 568.
+
+) [62] [63] [64] [65]
 \openout2 = `chaps/conclusion.aux'.
 
- (./chaps/conclusion.tex
+ (./chaps/conclusion.tex [66
+
+
+
+]
 第7章
-) [59
-
-
-
-] [60]
+) [67] [68]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex) [61
+ (./chaps/acknowledgement.tex) [69
 
 
 
-] (./thesis.bbl [62
+] (./thesis.bbl [70
 
 
-]) [63]
-[64
+]) [71]
+[72
 
-] [65
+] [73
 
-] [66
+] [74
 
 ] (./thesis.aux (./chaps/introduction.aux)
 (./chaps/relatedwork.aux) (./chaps/knowledge.aux) (./chaps/experiment.aux)
@@ -1102,12 +1208,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3399 strings out of 493799
- 44759 string characters out of 6153369
- 97631 words of memory out of 5000000
- 6639 multiletter control sequences out of 15000+600000
+ 3527 strings out of 493799
+ 48036 string characters out of 6153369
+ 99508 words of memory out of 5000000
+ 6739 multiletter control sequences out of 15000+600000
  44454 words of font info for 155 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,11n,26p,351b,475s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 31i,11n,26p,466b,476s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (76 pages, 153112 bytes).
+Output written on thesis.dvi (84 pages, 165608 bytes).

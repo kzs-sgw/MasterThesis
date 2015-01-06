@@ -9,7 +9,7 @@
 \newlabel{tab:experiment-hadrware}{{6.1}{41}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.2}処理系}{42}}
 \newlabel{S}{{6.2}{42}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}内処理、外処理}{42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}内部通過処理および外部通過処理}{42}}
 \newlabel{SSInnerOuterProcess}{{6.2.1}{42}}
 \newlabel{FNoisePlane}{{6.1(a)}{42}}
 \newlabel{sub@FNoisePlane}{{(a)}{42}}
@@ -61,10 +61,8 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(k)}{\ignorespaces {$r = 0.10$}}}{44}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(l)}{\ignorespaces {$r = 0.10$}}}{44}}
 \newlabel{FRadiusAndNumber}{{6.2}{44}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}視点との距離による偽瞳孔の分布}{45}}
-\newlabel{SSViewDist}{{6.3.2}{45}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}歪みとテクスチャの関係}{45}}
-\newlabel{SSDistortion}{{6.3.3}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}歪みとテクスチャの関係}{45}}
+\newlabel{SSDistortion}{{6.3.2}{45}}
 \newlabel{FTexTortion1}{{6.3(a)}{46}}
 \newlabel{sub@FTexTortion1}{{(a)}{46}}
 \newlabel{FTexTortion1-s}{{6.3(b)}{46}}
@@ -85,8 +83,8 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {テクスチャマップ}}}{46}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {結果}}}{46}}
 \newlabel{FTexTortion}{{6.3}{46}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.4}さまざまなテクスチャ}{47}}
-\newlabel{SS}{{6.3.4}{47}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}さまざまなテクスチャ}{47}}
+\newlabel{SS}{{6.3.3}{47}}
 \newlabel{FBaseTexture}{{6.4(a)}{48}}
 \newlabel{sub@FBaseTexture}{{(a)}{48}}
 \newlabel{FBaseResult}{{6.4(b)}{48}}
@@ -213,18 +211,123 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {$l = 2$}}}{58}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {$l = 3$}}}{58}}
 \newlabel{FLimitCompare4}{{6.12}{58}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}カメラとの距離による実行速度}{58}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}視点との距離による変化}{58}}
 \newlabel{SSCameraDist}{{6.4.2}{58}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.3}テクスチャ解像度}{58}}
-\newlabel{SSTexReso}{{6.4.3}{58}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}その他}{58}}
-\newlabel{S}{{6.5}{58}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.6}さまざまなオブジェクト}{58}}
-\newlabel{S}{{6.6}{58}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.7}応用事例}{58}}
-\newlabel{S}{{6.7}{58}}
+\newlabel{FDistancePlane1}{{6.13(a)}{59}}
+\newlabel{sub@FDistancePlane1}{{(a)}{59}}
+\newlabel{FDistancePlane2}{{6.13(b)}{59}}
+\newlabel{sub@FDistancePlane2}{{(b)}{59}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.13}{\ignorespaces 視点距離と偽瞳孔の位置関係（平面オブジェクト）}}{59}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {遠}}}{59}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {近}}}{59}}
+\newlabel{FDistancePlane}{{6.13}{59}}
+\newlabel{FDistanceSphere1}{{6.14(a)}{60}}
+\newlabel{sub@FDistanceSphere1}{{(a)}{60}}
+\newlabel{FDistanceSphere2}{{6.14(b)}{60}}
+\newlabel{sub@FDistanceSphere2}{{(b)}{60}}
+\newlabel{FDistanceSphereMerge}{{6.14(c)}{60}}
+\newlabel{sub@FDistanceSphereMerge}{{(c)}{60}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.14}{\ignorespaces 視点距離と偽瞳孔の位置関係（球体オブジェクト）}}{60}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {遠}}}{60}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {近}}}{60}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {位置を合わせて合成}}}{60}}
+\newlabel{FDistanceSphere}{{6.14}{60}}
+\newlabel{FDistGraphPlane}{{6.15(a)}{61}}
+\newlabel{sub@FDistGraphPlane}{{(a)}{61}}
+\newlabel{FDistGraphSphere}{{6.15(b)}{61}}
+\newlabel{sub@FDistGraphSphere}{{(b)}{61}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.15}{\ignorespaces 視点距離と実行速度の関係}}{61}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {平面オブジェクト}}}{61}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {球体オブジェクト}}}{61}}
+\newlabel{FDistGraph}{{6.15}{61}}
+\newlabel{FDistTimePlane1}{{6.16(a)}{62}}
+\newlabel{sub@FDistTimePlane1}{{(a)}{62}}
+\newlabel{FDistTimePlane2}{{6.16(b)}{62}}
+\newlabel{sub@FDistTimePlane2}{{(b)}{62}}
+\newlabel{FDistTimePlane3}{{6.16(c)}{62}}
+\newlabel{sub@FDistTimePlane3}{{(c)}{62}}
+\newlabel{FDistTimePlane4}{{6.16(d)}{62}}
+\newlabel{sub@FDistTimePlane4}{{(d)}{62}}
+\newlabel{FDistTimePlane5}{{6.16(e)}{62}}
+\newlabel{sub@FDistTimePlane5}{{(e)}{62}}
+\newlabel{FDistTimePlane6}{{6.16(f)}{62}}
+\newlabel{sub@FDistTimePlane6}{{(f)}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.16}{\ignorespaces 視点距離と実行速度（平面）}}{62}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {図1}}}{62}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {図2}}}{62}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {図3}}}{62}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {図4}}}{62}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {図5}}}{62}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {図6}}}{62}}
+\newlabel{FDistTimePlane}{{6.16}{62}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.3}個眼密度}{62}}
+\newlabel{SSTexReso}{{6.4.3}{62}}
+\newlabel{FDistTimeSphere1}{{6.17(a)}{63}}
+\newlabel{sub@FDistTimeSphere1}{{(a)}{63}}
+\newlabel{FDistTimeSphere2}{{6.17(b)}{63}}
+\newlabel{sub@FDistTimeSphere2}{{(b)}{63}}
+\newlabel{FDistTimeSphere3}{{6.17(c)}{63}}
+\newlabel{sub@FDistTimeSphere3}{{(c)}{63}}
+\newlabel{FDistTimeSphere4}{{6.17(d)}{63}}
+\newlabel{sub@FDistTimeSphere4}{{(d)}{63}}
+\newlabel{FDistTimeSphere5}{{6.17(e)}{63}}
+\newlabel{sub@FDistTimeSphere5}{{(e)}{63}}
+\newlabel{FDistTimeSphere6}{{6.17(f)}{63}}
+\newlabel{sub@FDistTimeSphere6}{{(f)}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.17}{\ignorespaces 視点距離と実行速度（球体）}}{63}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {図1}}}{63}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {図2}}}{63}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {図3}}}{63}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {図4}}}{63}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {図5}}}{63}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {図6}}}{63}}
+\newlabel{FDistTimeSphere}{{6.17}{63}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}さまざまなオブジェクト}{63}}
+\newlabel{S}{{6.5}{63}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.6}応用事例}{63}}
+\newlabel{S}{{6.6}{63}}
+\newlabel{FReso1Plane}{{6.18(a)}{64}}
+\newlabel{sub@FReso1Plane}{{(a)}{64}}
+\newlabel{FReso5Plane}{{6.18(b)}{64}}
+\newlabel{sub@FReso5Plane}{{(b)}{64}}
+\newlabel{FReso10Plane}{{6.18(c)}{64}}
+\newlabel{sub@FReso10Plane}{{(c)}{64}}
+\newlabel{FReso50Plane}{{6.18(d)}{64}}
+\newlabel{sub@FReso50Plane}{{(d)}{64}}
+\newlabel{FReso100Plane}{{6.18(e)}{64}}
+\newlabel{sub@FReso100Plane}{{(e)}{64}}
+\newlabel{FReso500Plane}{{6.18(f)}{64}}
+\newlabel{sub@FReso500Plane}{{(f)}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.18}{\ignorespaces 個眼密度による実行結果の変化（平面）}}{64}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {$R_t = 1$}}}{64}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {$R_t = 5$}}}{64}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {$R_t = 10$}}}{64}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {$R_t = 50$}}}{64}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {$R_t = 100$}}}{64}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {$R_t = 500$}}}{64}}
+\newlabel{FResoPlane}{{6.18}{64}}
+\newlabel{FReso1Sphere}{{6.19(a)}{65}}
+\newlabel{sub@FReso1Sphere}{{(a)}{65}}
+\newlabel{FReso5Sphere}{{6.19(b)}{65}}
+\newlabel{sub@FReso5Sphere}{{(b)}{65}}
+\newlabel{FReso10Sphere}{{6.19(c)}{65}}
+\newlabel{sub@FReso10Sphere}{{(c)}{65}}
+\newlabel{FReso50Sphere}{{6.19(d)}{65}}
+\newlabel{sub@FReso50Sphere}{{(d)}{65}}
+\newlabel{FReso100Sphere}{{6.19(e)}{65}}
+\newlabel{sub@FReso100Sphere}{{(e)}{65}}
+\newlabel{FReso500Sphere}{{6.19(f)}{65}}
+\newlabel{sub@FReso500Sphere}{{(f)}{65}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.19}{\ignorespaces 個眼密度による実行結果の変化（球体）}}{65}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {$R_t = 1$}}}{65}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {$R_t = 5$}}}{65}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {$R_t = 10$}}}{65}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {$R_t = 50$}}}{65}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {$R_t = 100$}}}{65}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {$R_t = 500$}}}{65}}
+\newlabel{FResoSphere}{{6.19}{65}}
 \@setckpt{chaps/result}{
-\setcounter{page}{59}
+\setcounter{page}{66}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -234,12 +337,12 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{6}
-\setcounter{section}{7}
+\setcounter{section}{6}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{12}
+\setcounter{figure}{19}
 \setcounter{table}{2}
 \setcounter{parentequation}{0}
 \setcounter{subfigure}{0}

@@ -43,21 +43,19 @@
 \contentsline {chapter}{\numberline {第6章}結果と考察}{41}
 \contentsline {section}{\numberline {6.1}実装方法および実行環境}{41}
 \contentsline {section}{\numberline {6.2}処理系}{42}
-\contentsline {subsection}{\numberline {6.2.1}内処理、外処理}{42}
+\contentsline {subsection}{\numberline {6.2.1}内部通過処理および外部通過処理}{42}
 \contentsline {section}{\numberline {6.3}ジオメトリ}{43}
 \contentsline {subsection}{\numberline {6.3.1}レンズ半径と偽瞳孔の数}{43}
-\contentsline {subsection}{\numberline {6.3.2}視点との距離による偽瞳孔の分布}{45}
-\contentsline {subsection}{\numberline {6.3.3}歪みとテクスチャの関係}{45}
-\contentsline {subsection}{\numberline {6.3.4}さまざまなテクスチャ}{47}
+\contentsline {subsection}{\numberline {6.3.2}歪みとテクスチャの関係}{45}
+\contentsline {subsection}{\numberline {6.3.3}さまざまなテクスチャ}{47}
 \contentsline {section}{\numberline {6.4}パラメータと実行速度}{48}
 \contentsline {subsection}{\numberline {6.4.1}隣接球の処理ON/OFF}{50}
-\contentsline {subsection}{\numberline {6.4.2}カメラとの距離による実行速度}{58}
-\contentsline {subsection}{\numberline {6.4.3}テクスチャ解像度}{58}
-\contentsline {section}{\numberline {6.5}その他}{58}
-\contentsline {section}{\numberline {6.6}さまざまなオブジェクト}{58}
-\contentsline {section}{\numberline {6.7}応用事例}{58}
-\contentsline {chapter}{\numberline {第7章}結論}{59}
-\contentsline {section}{\numberline {7.1}結論}{59}
-\contentsline {section}{\numberline {7.2}今後の展望}{60}
-\contentsline {chapter}{謝辞}{61}
-\contentsline {chapter}{参考文献}{63}
+\contentsline {subsection}{\numberline {6.4.2}視点との距離による変化}{58}
+\contentsline {subsection}{\numberline {6.4.3}個眼密度}{62}
+\contentsline {section}{\numberline {6.5}さまざまなオブジェクト}{63}
+\contentsline {section}{\numberline {6.6}応用事例}{63}
+\contentsline {chapter}{\numberline {第7章}結論}{67}
+\contentsline {section}{\numberline {7.1}結論}{67}
+\contentsline {section}{\numberline {7.2}今後の展望}{68}
+\contentsline {chapter}{謝辞}{69}
+\contentsline {chapter}{参考文献}{71}

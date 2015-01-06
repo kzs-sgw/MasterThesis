@@ -91,4 +91,42 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{58}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{58}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{58}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces 視点距離と偽瞳孔の位置関係（平面オブジェクト）}}{59}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {遠}}}{59}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {近}}}{59}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces 視点距離と偽瞳孔の位置関係（球体オブジェクト）}}{60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {遠}}}{60}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {近}}}{60}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {位置を合わせて合成}}}{60}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces 視点距離と実行速度の関係}}{61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト}}}{61}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト}}}{61}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces 視点距離と実行速度（平面）}}{62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{62}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{62}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{62}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{62}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {図5}}}{62}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {図6}}}{62}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces 視点距離と実行速度（球体）}}{63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{63}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{63}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{63}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{63}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {図5}}}{63}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {図6}}}{63}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces 個眼密度による実行結果の変化（平面）}}{64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$R_t = 1$}}}{64}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$R_t = 5$}}}{64}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$R_t = 10$}}}{64}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$R_t = 50$}}}{64}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$R_t = 100$}}}{64}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$R_t = 500$}}}{64}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces 個眼密度による実行結果の変化（球体）}}{65}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$R_t = 1$}}}{65}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$R_t = 5$}}}{65}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$R_t = 10$}}}{65}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$R_t = 50$}}}{65}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$R_t = 100$}}}{65}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$R_t = 500$}}}{65}
 \addvspace {10\p@ }
