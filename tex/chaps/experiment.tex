@@ -7,7 +7,7 @@
 
 実際の複眼の構造や形状は複雑であり、コンピュータグラフィックスにおいて実物の形状を作成したり、実物の構造計算に用いることは難しい。
 そこで、複眼の性質を表現するために代替となる形状や近似モデルが必要となる。
-本研究では、永田\cite{永田敏夫:2008-03-10}が行った偽瞳孔の再現実験をもとにビー玉とパンチングメタルを用いて予備実験を行った。
+本研究では、永田\cite{nagata-2008-03-10}が行った偽瞳孔の再現実験をもとにビー玉とパンチングメタルを用いて予備実験を行った。
 
 本実験における第一の目的は、 偽瞳孔の発生原理を理解し、物理現象に落としこむことである。
 複眼を扱った関連研究のうち、偽瞳孔の性質や現象について生物学上の考察や解説を行うものは存在するものの、幾何学的なしくみについて言及したものは少ない。
@@ -83,7 +83,7 @@
 \subfigure[倒立像]{
 \includegraphics*[width=.45\columnwidth]{./img/exp_touritsu.jpg}
 \label{FSingleTouritsu}}
-  \caption{}
+  \caption{ひとつのビー玉による像}
   \label{FExpSingle}
 \end{figure}
 
@@ -148,24 +148,31 @@
 具体的には、視点が離れるほど黒い領域は大きくなり、視点が近づくほど黒い領域は小さくなる。
 \begin{figure}[htbp]
   \centering
-\subfigure[CAPTIONa]{
+\subfigure[黒点の大きさ（遠）]{
 \includegraphics*[width=.45\columnwidth]{./img/exp_largespot.png}
 \label{FExpLargespot}}
-\subfigure[CAPTIONb]{
+\subfigure[黒点の大きさ（近）]{
 \includegraphics*[width=.45\columnwidth]{./img/exp_middlespot.png}
 \label{FExpMiddlespot}}\\
-\subfigure[CAPTIONc]{
+\subfigure[マーカー（遠）]{
 \includegraphics*[width=.45\columnwidth]{./img/exp_largespot_circle.png}
 \label{FExpLargespotCircle}}
-\subfigure[CAPTIONd]{
+\subfigure[マーカー（近）]{
 \includegraphics*[width=.45\columnwidth]{./img/exp_middlespot_circle.png}
 \label{FExpMiddlespotCircle}}
-  \caption{CAPTION}
-  \label{FExp}
+  \caption{黒点の大きさの違い}
+  \label{FExpDistSpot}
 \end{figure}
 \secref{SSOnemarble}の結果から類推すると、ビー玉およびパンチングメタルをある角度前後から観測した場合、ビー玉の表面が黒色で占められると考えられる。
-そして、視点が実験装置から離れるほど隣接する球と視線とのなす角度同士の差は小さくなり、視点が近づくほど隣接する球と視点とのなす角度同士の差は大きくなる\figref{}。
-すなわち、この実験装置上では視円錐のある角度に収まる領域は黒く見えると考えられる\figref{}。
+そして、視点が実験装置から離れるほど隣接する球と視線とのなす角度同士の差は小さくなり、視点が近づくほど隣接する球と視点とのなす角度同士の差は大きくなる\figref{FExpDistSpot}。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=3.5in]{./img/exp_eyedistance.eps}
+  \caption{視円錐と黒点の大きさ}
+  \label{FExpEyeDist}
+\end{figure}
+
+すなわち、この実験装置上では視円錐のある角度に収まる領域は黒く見えると考えられる\figref{FExpEyeDist}。
 以上の性質は、実物の複眼上に現れる偽瞳孔現象を適切に説明することができ実際の偽瞳孔の観察結果とも合致するため、本研究において利用できる有力なモデルであると考えられる。
 
 \section{まとめ}

@@ -21,7 +21,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 実験の材料}}{24}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces パンチングメタルを画用紙に固定}}{25}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces }}{27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ひとつのビー玉による像}}{27}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {拡大像（正面）}}}{27}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {拡大像（斜め）}}}{27}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {倒立像}}}{27}
@@ -33,142 +33,144 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{30}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{30}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{30}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces CAPTION}}{31}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAPTIONa}}}{31}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CAPTIONb}}}{31}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CAPTIONc}}}{31}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {CAPTIONd}}}{31}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 黒点の大きさの違い}}{31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {黒点の大きさ（遠）}}}{31}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {黒点の大きさ（近）}}}{31}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {マーカー（遠）}}}{31}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {マーカー（近）}}}{31}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 視円錐と黒点の大きさ}}{32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces シェーディングモデル}}{34}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces アルゴリズムフレームワーク}}{35}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{36}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{37}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{40}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{41}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces 隣接球処理アルゴリズム}}{47}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces シェーディングモデル}}{36}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces アルゴリズムフレームワーク}}{37}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{38}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャおよび球の格子状配置}}{39}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{42}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 平面上の変位ベクトル}}{43}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 隣接球処理アルゴリズム}}{49}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 領域分割}}{50}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 外部通過処理に見られるノイズ}}{52}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト}}}{52}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト}}}{52}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces レンズ半径$r$と偽瞳孔の数の関係}}{54}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$r = 0.03$}}}{54}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$r = 0.03$}}}{54}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$r = 0.03$}}}{54}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$r = 0.04$}}}{54}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$r = 0.04$}}}{54}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$r = 0.04$}}}{54}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$r = 0.06$}}}{54}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$r = 0.06$}}}{54}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$r = 0.06$}}}{54}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$r = 0.10$}}}{54}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$r = 0.10$}}}{54}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$r = 0.10$}}}{54}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces テクスチャの継ぎ目}}{56}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {テクスチャマップ}}}{56}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {結果}}}{56}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {テクスチャマップ}}}{56}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {結果}}}{56}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {テクスチャマップ}}}{56}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {結果}}}{56}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 基本テクスチャと適用結果}}{58}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {基本テクスチャ}}}{58}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {結果画像}}}{58}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces テクスチャの変更による外観の変化}}{59}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {テクスチャ}}}{59}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {結果}}}{59}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {テクスチャ}}}{59}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {結果}}}{59}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {テクスチャ}}}{59}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {結果}}}{59}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces 評価オブジェクト（ワイヤフレーム表示）}}{60}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト（ワイヤフレーム）}}}{60}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト（ワイヤフレーム）}}}{60}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces 上限値による画像の変化1}}{62}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{62}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{62}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{62}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{62}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{62}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{62}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces 上限値による画像の変化2}}{63}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{63}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{63}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{63}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{63}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{63}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{63}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces 各偽瞳孔の名称および場所}}{65}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 1$}}}{65}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 外部通過処理に見られるノイズ}}{54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト}}}{54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト}}}{54}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces レンズ半径$r$と偽瞳孔の数の関係}}{56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$r = 0.03$}}}{56}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$r = 0.03$}}}{56}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$r = 0.03$}}}{56}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$r = 0.04$}}}{56}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$r = 0.04$}}}{56}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$r = 0.04$}}}{56}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$r = 0.06$}}}{56}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$r = 0.06$}}}{56}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$r = 0.06$}}}{56}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {$r = 0.10$}}}{56}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {$r = 0.10$}}}{56}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {$r = 0.10$}}}{56}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces テクスチャの継ぎ目}}{58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {テクスチャマップ}}}{58}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {結果}}}{58}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {テクスチャマップ}}}{58}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {結果}}}{58}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {テクスチャマップ}}}{58}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {結果}}}{58}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 基本テクスチャと適用結果}}{60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {基本テクスチャ}}}{60}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {結果画像}}}{60}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces テクスチャの変更による外観の変化}}{61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {テクスチャ}}}{61}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {結果}}}{61}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {テクスチャ}}}{61}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {結果}}}{61}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {テクスチャ}}}{61}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {結果}}}{61}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces 評価オブジェクト（ワイヤフレーム表示）}}{62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト（ワイヤフレーム）}}}{62}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト（ワイヤフレーム）}}}{62}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces 上限値による画像の変化1}}{64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{64}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{64}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{64}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{64}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{64}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{64}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces 上限値による画像の変化2}}{65}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{65}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{65}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces 実行速度と$l$の関係}}{66}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平均値}}}{66}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {実測値}}}{66}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces 上限値による画像の変化比較3}}{67}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{67}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{65}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{65}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$l = 5$}}}{65}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$l = 10$}}}{65}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces 各偽瞳孔の名称および場所}}{67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 1$}}}{67}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{67}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{67}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{67}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces 上限値による画像の変化比較4}}{68}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{68}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{68}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{68}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{68}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces 視点距離と偽瞳孔の位置関係（平面オブジェクト）}}{69}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {遠}}}{69}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {近}}}{69}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces 視点距離と偽瞳孔の位置関係（球体オブジェクト）}}{70}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {遠}}}{70}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {近}}}{70}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {位置を合わせて合成}}}{70}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces 視点距離と実行速度の関係}}{71}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト}}}{71}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト}}}{71}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces 視点距離と実行速度（平面）}}{72}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{72}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{72}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{72}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{72}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {図5}}}{72}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {図6}}}{72}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces 視点距離と実行速度（球体）}}{73}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{73}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{73}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{73}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{73}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {図5}}}{73}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {図6}}}{73}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces 個眼密度による実行結果の変化（平面）}}{74}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$R_t = 1$}}}{74}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$R_t = 5$}}}{74}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$R_t = 10$}}}{74}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$R_t = 50$}}}{74}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$R_t = 100$}}}{74}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$R_t = 500$}}}{74}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces 個眼密度による実行結果の変化（球体）}}{75}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$R_t = 1$}}}{75}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$R_t = 5$}}}{75}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$R_t = 10$}}}{75}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$R_t = 50$}}}{75}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$R_t = 100$}}}{75}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$R_t = 500$}}}{75}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces 個眼配置と偽瞳孔の関係}}{76}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {4つのside pupil}}}{76}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {軸方向}}}{76}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {3つのside pupil}}}{76}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {軸方向}}}{76}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces 実物のside pupil}}{77}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {6つのside pupil(\cite {flickr-blueeye}より転載)}}}{77}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {軸方向}}}{77}
-\contentsline {figure}{\numberline {6.22}{\ignorespaces 六角形の偽瞳孔（写真:\cite {yagi1951studies}より転載）}}{78}
-\contentsline {figure}{\numberline {6.23}{\ignorespaces リング状の偽瞳孔（写真:\cite {yagi1951studies}より転載）}}{79}
-\contentsline {figure}{\numberline {6.24}{\ignorespaces 貝殻オブジェクトへの適用}}{80}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{80}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{80}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{80}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{80}
-\contentsline {figure}{\numberline {6.25}{\ignorespaces 鳥頭オブジェクトへの適用}}{81}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{81}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{81}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{81}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{81}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces 実行速度と$l$の関係}}{68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平均値}}}{68}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {実測値}}}{68}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces 上限値による画像の変化比較3}}{69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{69}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{69}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{69}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{69}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces 上限値による画像の変化比較4}}{70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$l = 0$}}}{70}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$l = 1$}}}{70}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$l = 2$}}}{70}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$l = 3$}}}{70}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces 視点距離と偽瞳孔の位置関係（平面オブジェクト）}}{71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {遠}}}{71}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {近}}}{71}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces 視点距離と偽瞳孔の位置関係（球体オブジェクト）}}{72}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {遠}}}{72}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {近}}}{72}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {位置を合わせて合成}}}{72}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces 視点距離と実行速度の関係}}{73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平面オブジェクト}}}{73}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {球体オブジェクト}}}{73}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces 視点距離と実行速度（平面）}}{74}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{74}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{74}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{74}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{74}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {図5}}}{74}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {図6}}}{74}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces 視点距離と実行速度（球体）}}{75}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{75}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{75}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{75}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{75}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {図5}}}{75}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {図6}}}{75}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces 個眼密度による実行結果の変化（平面）}}{76}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$R_t = 1$}}}{76}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$R_t = 5$}}}{76}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$R_t = 10$}}}{76}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$R_t = 50$}}}{76}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$R_t = 100$}}}{76}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$R_t = 500$}}}{76}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces 個眼密度による実行結果の変化（球体）}}{77}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$R_t = 1$}}}{77}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$R_t = 5$}}}{77}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$R_t = 10$}}}{77}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$R_t = 50$}}}{77}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$R_t = 100$}}}{77}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$R_t = 500$}}}{77}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces 個眼配置と偽瞳孔の関係}}{78}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {4つのside pupil}}}{78}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {軸方向}}}{78}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {3つのside pupil}}}{78}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {軸方向}}}{78}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces 実物のside pupil}}{79}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {6つのside pupil(\cite {flickr-blueeye}より転載)}}}{79}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {軸方向}}}{79}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces 六角形の偽瞳孔（写真:\cite {yagi1951studies}より転載）}}{80}
+\contentsline {figure}{\numberline {6.23}{\ignorespaces リング状の偽瞳孔（写真:\cite {yagi1951studies}より転載）}}{81}
+\contentsline {figure}{\numberline {6.24}{\ignorespaces 貝殻オブジェクトへの適用}}{82}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{82}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{82}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{82}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{82}
+\contentsline {figure}{\numberline {6.25}{\ignorespaces 鳥頭オブジェクトへの適用}}{83}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{83}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{83}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{83}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{83}
 \addvspace {10\p@ }
