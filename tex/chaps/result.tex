@@ -79,7 +79,7 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 本手法では、レンズの位置座標とレンズの半径は独立して扱うことができる。
 \secref{SSInnerOuterProcess}でも述べたように、本手法では配置された球体レンズ同士の間の隙間を埋めるため、球の半径を球同士が接するよりも大きい値で設定しており、球の半径によって光の入射する領域のレンズの曲率が変化する。
 すなわち、球の半径$r$の設定値によって複眼の外観が変化するため、両者の関係について考察を行う。
-以下ではテクスチャに\figref{}を使用しており、テクスチャ解像度$R_t = 300$を使用している。
+以下ではテクスチャに後述の\figref{FBaseTexture}を使用しており、テクスチャ解像度$R_t = 300$を使用している。
 
 \begin{figure}[htbp]
   \centering
@@ -563,8 +563,66 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
 \end{figure}
 
 %------------------------------------------------------------------------------------------
+\newpage
+\section{実物との比較}
+\label{SCompareWithReal}
+
+昆虫の複眼は六角形の配置をしているため、\secref{SPseudopupil}で述べたようにside pupilはcentral pupilを中心として六方向に現れる。
+本研究では、簡単のために格子状の個眼配置をしているため、厳密には実物の配置とは異なる\figref{FGrid}。
+ゆえに、得られた結果ではside pupilの数に違いが見られる。
+
+また、球体オブジェクトに本手法を適用した例おいては、視線方向と個眼配置を決定するテクスチャの軸方向との関係性によりside pupilが3つ現れる場合と4つ現れる場合が確認できた。
+\figref{FArrow4}\figref{FArrow3}の赤い矢印がそれぞれの軸方向を表しており、結果画像\figref{FArrow4-fig}\figref{FArrow3-fig}では中心から軸方向に沿ってside pupilが展開されていることがわかる。
+偽瞳孔の位置関係は個眼の配置に依存しているので、実物の個眼と同様にレンズを配置すれば結果の再現性が高まると考えられる。
+\begin{figure}[htbp]
+  \centering
+\subfigure[4つのside pupil]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/005/screenshot002.bmp}
+\label{FArrow4-fig}}
+\subfigure[軸方向]{
+\includegraphics*[width=.45\columnwidth]{./img/arrow4.png}
+\label{FArrow4}}\\
+\subfigure[3つのside pupil]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/sphere/RefracLimit/005/screenshot001.bmp}
+\label{FArrow3-fig}}
+\subfigure[軸方向]{
+\includegraphics*[width=.45\columnwidth]{./img/arrow3.png}
+\label{FArrow3}}
+  \caption{個眼配置と偽瞳孔の関係}
+  \label{FArrow}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[6つのside pupil(\cite{flickr-blueeye}より転載)]{
+\includegraphics*[width=.45\columnwidth]{./img/crazy_bird.jpg}
+\label{FCrazyBird-fig}}
+\subfigure[軸方向]{
+\includegraphics*[width=.45\columnwidth]{./img/arrow_crazy_bird.png}
+\label{FArrowCrazyBird}}
+  \caption{実物のside pupil}
+  \label{FCrazyBird}
+\end{figure}
+
+以上から、本手法によって得られた結果は偽瞳孔の現れ方や部分的に偽瞳孔の特徴をよく再現できているといえる。
+しかしながら、\secref{SSCentralPupil}で述べたような色素細胞の位置によって偽瞳孔自体が六角形に近づく場合\figref{FYagiHex}や、central pupilおよびside pupilの周囲にリング状にあらわれる偽瞳孔(\figref{FYagiRing} 49)などの、本手法では表現できていない偽瞳孔現象についてはさらに試行の余地がある。
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=4.5in]{./img/yagi1-hex-real.png}
+  \caption{六角形の偽瞳孔（写真:\cite{yagi1951studies}より転載）}
+  \label{FYagiHex}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=4.5in]{./img/yagi1-ring-real.png}
+  \caption{リング状の偽瞳孔（写真:\cite{yagi1951studies}より転載）}
+  \label{FYagiRing}
+\end{figure}
 
 
+\newpage
 \section{さまざまなオブジェクト}
 \label{SVariousObject}
 
@@ -607,6 +665,7 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
   \label{FToriHead}
 \end{figure}
 
+\newpage
 \section{応用事例}%%-----remain---------!!!!!!!
 \label{SKagoshima}
 
