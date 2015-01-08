@@ -1,4 +1,34 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{akinci2013versatile}
+Nadir Akinci, Gizem Akinci, and Matthias Teschner.
+\newblock Versatile surface tension and adhesion for sph fluids.
+\newblock {\em ACM Transactions on Graphics (TOG)}, Vol.~32, No.~6, p. 182,
+  2013.
+
+\bibitem{garcia2012practical}
+Gregorio Jorge~Jim{\'e}nez Garc{\'\i}a.
+\newblock {\em Practical real-time strategies for photorealistic skin rendering
+  and antialiasing}.
+\newblock PhD thesis, Universidad de Zaragoza, 2012.
+
+\bibitem{guenther05efficientacquisition}
+JohannesGünther, Tongbo Chen, Michael Goesele, Ingo Wald, Hans peter Seidel.
+\newblock Efficient acquisition and realistic rendering of car paint.
+\newblock  IN VISION, MODELING, AND VISUALIZATION 2005 (VMV’05), pp.
+  487--494, 2005.
+
+\bibitem{jakob2014discrete}
+Wenzel Jakob, Milo{\v{s}} Ha{\v{s}}an, Ling-Qi Yan, Jason Lawrence, Ravi
+  Ramamoorthi, and Steve Marschner.
+\newblock Discrete stochastic microfacet models.
+\newblock {\em ACM Transactions on Graphics (TOG)}, Vol.~33, No.~4, p. 115,
+  2014.
+
+\bibitem{jorge-jimenez2013}
+Jorge Jim{\'e}nez.
+\newblock Next generation character rendering.
+\newblock In {\em GDC Proceedings 2013}, 2013.
 
 \bibitem{making-of-upside-down}
 Mathias Koehler.
@@ -29,11 +59,39 @@ Nobumasa Yagi.
   phylogeny of species.
 \newblock 1951.
 
+\bibitem{yagi1955studies}
+Nobumasa YAGI and Nagao KOYAMA.
+\newblock Studies on the compound eyes of lepidoptera: 3. on the pseudopupil of
+  gonepteryx butterflies.
+\newblock 1955.
+
 \bibitem{yagi1958studies}
 Nobumasa YAGI and Nagao KOYAMA.
 \newblock Studies on the compound eyes of lepidoptera: 4. on the compound eyes
   of two genera, colias and aporia, in pieridae.
 \newblock 1958.
+
+\bibitem{zhao2013modular}
+Shuang Zhao, Milos Hasan, Ravi Ramamoorthi, and Kavita Bala.
+\newblock Modular flux transfer: efficient rendering of high-resolution volumes
+  with repeated structures.
+\newblock {\em ACM Trans. Graph.}, Vol.~32, No.~4, p. 131, 2013.
+
+\bibitem{zhao2012structure}
+Shuang Zhao, Wenzel Jakob, Steve Marschner, and Kavita Bala.
+\newblock Structure-aware synthesis for predictive woven fabric appearance.
+\newblock {\em ACM Transactions on Graphics (TOG)}, Vol.~31, No.~4, p.~75,
+  2012.
+
+\bibitem{cg-magic}
+倉地紀子.
+\newblock CG Magic:レンダリング.
+\newblock 株式会社オーム社, 2007.
+
+\bibitem{kinosita-木下修一2001総論}
+木下修一.
+\newblock 総論 (特集 構造色とその応用).
+\newblock {\em O plus E}, Vol.~23, No.~3, pp. 298--301, 2001.
 
 \bibitem{nagata-2008-03-10}
 敏夫永田.
@@ -45,6 +103,11 @@ Nobumasa YAGI and Nagao KOYAMA.
 永田文男.
 \newblock 蝶の秘密（スジグロシロチョウ－偽瞳孔）.
 \newblock \url{http://www.technex.co.jp/tinycafe/discovery45.html}.
+
+\bibitem{newton-2012-6}
+田中源吾, 河村正二.
+\newblock 知られざる眼のヒストリー, 第6巻, pp. 94--99.
+\newblock ニュートンプレス, 2012.
 
 \bibitem{arikawa-zougan}
 蟻川謙太郎.

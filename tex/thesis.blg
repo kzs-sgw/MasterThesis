@@ -8,51 +8,53 @@ A level-1 auxiliary file: chaps/experiment.aux
 A level-1 auxiliary file: chaps/method.aux
 A level-1 auxiliary file: chaps/result.aux
 A level-1 auxiliary file: chaps/conclusion.aux
+A level-1 auxiliary file: chaps/artfesta.aux
 A level-1 auxiliary file: chaps/acknowledgement.aux
 The style file: jplain.bst
 Database file #1: sagawa.bib.bib
 Warning--empty journal in yagi1951studies
+Warning--empty journal in yagi1955studies
 Warning--empty journal in yagi1958studies
-You've used 9 entries,
+You've used 20 entries,
             2620 wiz_defined-function locations,
-            649 strings with 6134 characters,
-and the built_in function-call counts, 3014 in all, are:
-= -- 248
-> -- 88
-< -- 7
-+ -- 37
-- -- 28
-* -- 130
-:= -- 418
-add.period$ -- 28
-call.type$ -- 9
-change.case$ -- 41
+            712 strings with 7803 characters,
+and the built_in function-call counts, 7522 in all, are:
+= -- 621
+> -- 260
+< -- 24
++ -- 108
+- -- 88
+* -- 377
+:= -- 1042
+add.period$ -- 61
+call.type$ -- 20
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 165
-empty$ -- 289
-format.name$ -- 42
-if$ -- 690
+cite$ -- 23
+duplicate$ -- 422
+empty$ -- 656
+format.name$ -- 132
+if$ -- 1724
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 5
-newline$ -- 48
-num.names$ -- 18
-pop$ -- 106
+int.to.str$ -- 20
+missing$ -- 17
+newline$ -- 103
+num.names$ -- 40
+pop$ -- 219
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 84
 quote$ -- 0
-skip$ -- 161
+skip$ -- 392
 stack$ -- 0
-substring$ -- 121
-swap$ -- 33
-text.length$ -- 7
+substring$ -- 286
+swap$ -- 103
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
-warning$ -- 2
-while$ -- 26
-width$ -- 10
-write$ -- 90
-is.kanji.str$ -- 78
-(There were 2 warnings)
+type$ -- 76
+warning$ -- 3
+while$ -- 61
+width$ -- 22
+write$ -- 208
+is.kanji.str$ -- 204
+(There were 3 warnings)

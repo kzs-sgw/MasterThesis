@@ -58,7 +58,6 @@
 \contentsline {chapter}{\numberline {第7章}おわりに}{89}
 \contentsline {section}{\numberline {7.1}結論}{89}
 \contentsline {section}{\numberline {7.2}今後の展望}{90}
-\contentsline {chapter}{\numberline {第8章}応用事例}{91}
-\contentsline {section}{\numberline {8.1}かごしまアートフェスタ2014}{91}
+\contentsline {section}{\numberline {7.3}かごしまアートフェスタ2014}{91}
 \contentsline {chapter}{謝辞}{93}
 \contentsline {chapter}{参考文献}{95}

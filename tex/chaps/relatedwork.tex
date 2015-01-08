@@ -23,15 +23,15 @@
   \begin{center}
    \includegraphics[width=70mm]{./img/back_hq.png}
   \end{center}
-  \caption{一つめの図}
-  \label{fig:one}
+  \caption{G\"{u}nther1}
+  \label{FGuenther1}
  \end{minipage}
  \begin{minipage}{0.75\hsize}
   \begin{center}
     \includegraphics[width=70mm]{./img/sparkles.png}
   \end{center}
-  \caption{二つめの図}
-  \label{fig:two}
+  \caption{G\"{u}nther2}
+  \label{FGuenther2}
  \end{minipage}
 \end{figure}
 
@@ -41,15 +41,15 @@
   \begin{center}
    \includegraphics[width=70mm]{./img/porsche01.png}
   \end{center}
-  \caption{一つめの図}
-  \label{fig:one}
+  \caption{Rump1}
+  \label{FRump1}
  \end{minipage}
  \begin{minipage}{0.75\hsize}
   \begin{center}
     \includegraphics[width=70mm]{./img/porsche03.png}
   \end{center}
-  \caption{二つめの図}
-  \label{fig:two}
+  \caption{図2}
+  \label{FRump2}
  \end{minipage}
 \end{figure}
 
@@ -92,12 +92,12 @@
 こうした性質のある構造色をCGで表現する研究は1980年代にはすでに行われており、現在に至るまでさまざまな物質や気象現象に関する構造色がCGによって表現されている。
 その中でも、とくに物体の表面構造が関係している構造色の例としては、薄膜干渉によるシャボン玉\figref{FSyabon}や多層膜干渉による鉱石\figref{FKouseki}、回折によって生じるCDなどの光学ディスク\figref{}、そのほかにも鱗粉のミクロ構造によるモルフォチョウの翅\figref{}などが挙げられる。
 
-シャボン玉の表面は薄膜構造になっており厚みが光の波長以下となるため、薄膜の表面で反射する光と薄膜の裏面で反射する光が干渉を起こし虹色に見える。
+たとえば、シャボン玉の表面は薄膜構造になっており厚みが光の波長以下となるため、薄膜の表面で反射する光と薄膜の裏面で反射する光が干渉を起こし虹色に見える。
 Icartら\cite{}は重力による薄膜の厚みの変化を考慮したシャボン玉のCG表現の研究を行い、岩崎ら\cite{}は薄膜の厚みが動的に変化するシャボン玉をレンダリングする研究を行い、事前計算によるテクスチャを生成することによってリアルタイムでの表現を可能とした。
 これらのように、形状などのジオメトリの変化が色に変化を与えることも構造色の特徴である。
 また、多層膜のように干渉する膜の数が増えると、光の計算はさらに複雑になる。
 
-\textcolor{red}{****回折、モルフォの解説****}
+%% \textcolor{red}{****回折、モルフォの解説****}
 
 \begin{figure}[htbp]
   \centering
@@ -120,33 +120,33 @@ Icartら\cite{}は重力による薄膜の厚みの変化を考慮したシャ�
 織布は織糸の小さいスケールの立体構造によって変化するさまざまな外観を有する。
 その構造的なディティールを正確にモデリングすることで非常にリアリスティックな織布のレンダリングをすることができるが、織糸レベルのボリューメトリック(volumetric)なモデルを作成するには非常にコストがかかる。
 
-Zhaoら\cite{}は織糸の立体構造を自由に構築するために、詳細な生地サンプルをスキャンするのではなく、シンプルな織り構造の生地サンプルをスキャンすることによってボリューメトリックな標本のデータベースを作成し、それらからデータをコピーすることによって目的のボリュームデータを合成している。
+Zhaoら\cite{zhao2012structure}は織糸の立体構造を自由に構築するために、詳細な生地サンプルをスキャンするのではなく、シンプルな織り構造の生地サンプルをスキャンすることによってボリューメトリックな標本のデータベースを作成し、それらからデータをコピーすることによって目的のボリュームデータを合成している。
 その結果、統一的にさまざまな織りの布を表現することができ、大小のスケールの両方で非常にリアルな出力画像を生み出すことができている。
 
-\textcolor{red}{****もう少し解説を追加****}
+%% \textcolor{red}{****もう少し解説を追加****}
 
 \begin{figure}[htbp]
  \begin{minipage}{0.4\hsize}
   \begin{center}
    \includegraphics[width=70mm]{./img/mft_purple_cloth_ld.jpg}
   \end{center}
-  \caption{一つめの図}
-  \label{fig:one}
+  \caption{織布のレンダリング（\cite{zhao2013modular}）}
+  \label{FZhao1}
  \end{minipage}
  \begin{minipage}{0.75\hsize}
   \begin{center}
     \includegraphics[width=70mm]{./img/mft_zoom_ld.jpg}
   \end{center}
-  \caption{二つめの図}
-  \label{fig:two}
+  \caption{織布のレンダリング（拡大）（\cite{zhao2013modular}より転載）}
+  \label{FZhao2}
  \end{minipage}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=5.5in]{./img/cussions.jpg}
-  \caption{クッション}
-  \label{F}
+  \caption{織布のレンダリング(\cite{zhao2012structure}より転載)}
+  \label{FZhao3}
 \end{figure}
 
 \section{本研究の位置づけ}
@@ -154,8 +154,10 @@ Zhaoら\cite{}は織糸の立体構造を自由に構築するために、詳細
 
 先述のように、表面微細構造を考慮したレンダリングに関する研究はいくつか存在する。
 それらは本研究で対象としている複眼のCG表現と直接的に関連する研究ではないが、いずれも微細な構造が巨視的な外観に影響する材質に関する研究であると言える。
-マイクロファセットおよび構造色は表面構造を持つといえども、全体としては均一な表面材質である。
-一方、織布のレンダリングに関しては、肉眼で目視可能なレベルのスケールの構造物があり、複眼と同様に一定の条件で整列した構造をしている。
+マイクロファセットおよび構造色は肉眼では視認できない微細な構造をしている一方、織布のレンダリングに関しては、肉眼で目視可能なレベルのスケールの構造物があり、複眼と同様に一定の条件で整列した構造をしている。
+また、こうした微細構造に基づく質感は品質を要求するほど計算時間がかかるため、両立することが困難な場合がある。
+本研究では、微細構造をもつ複眼をの外観に対してリアリティを追求しつつ、リアルタイム処理の実現を目標とする。
 
-\textcolor{red}{****比較とか****}
-\textcolor{red}{ほかのやつはたいていランダムにやってもできるけど、本研究の対象である複眼は綺麗に並んでるやつだからそう簡単にはいかないよ}
+
+%% \textcolor{red}{****比較とか****}
+%% \textcolor{red}{ほかのやつはたいていランダムにやってもできるけど、本研究の対象である複眼は綺麗に並んでるやつだからそう簡単にはいかないよ}
