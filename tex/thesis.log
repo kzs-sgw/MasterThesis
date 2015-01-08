@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  8 JAN 2015 16:14
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  8 JAN 2015 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,6 +223,87 @@ Package: `setspace' 6.7 <2000/12/01>
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(c:/w32tex/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(c:/w32tex/share/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
 (c:/w32tex/share/texmf-dist/tex/latex/txr/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
@@ -379,14 +460,14 @@ LaTeX Warning: Label `FMarker3' multiply defined.
 
 LaTeX Warning: Label `sub@FMarker3' multiply defined.
 
-) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
+) (./chaps/conclusion.aux) (./chaps/artfesta.aux) (./chaps/acknowledgement.aux)
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 104.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 104
 .
-
-(c:/w32tex/share/texmf-dist/tex/latex/txr/omltxmi.fd
+ (c:/w32tex/share/texmf-dist/tex/latex/txr/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 104.
@@ -422,9 +503,17 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+
+
+(c:/w32tex/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 104.
 
 (I search kanjifont definition file: . . ) (I search font definition file: . .
-. . . . . )
+. . . . . . )
 LaTeX Font Info:    Try loading font information for OT1+txr on input line 104.
 
  (c:/w32tex/share/texmf-dist/tex/latex/txr/ot1txr.fd
@@ -511,18 +600,13 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 \openout3 = `thesis.toc'.
 
  [6]
-(./thesis.lof
+(./thesis.lof [7
 
-LaTeX Warning: Citation `yagi1958studies' on page vii undefined on input line 2
-2.
-
-[7
-
-] [8])
+] [8] [9])
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [9] [10] (./thesis.lot)
+ [10] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
@@ -533,7 +617,8 @@ LaTeX Warning: Citation `yagi1958studies' on page vii undefined on input line 2
 ]
 \openout2 = `chaps/introduction.aux'.
 
- (./chaps/introduction.tex
+
+(./chaps/introduction.tex
 第1章
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
@@ -551,33 +636,62 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 4.
+
+LaTeX Warning: Citation `jorge-jimenez2013' on page 1 undefined on input line 1
+7.
+
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 17.
+(Font)              scaled to size 11.53198pt on input line 20.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 17.
+(Font)              scaled to size 11.53198pt on input line 20.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 17.
+(Font)              scaled to size 11.53198pt on input line 20.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 17.
+(Font)              scaled to size 11.53198pt on input line 20.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 17.
+(Font)              scaled to size 11.39996pt on input line 20.
 [1
 
 
-] [2] [3]
+]
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 74.
-
-
-LaTeX Warning: Reference `' on page 4 undefined on input line 74.
+LaTeX Warning: Citation `cg-magic' on page 2 undefined on input line 29.
 
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 75.
+LaTeX Warning: Citation `cg-magic' on page 2 undefined on input line 34.
 
-[4]) [5]
+
+LaTeX Warning: Citation `garcia2012practical' on page 2 undefined on input line
+ 39.
+
+[2]
+
+LaTeX Warning: Citation `jorge-jimenez2013' on page 3 undefined on input line 4
+6.
+
+
+LaTeX Warning: Citation `kinosita-木下修一2001総論' on page 3 undefined on inpu
+t line 48.
+
+
+LaTeX Warning: Citation `akinci2013versatile' on page 3 undefined on input line
+ 51.
+
+[3]
+File: ./img/yagi3-lens-pigment.png Graphic file (type bmp)
+ <./img/yagi3-lens-pigment.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 78.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 78.
+File: ./img/what_is_pseudopupil.png Graphic file (type bmp)
+ <./img/what_is_pseudopupil.png> [4] [5]
+File: ./img/displacement.jpg Graphic file (type bmp)
+
+<./img/displacement.jpg>) [6] [7]
 \openout2 = `chaps/relatedwork.aux'.
 
- (./chaps/relatedwork.tex [6
+ (./chaps/relatedwork.tex [8
 
 
 
@@ -589,17 +703,13 @@ Overfull \hbox (43.8242pt too wide) in paragraph at lines 24--25
  [] 
  []
 
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 26.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 26.
 File: ./img/sparkles.png Graphic file (type bmp)
 <./img/sparkles.png>
 Overfull \hbox (60.15292pt too wide) in paragraph at lines 22--36
 []$[]$ $[]$ 
  []
 
-[7]
+[9]
 File: ./img/porsche01.png Graphic file (type bmp)
  <./img/porsche01.png>
 Overfull \hbox (43.8242pt too wide) in paragraph at lines 42--43
@@ -612,7 +722,7 @@ Overfull \hbox (60.15292pt too wide) in paragraph at lines 40--54
 []$[]$ $[]$ 
  []
 
-[8]
+[10]
 File: ./img/heel_ornament.jpg Graphic file (type bmp)
  <./img/heel_ornament.jpg>
 File: ./img/syabon_iwasaki.jpg Graphic file (type bmp)
@@ -621,19 +731,19 @@ File: ./img/kouseki_weidlich.jpg Graphic file (type bmp)
 
 <./img/kouseki_weidlich.jpg>
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 93.
+LaTeX Warning: Reference `' on page 11 undefined on input line 93.
 
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 93.
+LaTeX Warning: Reference `' on page 11 undefined on input line 93.
 
-[9] [10]
+[11] [12]
 File: ./img/morpho_s.jpg Graphic file (type bmp)
  <./img/morpho_s.jpg>
 File: ./img/Morpho_sadeghi.png Graphic file (type bmp)
  <./img/Morpho_sadeghi.png>
 File: ./img/morpho_okada.jpg Graphic file (type bmp)
 
-<./img/morpho_okada.jpg> [11] [12]
+<./img/morpho_okada.jpg> [13] [14]
 File: ./img/mft_purple_cloth_ld.jpg Graphic file (type bmp)
  <./img/mft_purple_cloth_ld.jpg>
 Overfull \hbox (43.8242pt too wide) in paragraph at lines 131--132
@@ -652,80 +762,68 @@ Overfull \hbox (9.11636pt too wide) in paragraph at lines 147--148
  [][] 
  []
 
-) [13] [14]
+) [15] [16]
 \openout2 = `chaps/knowledge.aux'.
 
  (./chaps/knowledge.tex
 第3章
-File: ./img/ommatidia.eps Graphic file (type eps)
-<./img/ommatidia.eps>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation `newton-2012-6' on page 17 undefined on input line 9.
 
-[15
+
+LaTeX Warning: Citation `newton-2012-6' on page 17 undefined on input line 10.
+
+
+LaTeX Warning: Citation `newton-2012-6' on page 17 undefined on input line 17.
+
+
+LaTeX Warning: Citation `newton-2012-6' on page 17 undefined on input line 18.
+
+
+LaTeX Warning: Citation `newton-2012-6' on page 17 undefined on input line 19.
+
+[17
 
 
 
 ]
+File: ./img/ommatidia.eps Graphic file (type eps)
+ <./img/ommatidia.eps> [18]
 File: ./img/renrituzougan.jpg Graphic file (type bmp)
  <./img/renrituzougan.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16]
 File: ./img/tyoufukuzougan.jpg Graphic file (type bmp)
- <./img/tyoufukuzougan.jpg>
+<./img/tyoufukuzougan.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./img/fukugan_kakudai.jpg Graphic file (type bmp)
-<./img/fukugan_kakudai.jpg> [17] [18]
-
-LaTeX Warning: Reference `' on page 19 undefined on input line 86.
-
-[19]
+<./img/fukugan_kakudai.jpg> [19] [20] [21]
 File: ./img/yagi4-3types.png Graphic file (type bmp)
- <./img/yagi4-3types.png>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 118.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 118.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 118.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 118.
-
-
-LaTeX Warning: Citation `yagi1958studies' on page 20 undefined on input line 11
-8.
-
-
-LaTeX Warning: Citation `yagi1958studies' on page 20 undefined on input line 11
-8.
-
-[20]
+ <./img/yagi4-3types.png> [22]
+[23]
 File: ./img/sidepupil_exp.eps Graphic file (type eps)
- <./img/sidepupil_exp.eps>) [21] [22]
+ <./img/sidepupil_exp.eps>) [24]
 \openout2 = `chaps/experiment.aux'.
 
  (./chaps/experiment.tex
 第4章
-[23
+[25
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 27.
- (c:/w32tex/share/texmf-dist/tex/latex/txr/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 27.
+ (c:/w32tex/share/texmf-dist/tex/latex/txr/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 27.
 File: ./img/exp_asemble_parts.jpg Graphic file (type bmp)
 
-<./img/exp_asemble_parts.jpg> [24]
+<./img/exp_asemble_parts.jpg> [26]
 File: ./img/exp_metal_black.jpg Graphic file (type bmp)
- <./img/exp_metal_black.jpg> [25]
+ <./img/exp_metal_black.jpg> [27]
 File: ./img/exp_first_kakudai.jpg Graphic file (type bmp)
 
 <./img/exp_first_kakudai.jpg>
@@ -735,7 +833,7 @@ File: ./img/exp_touritsu.jpg Graphic file (type bmp)
 
 <./img/exp_touritsu.jpg>
 File: ./img/exp_wood.jpg Graphic file (type bmp)
- <./img/exp_wood.jpg> [26] [27]
+ <./img/exp_wood.jpg> [28] [29]
 File: ./img/exp_narabe_six.jpg Graphic file (type bmp)
 
 <./img/exp_narabe_six.jpg>
@@ -762,11 +860,11 @@ File: ./img/exp_middlespot_circle.png Graphic file (type bmp)
  <./img/exp_middlespot_circle.png>
 File: ./img/exp_eyedistance.eps Graphic file (type eps)
 
-<./img/exp_eyedistance.eps> [28] [29] [30] [31]) [32] [33]
+<./img/exp_eyedistance.eps> [30] [31] [32] [33]) [34] [35]
 \openout2 = `chaps/method.aux'.
 
  (./chaps/method.tex
-[34
+[36
 
 
 
@@ -777,57 +875,57 @@ File: ./img/surface_sphere.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35]
+[37]
 File: ./img/graph/algo_framework.png Graphic file (type bmp)
  <./img/graph/algo_framework.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36]
+[38]
 File: ./img/tex_sphere_pos.eps Graphic file (type eps)
  <./img/tex_sphere_pos.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37]
+[39]
 File: ./img/sphere_position.eps Graphic file (type eps)
  <./img/sphere_position.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38] [39]
-
-LaTeX Warning: Reference `' on page 40 undefined on input line 117.
-
 [40] [41]
+
+LaTeX Warning: Reference `' on page 42 undefined on input line 117.
+
+[42] [43]
 File: ./img/polygon_explain.eps Graphic file (type eps)
- <./img/polygon_explain.eps> [42] [43] [44] [45]
+ <./img/polygon_explain.eps> [44] [45] [46] [47]
 File: ./img/four_sphere_negative.png Graphic file (type bmp)
 
 <./img/four_sphere_negative.png>
 File: ./img/find_first_sphere2.eps Graphic file (type eps)
- <./img/find_first_sphere2.eps> [46] [47]
+ <./img/find_first_sphere2.eps> [48] [49]
 File: ./img/sphere_refract.eps Graphic file (type eps)
 
 <./img/sphere_refract.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48]
+[50]
 File: ./img/graph/next_sphere_algorithm.png Graphic file (type bmp)
  <./img/graph/next_sphere_algorithm.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./img/area_division.eps Graphic file (type eps)
-<./img/area_division.eps> [49]
+<./img/area_division.eps> [51]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50] [51] [52]) [53]
+[52] [53] [54]) [55]
 \openout2 = `chaps/result.aux'.
 
- (./chaps/result.tex [54
+ (./chaps/result.tex [56
 
 
 
@@ -837,7 +935,7 @@ File: ./img/screenshot/sphere/Noise/pscreenshot005.bmp Graphic file (type bmp)
 <./img/screenshot/sphere/Noise/pscreenshot005.bmp>
 File: ./img/screenshot/sphere/Noise/screenshot000.bmp Graphic file (type bmp)
 
-<./img/screenshot/sphere/Noise/screenshot000.bmp> [55] [56]
+<./img/screenshot/sphere/Noise/screenshot000.bmp> [57] [58]
 File: ./img/screenshot/sphere/Radius/1_30/screenshot000.bmp Graphic file (type 
 bmp)
 
@@ -892,10 +990,13 @@ File: ./img/screenshot/sphere/Radius/1_10/screenshot002.bmp Graphic file (type
 bmp)
 
 <./img/screenshot/sphere/Radius/1_10/screenshot002.bmp>
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 122.
+
 
 LaTeX Warning: Float too large for page by 8.39597pt on input line 124.
 
-[57] [58]
+[59] [60]
 File: ./img/screenshot/sphere/Distortion/tex_tortion1.png Graphic file (type bm
 p)
  <./img/screenshot/sphere/Distortion/tex_tortion1.png>
@@ -922,7 +1023,7 @@ mp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 164.
 
-[59] [60]
+[61] [62]
 File: ./img/screenshot/texture/spot.jpg Graphic file (type bmp)
  <./img/screenshot/texture/spot.jpg>
 File: ./img/screenshot/texture/spot.bmp Graphic file (type bmp)
@@ -946,12 +1047,12 @@ File: ./img/screenshot/texture/spot5.bmp Graphic file (type bmp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 213.
 
-[61]
+[63]
 File: ./img/screenshot/plane_wireframe.png Graphic file (type bmp)
  <./img/screenshot/plane_wireframe.png>
 File: ./img/screenshot/sphere_wireframe.png Graphic file (type bmp)
 
-<./img/screenshot/sphere_wireframe.png> [62] [63] [64]
+<./img/screenshot/sphere_wireframe.png> [64] [65] [66]
 File: ./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp Graphic file (t
 ype bmp)
 
@@ -1005,7 +1106,7 @@ ype bmp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 314.
 
-[65] [66] [67]
+[67] [68] [69]
 File: ./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png Graphic file (
 type bmp)
  <./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png>
@@ -1017,8 +1118,8 @@ File: ./img/graph/exetime_average.png Graphic file (type bmp)
 
 <./img/graph/exetime_average.png>
 File: ./img/graph/exetime_samp.png Graphic file (type bmp)
- <./img/graph/exetime_samp.png> [68] [69]
-[70]
+ <./img/graph/exetime_samp.png> [70] [71]
+[72]
 File: ./img/screenshot/sphere/RefracLimit/000/marker4.png Graphic file (type bm
 p)
  <./img/screenshot/sphere/RefracLimit/000/marker4.png>
@@ -1049,7 +1150,7 @@ File: ./img/screenshot/sphere/RefracLimit/002/marker.png Graphic file (type bmp
 File: ./img/screenshot/sphere/RefracLimit/003/marker.png Graphic file (type bmp
 )
 
-<./img/screenshot/sphere/RefracLimit/003/marker.png> [71]
+<./img/screenshot/sphere/RefracLimit/003/marker.png> [73]
 File: ./img/screenshot/distance/screenshot000.bmp Graphic file (type bmp)
 
 <./img/screenshot/distance/screenshot000.bmp>
@@ -1064,12 +1165,12 @@ File: ./img/screenshot/distance/screenshot007.bmp Graphic file (type bmp)
 <./img/screenshot/distance/screenshot007.bmp>
 File: ./img/screenshot/distance/merge.png Graphic file (type bmp)
 
-<./img/screenshot/distance/merge.png> [72]
+<./img/screenshot/distance/merge.png> [74]
 File: ./img/graph/dist_plane.png Graphic file (type bmp)
  <./img/graph/dist_plane.png>
 File: ./img/graph/dist_sphere.png Graphic file (type bmp)
 
-<./img/graph/dist_sphere.png> [73]
+<./img/graph/dist_sphere.png> [75]
 File: ./img/screenshot/distance/plane_fps/screenshot001.bmp Graphic file (type 
 bmp)
 
@@ -1117,7 +1218,7 @@ File: ./img/screenshot/distance/sphere_fps/screenshot005.bmp Graphic file (type
 File: ./img/screenshot/distance/sphere_fps/screenshot006.bmp Graphic file (type
  bmp)
 
-<./img/screenshot/distance/sphere_fps/screenshot006.bmp> [74] [75]
+<./img/screenshot/distance/sphere_fps/screenshot006.bmp> [76] [77]
 File: ./img/screenshot/texreso/plane_rs1.bmp Graphic file (type bmp)
 
 <./img/screenshot/texreso/plane_rs1.bmp>
@@ -1159,7 +1260,7 @@ File: ./img/screenshot/texreso/sphere_rs500.bmp Graphic file (type bmp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 563.
 
-[76]
+[78]
 File: ./img/screenshot/phong/screenshot000.bmp Graphic file (type bmp)
  <./img/screenshot/phong/screenshot000.bmp>
 File: ./img/screenshot/phong/screenshot001.bmp Graphic file (type bmp)
@@ -1170,7 +1271,7 @@ File: ./img/screenshot/phong/screenshot002.bmp Graphic file (type bmp)
 <./img/screenshot/phong/screenshot002.bmp>
 File: ./img/screenshot/phong/screenshot003.bmp Graphic file (type bmp)
 
-<./img/screenshot/phong/screenshot003.bmp> [77] [78] [79]
+<./img/screenshot/phong/screenshot003.bmp> [79] [80] [81]
 File: ./img/screenshot/sphere/RefracLimit/005/screenshot002.bmp Graphic file (t
 ype bmp)
 
@@ -1183,16 +1284,16 @@ ype bmp)
 <./img/screenshot/sphere/RefracLimit/005/screenshot001.bmp>
 File: ./img/arrow3.png Graphic file (type bmp)
  <./img/arrow3.png>
-[80]
+[82]
 File: ./img/crazy_bird.jpg Graphic file (type bmp)
  <./img/crazy_bird.jpg>
 File: ./img/arrow_crazy_bird.png Graphic file (type bmp)
- <./img/arrow_crazy_bird.png> [81]
+ <./img/arrow_crazy_bird.png> [83]
 File: ./img/yagi1-hex-real.png Graphic file (type bmp)
 
 <./img/yagi1-hex-real.png>
 File: ./img/yagi1-ring-real.png Graphic file (type bmp)
- <./img/yagi1-ring-real.png> [82] [83] [84]
+ <./img/yagi1-ring-real.png> [84] [85] [86]
 File: ./img/screenshot/obj/shell/screenshot001.bmp Graphic file (type bmp)
 
 <./img/screenshot/obj/shell/screenshot001.bmp>
@@ -1216,30 +1317,47 @@ File: ./img/screenshot/obj/tori_head/screenshot003.bmp Graphic file (type bmp)
 <./img/screenshot/obj/tori_head/screenshot003.bmp>
 File: ./img/screenshot/obj/tori_head/screenshot004.bmp Graphic file (type bmp)
 
-<./img/screenshot/obj/tori_head/screenshot004.bmp> [85]) [86]
+<./img/screenshot/obj/tori_head/screenshot004.bmp>) [87] [88]
 \openout2 = `chaps/conclusion.aux'.
 
 
 (./chaps/conclusion.tex
 第7章
-[87
+[89
 
 
 
-]) [88]
+]) [90]
+\openout2 = `chaps/artfesta.aux'.
+
+ (./chaps/artfesta.tex
+第8章
+File: ./img/bircco_green.jpg Graphic file (type bmp)
+<./img/bircco_green.jpg>
+File: ./img/bircco_red.jpg Graphic file (type bmp)
+ <./img/bircco_red.jpg>
+File: ./img/bircco_youjo1.jpg Graphic file (type bmp)
+ <./img/bircco_youjo1.jpg>
+File: ./img/bircco_youjo2.jpg Graphic file (type bmp)
+
+<./img/bircco_youjo2.jpg>) [91
+
+
+
+] [92]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex) [89
+ (./chaps/acknowledgement.tex) [93
 
 
 
-] (./thesis.bbl [90
+]
+(./thesis.bbl [94
 
 
 ]
 LaTeX Font Info:    Try loading font information for OT1+txtt on input line 6.
-
-(c:/w32tex/share/texmf-dist/tex/latex/txr/ot1txtt.fd
+ (c:/w32tex/share/texmf-dist/tex/latex/txr/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
@@ -1256,14 +1374,14 @@ Underfull \hbox (badness 6016) in paragraph at lines 21--24
 . flickr . com / photos / 60007327 @ N00 /
  []
 
-[91]) [92] [93
+[95]) [96] [97
 
-] [94
+] [98
 
 ] (./thesis.aux (./chaps/introduction.aux)
 (./chaps/relatedwork.aux) (./chaps/knowledge.aux) (./chaps/experiment.aux)
 (./chaps/method.aux) (./chaps/result.aux) (./chaps/conclusion.aux)
-(./chaps/acknowledgement.aux))
+(./chaps/artfesta.aux) (./chaps/acknowledgement.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1272,12 +1390,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3778 strings out of 493799
- 52650 string characters out of 6153369
- 101044 words of memory out of 5000000
- 6942 multiletter control sequences out of 15000+600000
- 45508 words of font info for 158 fonts, out of 8000000 for 9000
+ 4284 strings out of 493799
+ 60502 string characters out of 6153369
+ 103969 words of memory out of 5000000
+ 7423 multiletter control sequences out of 15000+600000
+ 45073 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 33i,11n,33p,466b,509s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 31i,11n,26p,466b,475s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (106 pages, 204168 bytes).
+Output written on thesis.dvi (110 pages, 210640 bytes).

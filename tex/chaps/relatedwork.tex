@@ -15,7 +15,7 @@
 \subsection{マイクロファセットモデル}
 
 表面のマイクロファセット（microfacet）構造の例として車の塗装のようにざらついたようなきらめきを持つ材質がある。
-こうした材質をレンダリングする手法として、G\"{u}ntherら\cite{}はノーマルマップ（normal map: 法線マップ）を利用し、Rumpら\cite{rump-2008-photo-realistic}は測定したテクスチャを用いた手法をそれぞれ提唱している。
+こうした材質をレンダリングする手法として、G\"{u}ntherら\cite{guenther05efficientacquisition}はノーマルマップ（normal map: 法線マップ）を利用し、Rumpら\cite{rump-2008-photo-realistic}は測定したテクスチャを用いた手法をそれぞれ提唱している。
 
 %Guenther
 \begin{figure}[htbp]
@@ -54,7 +54,7 @@
 \end{figure}
 
 \noindent
-また、Wenzelら\cite{}の行ったハイヒールの表面やクリスマスオーナメントのようにきらめく材質のレンダリングに関する研究では、サーフェスもしくは観測者の動きに合わせて変化するきらめきのランダムなパターンを表現している。
+また、Jakobら\cite{jakob2014discrete}の行ったハイヒールの表面やクリスマスオーナメントのようにきらめく材質のレンダリングに関する研究では、サーフェスもしくは観測者の動きに合わせて変化するきらめきのランダムなパターンを表現している。
 この手法の対象は鏡のような薄片を含むダイナミックにきらめく表面材質、およびかすかに小さいスケールのきらめきを示す粗い表面材質である。
 これらの現象は原則的にはG\"{u}ntherらのように高解像度のノーマルマップによって表現することができる。
 しかし、細かな特徴をもつマップは角度のついた照明条件下ではエイリアシング(aliasing)において重大な問題を抱えてしまう。
@@ -64,7 +64,7 @@
 \begin{figure}[hn]
   \centering
   \includegraphics[width=5.0in]{./img/heel_ornament.jpg}
-  \caption{ハイヒールとオーナメントの絵\cite{}}
+  \caption{ハイヒールとオーナメントの絵\cite{jakob2014discrete}}
   \label{F}
 \end{figure}
 
