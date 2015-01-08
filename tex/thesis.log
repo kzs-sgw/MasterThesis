@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  8 JAN 2015 13:13
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  8 JAN 2015 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -74,24 +74,12 @@ Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
 LaTeX Info: Redefining \bm on input line 203.
 )
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amscd.sty
-Package: amscd 1999/11/29 v2.0
-
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
-\ex@=\dimen124
-)
-\athelp@=\toks17
-\minaw@=\dimen125
-\bigaw@=\dimen126
-\minCDarrowwidth=\dimen127
-)
 (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
 \symAMSa=\mathgroup9
 \symAMSb=\mathgroup10
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -101,21 +89,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: multicol 2014/08/24 v1.8g multicolumn formatting (FMi)
 \c@tracingmulticols=\count91
 \mult@box=\box41
-\multicol@leftmargin=\dimen128
+\multicol@leftmargin=\dimen124
 \c@unbalance=\count92
 \c@collectmore=\count93
 \doublecol@number=\count94
 \multicoltolerance=\count95
 \multicolpretolerance=\count96
-\full@width=\dimen129
-\page@free=\dimen130
-\premulticols=\dimen131
-\postmulticols=\dimen132
+\full@width=\dimen125
+\page@free=\dimen126
+\premulticols=\dimen127
+\postmulticols=\dimen128
 \multicolsep=\skip43
 \multicolbaselineskip=\skip44
 \partial@page=\box42
 \last@line=\box43
-\maxbalancingoverflow=\dimen133
+\maxbalancingoverflow=\dimen129
 \mult@rightbox=\box44
 \mult@grightbox=\box45
 \mult@gfirstbox=\box46
@@ -139,9 +127,9 @@ Package: multicol 2014/08/24 v1.8g multicolumn formatting (FMi)
 \@tempa=\box64
 \c@columnbadness=\count97
 \c@finalcolumnbadness=\count98
-\last@try=\dimen134
-\multicolovershoot=\dimen135
-\multicolundershoot=\dimen136
+\last@try=\dimen130
+\multicolovershoot=\dimen131
+\multicolundershoot=\dimen132
 \mult@nat@firstbox=\box65
 \colbreak@box=\box66
 \mc@col@check@num=\count99
@@ -153,11 +141,16 @@ Package: amsmath 2013/01/14 v2.14 AMS math features
 For additional information on amsmath, use the `?' option.
 (c:/w32tex/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
-)
+
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen133
+))
 (c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 LaTeX Info: Redefining \boldsymbol on input line 39.
-\pmbraise@=\dimen137
+\pmbraise@=\dimen134
 )
 (c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -174,7 +167,7 @@ LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box67
 \strutbox@=\box68
-\big@size=\dimen138
+\big@size=\dimen135
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count105
@@ -187,12 +180,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \column@=\count110
 \maxfields@=\count111
 \andhelp@=\toks19
-\eqnshift@=\dimen139
-\alignsep@=\dimen140
-\tagshift@=\dimen141
-\tagwidth@=\dimen142
-\totwidth@=\dimen143
-\lineht@=\dimen144
+\eqnshift@=\dimen136
+\alignsep@=\dimen137
+\tagshift@=\dimen138
+\tagwidth@=\dimen139
+\totwidth@=\dimen140
+\lineht@=\dimen141
 \@envbody=\toks20
 \multlinegap=\skip46
 \multlinetaggap=\skip47
@@ -202,8 +195,8 @@ LaTeX Info: Redefining \] on input line 2666.
 )
 (c:/w32tex/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen145
-\extrarowheight=\dimen146
+\col@sep=\dimen142
+\extrarowheight=\dimen143
 \NC@list=\toks22
 \extratabsurround=\skip48
 \backup@length=\skip49
@@ -211,9 +204,9 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip50
 \subfigcapskip=\skip51
-\subfigcaptopadj=\dimen147
+\subfigcaptopadj=\dimen144
 \subfigbottomskip=\skip52
-\subfigcapmargin=\dimen148
+\subfigcapmargin=\dimen145
 \subfiglabelskip=\skip53
 \c@subfigure=\count112
 \c@lofdepth=\count113
@@ -342,15 +335,8 @@ LaTeX Warning: Label `fig:two' multiply defined.
 
 LaTeX Warning: Label `F' multiply defined.
 
-) (./chaps/knowledge.aux
-
-LaTeX Warning: Label `F' multiply defined.
-
-) (./chaps/experiment.aux
-
-LaTeX Warning: Label `FExpparts' multiply defined.
-
-) (./chaps/method.aux) (./chaps/result.aux
+) (./chaps/knowledge.aux) (./chaps/experiment.aux) (./chaps/method.aux)
+(./chaps/result.aux
 
 LaTeX Warning: Label `S' multiply defined.
 
@@ -393,71 +379,65 @@ LaTeX Warning: Label `FMarker3' multiply defined.
 
 LaTeX Warning: Label `sub@FMarker3' multiply defined.
 
-
-LaTeX Warning: Label `FPhongResult3' multiply defined.
-
-
-LaTeX Warning: Label `sub@FPhongResult3' multiply defined.
-
 ) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 105.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 105
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 104.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 104
 .
 
 (c:/w32tex/share/texmf-dist/tex/latex/txr/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 105
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 104
 .
 
 (c:/w32tex/share/texmf-dist/tex/latex/txr/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 105
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 104
 .
 
 (c:/w32tex/share/texmf-dist/tex/latex/txr/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 105.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 104.
 
 
 (c:/w32tex/share/texmf-dist/tex/latex/txr/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 (I search kanjifont definition file: . . ) (I search font definition file: . .
 . . . . . )
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 105.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 104.
 
  (c:/w32tex/share/texmf-dist/tex/latex/txr/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 108.
+(Font)              scaled to size 16.60605pt on input line 107.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 108.
+(Font)              scaled to size 16.60605pt on input line 107.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 108.
+(Font)              scaled to size 19.9311pt on input line 107.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 108.
+(Font)              scaled to size 19.9311pt on input line 107.
  [1
 
 
@@ -465,27 +445,27 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 114.
+(Font)              scaled to size 9.60999pt on input line 113.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 114.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 114
+(Font)              scaled to size 9.60999pt on input line 113.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 113
 .
 
 (c:/w32tex/share/texmf-dist/tex/latex/txr/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 114.
+(Font)              scaled to size 9.49997pt on input line 113.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 114.
+(Font)              scaled to size 23.90964pt on input line 113.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 114.
+(Font)              scaled to size 23.90964pt on input line 113.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 114.
+(Font)              scaled to size 23.90964pt on input line 113.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 114.
+(Font)              scaled to size 23.90964pt on input line 113.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 114.
+(Font)              scaled to size 23.63593pt on input line 113.
  (./thesis.toc
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 2.
@@ -531,25 +511,29 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 \openout3 = `thesis.toc'.
 
  [6]
-(./thesis.lof [7
+(./thesis.lof
+
+LaTeX Warning: Citation `yagi1958studies' on page vii undefined on input line 2
+2.
+
+[7
 
 ] [8])
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [9] [10
-
-] (./thesis.lot)
+ [9] [10] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [11] [12
+ [11
+
+] [12
 
 ]
 \openout2 = `chaps/introduction.aux'.
 
-
-(./chaps/introduction.tex
+ (./chaps/introduction.tex
 第1章
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
@@ -673,6 +657,11 @@ Overfull \hbox (9.11636pt too wide) in paragraph at lines 147--148
 
  (./chaps/knowledge.tex
 第3章
+File: ./img/ommatidia.eps Graphic file (type eps)
+<./img/ommatidia.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [15
 
 
@@ -683,39 +672,49 @@ File: ./img/renrituzougan.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[16]
 File: ./img/tyoufukuzougan.jpg Graphic file (type bmp)
-<./img/tyoufukuzougan.jpg>
+ <./img/tyoufukuzougan.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: ./img/fukugan_kakudai.jpg Graphic file (type bmp)
+<./img/fukugan_kakudai.jpg> [17] [18]
 
-LaTeX Warning: Reference `' on page 16 undefined on input line 66.
-
-[16] [17]
-LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 98.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 98.
-LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 98.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 98.
- [18]
-
-LaTeX Warning: Reference `' on page 19 undefined on input line 111.
+LaTeX Warning: Reference `' on page 19 undefined on input line 86.
 
 [19]
+File: ./img/yagi4-3types.png Graphic file (type bmp)
+ <./img/yagi4-3types.png>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 118.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 118.
+
+
+LaTeX Warning: Citation `yagi1958studies' on page 20 undefined on input line 11
+8.
+
+
+LaTeX Warning: Citation `yagi1958studies' on page 20 undefined on input line 11
+8.
+
+[20]
 File: ./img/sidepupil_exp.eps Graphic file (type eps)
- <./img/sidepupil_exp.eps>) [20] [21]
+ <./img/sidepupil_exp.eps>) [21] [22]
 \openout2 = `chaps/experiment.aux'.
 
- (./chaps/experiment.tex [22
+ (./chaps/experiment.tex
+第4章
+[23
 
 
 
 ]
-第4章
-[23]
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 27.
  (c:/w32tex/share/texmf-dist/tex/latex/txr/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
@@ -893,9 +892,6 @@ File: ./img/screenshot/sphere/Radius/1_10/screenshot002.bmp Graphic file (type
 bmp)
 
 <./img/screenshot/sphere/Radius/1_10/screenshot002.bmp>
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 122.
-
 
 LaTeX Warning: Float too large for page by 8.39597pt on input line 124.
 
@@ -1163,10 +1159,6 @@ File: ./img/screenshot/texreso/sphere_rs500.bmp Graphic file (type bmp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 563.
 
-
-LaTeX Warning: Reference `FPhongResult4' on page 76 undefined on input line 571
-.
-
 [76]
 File: ./img/screenshot/phong/screenshot000.bmp Graphic file (type bmp)
  <./img/screenshot/phong/screenshot000.bmp>
@@ -1251,22 +1243,20 @@ LaTeX Font Info:    Try loading font information for OT1+txtt on input line 6.
 File: ot1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 12.
+(Font)              scaled to size 9.60999pt on input line 11.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 12.
+(Font)              scaled to size 9.60999pt on input line 11.
 
-Underfull \hbox (badness 6016) in paragraph at lines 16--19
+Underfull \hbox (badness 6016) in paragraph at lines 21--24
 []\OT1/txr/m/n/10 scribbly nut.  Crazy bird.  $\OT1/txtt/m/n/10 http : / / www 
 . flickr . com / photos / 60007327 @ N00 /
  []
 
-) [91] [92
-
-] [93
+[91]) [92] [93
 
 ] [94
 
@@ -1282,12 +1272,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3795 strings out of 493799
- 52763 string characters out of 6153369
- 101627 words of memory out of 5000000
- 6959 multiletter control sequences out of 15000+600000
- 44730 words of font info for 156 fonts, out of 8000000 for 9000
+ 3778 strings out of 493799
+ 52650 string characters out of 6153369
+ 101044 words of memory out of 5000000
+ 6942 multiletter control sequences out of 15000+600000
+ 45508 words of font info for 158 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,11n,26p,466b,475s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 33i,11n,33p,466b,509s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (106 pages, 201592 bytes).
+Output written on thesis.dvi (106 pages, 204168 bytes).

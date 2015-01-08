@@ -5,6 +5,11 @@ Mathias Koehler.
 \newblock Making of 'upside down'.
 \newblock \url{http://www.optisch-edel.de/papers/upsidedown/}.
 
+\bibitem{nilsson1989optics}
+Dan-Eric Nilsson.
+\newblock Optics and evolution of the compound eye.
+\newblock In {\em Facets of vision}, pp. 30--73. Springer, 1989.
+
 \bibitem{rump-2008-photo-realistic}
 Martin Rump, Gero M{\"u}ller, Ralf Sarlette, Dirk Koch, and Reinhard Klein.
 \newblock Photo-realistic rendering of metallic car paint from image-based
@@ -24,10 +29,27 @@ Nobumasa Yagi.
   phylogeny of species.
 \newblock 1951.
 
+\bibitem{yagi1958studies}
+Nobumasa YAGI and Nagao KOYAMA.
+\newblock Studies on the compound eyes of lepidoptera: 4. on the compound eyes
+  of two genera, colias and aporia, in pieridae.
+\newblock 1958.
+
 \bibitem{nagata-2008-03-10}
 敏夫永田.
 \newblock
   ビー玉を利用したモアレ学習材の開発(北海道支部特集).
 \newblock 物理教育, Vol.~56, No.~1, pp. 77--79, mar 2008.
+
+\bibitem{tinycafe}
+永田文男.
+\newblock 蝶の秘密（スジグロシロチョウ－偽瞳孔）.
+\newblock \url{http://www.technex.co.jp/tinycafe/discovery45.html}.
+
+\bibitem{arikawa-zougan}
+蟻川謙太郎.
+\newblock 昆虫の視覚受容器.
+\newblock
+  \url{https://invbrain.neuroinf.jp/modules/htmldocs/IVBPF/General/Insect_visual_organ.html}.
 
 \end{thebibliography}
