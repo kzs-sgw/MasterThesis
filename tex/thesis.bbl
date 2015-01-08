@@ -18,6 +18,23 @@ JohannesGünther, Tongbo Chen, Michael Goesele, Ingo Wald, Hans peter Seidel.
 \newblock  IN VISION, MODELING, AND VISUALIZATION 2005 (VMV’05), pp.
   487--494, 2005.
 
+\bibitem{icart1999approach}
+Isabelle Icart and Didier Arqu{\`e}s.
+\newblock An approach to geometrical and optical simulation of soap froth.
+\newblock {\em Computers \& Graphics}, Vol.~23, No.~3, pp. 405--418, 1999.
+
+\bibitem{iwasaki2004real}
+Kei Iwasaki, Keichi Matsuzawa, and Tomoyuki Nishita.
+\newblock Real-time rendering of soap bubbles taking into account light
+  interference.
+\newblock In {\em Computer Graphics International, 2004. Proceedings}, pp.
+  344--348. IEEE, 2004.
+
+\bibitem{iwasawa2004rendering}
+Shun Iwasawa, Naohiro Shichijo, and Yoichiro Kawaguchi.
+\newblock Rendering methods for models with complicated micro structures.
+\newblock In {\em ACM SIGGRAPH 2004 Posters}, p.~17. ACM, 2004.
+
 \bibitem{jakob2014discrete}
 Wenzel Jakob, Milo{\v{s}} Ha{\v{s}}an, Ling-Qi Yan, Jason Lawrence, Ravi
   Ramamoorthi, and Steve Marschner.
@@ -40,6 +57,13 @@ Dan-Eric Nilsson.
 \newblock Optics and evolution of the compound eye.
 \newblock In {\em Facets of vision}, pp. 30--73. Springer, 1989.
 
+\bibitem{okada2013rendering}
+Naoki Okada, Dong Zhu, Dongsheng Cai, James~B Cole, Makoto Kambe, and Shuichi
+  Kinoshita.
+\newblock Rendering morpho butterflies based on high accuracy nano-optical
+  simulation.
+\newblock {\em Journal of Optics}, Vol.~42, No.~1, pp. 25--36, 2013.
+
 \bibitem{rump-2008-photo-realistic}
 Martin Rump, Gero M{\"u}ller, Ralf Sarlette, Dirk Koch, and Reinhard Klein.
 \newblock Photo-realistic rendering of metallic car paint from image-based
@@ -47,10 +71,23 @@ Martin Rump, Gero M{\"u}ller, Ralf Sarlette, Dirk Koch, and Reinhard Klein.
 \newblock {\em Computer Graphics Forum}, Vol.~27, No.~2, pp. 527--536, April
   2008.
 
+\bibitem{sadeghi2008physically}
+Iman Sadeghi and HW~Jensen.
+\newblock A physically based anisotropic iridescence model for rendering morpho
+  butterflies photo-realistically.
+\newblock {\em Proc. of Iridescence: More Than Meets the Eye (Tempe, Arizona,
+  2008)}, p.~38, 2008.
+
 \bibitem{flickr-blueeye}
 scribbly nut.
 \newblock Crazy bird.
 \newblock \url{http://www.flickr.com/photos/60007327@N00/6291023483}.
+
+\bibitem{weidlich2009rendering}
+Andrea Weidlich and Alexander Wilkie.
+\newblock Rendering the effect of labradoescence.
+\newblock In {\em Proceedings of Graphics Interface 2009}, pp. 79--85. Canadian
+  Information Processing Society, 2009.
 
 \bibitem{yagi1951studies}
 Nobumasa Yagi.

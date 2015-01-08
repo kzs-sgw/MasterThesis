@@ -15,46 +15,46 @@ Database file #1: sagawa.bib.bib
 Warning--empty journal in yagi1951studies
 Warning--empty journal in yagi1955studies
 Warning--empty journal in yagi1958studies
-You've used 20 entries,
+You've used 26 entries,
             2620 wiz_defined-function locations,
-            712 strings with 7803 characters,
-and the built_in function-call counts, 7522 in all, are:
-= -- 621
-> -- 260
-< -- 24
-+ -- 108
-- -- 88
-* -- 377
-:= -- 1042
-add.period$ -- 61
-call.type$ -- 20
-change.case$ -- 101
+            749 strings with 8967 characters,
+and the built_in function-call counts, 10457 in all, are:
+= -- 892
+> -- 362
+< -- 34
++ -- 152
+- -- 124
+* -- 541
+:= -- 1431
+add.period$ -- 82
+call.type$ -- 26
+change.case$ -- 137
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 422
-empty$ -- 656
-format.name$ -- 132
-if$ -- 1724
+cite$ -- 29
+duplicate$ -- 582
+empty$ -- 895
+format.name$ -- 186
+if$ -- 2417
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 17
-newline$ -- 103
-num.names$ -- 40
-pop$ -- 219
+int.to.str$ -- 26
+missing$ -- 23
+newline$ -- 133
+num.names$ -- 52
+pop$ -- 279
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 114
 quote$ -- 0
-skip$ -- 392
+skip$ -- 537
 stack$ -- 0
-substring$ -- 286
-swap$ -- 103
-text.length$ -- 24
+substring$ -- 438
+swap$ -- 158
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
+type$ -- 100
 warning$ -- 3
-while$ -- 61
-width$ -- 22
-write$ -- 208
-is.kanji.str$ -- 204
+while$ -- 87
+width$ -- 28
+write$ -- 277
+is.kanji.str$ -- 277
 (There were 3 warnings)

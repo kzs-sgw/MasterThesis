@@ -36,10 +36,10 @@
 \contentsline {section}{\numberline {5.3}オブジェクトファイルデータから計算用データの生成}{40}
 \contentsline {subsection}{\numberline {5.3.1}テクスチャ座標軸方向3次元単位ベクトル}{42}
 \contentsline {section}{\numberline {5.4}入射球推定}{47}
-\contentsline {section}{\numberline {5.5}屈折計算処理}{50}
-\contentsline {subsection}{\numberline {5.5.1}隣接球処理}{51}
+\contentsline {section}{\numberline {5.5}屈折計算処理}{51}
+\contentsline {subsection}{\numberline {5.5.1}隣接球処理}{52}
 \contentsline {section}{\numberline {5.6}テクスチャ座標再計算}{54}
-\contentsline {section}{\numberline {5.7}光源処理および陰影処理}{54}
+\contentsline {section}{\numberline {5.7}光源処理および陰影処理}{55}
 \contentsline {chapter}{\numberline {第6章}結果と考察}{57}
 \contentsline {section}{\numberline {6.1}実装方法および実行環境}{57}
 \contentsline {section}{\numberline {6.2}処理系}{58}
@@ -58,6 +58,7 @@
 \contentsline {chapter}{\numberline {第7章}おわりに}{89}
 \contentsline {section}{\numberline {7.1}結論}{89}
 \contentsline {section}{\numberline {7.2}今後の展望}{90}
-\contentsline {section}{\numberline {7.3}かごしまアートフェスタ2014}{91}
+\contentsline {chapter}{\numberline {第8章}応用事例}{91}
+\contentsline {section}{\numberline {8.1}かごしまアートフェスタ2014}{91}
 \contentsline {chapter}{謝辞}{93}
-\contentsline {chapter}{参考文献}{95}
+\contentsline {chapter}{参考文献}{97}

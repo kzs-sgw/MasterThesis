@@ -188,6 +188,7 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
   \label{FBaseTextureAndResult}
 \end{figure}
 
+\newpage
 \begin{figure}[htbp]
   \centering
 \subfigure[テクスチャ]{
@@ -216,6 +217,7 @@ GPU & NVIDIA GeForce GTX 660 \\ \hline
 
 
 %------------------------------------------------------------------------------------------
+\newpage
 \newpage
 \section{パラメータと実行速度}
 \label{SParameterAndExeTime}
@@ -510,7 +512,7 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
 
 \secref{SCalcData}のテクスチャ解像度$R_t$によって決定されるレンズの密度を個眼密度と呼称している。
 個眼密度は外観に大幅に影響を与えるため、各オブジェクトごとにユーザが適切な値を設定する必要がある。
-\figref{F}に、$R_t$の変化による外観の変化を示す。
+\figref{FResoPlane}, \figref{FResoSphere}に、$R_t$の変化による外観の変化を示す。
 指定される球の半径$r$は$R_t$に反比例する値をそれぞれ与えてある。
 また、$R_t$のオーダーを変化させた場合、$R_t$が大きく個眼密度が大きいほどわずかに実行速度が遅くなったものの、同一オーダー内であれば、実行速度に有意な差は見られなかった。
 

@@ -6,17 +6,17 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces G\"{u}nther1}}{10}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces G\"{u}nther2}}{10}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Rump1}}{10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 図2}}{10}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ハイヒールとオーナメントの絵\cite {jakob2014discrete}}}{11}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces シャボン玉の薄膜干渉\cite {}}}{12}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces 鉱石の多層膜干渉\cite {}}}{12}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces CAPTION}}{14}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAPTIONa\cite {}}}}{14}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CAPTIONb\cite {}}}}{14}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CAPTIONc\cite {}}}}{14}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces 織布のレンダリング（\cite {zhao2013modular}）}}{15}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces 織布のレンダリング（拡大）（\cite {zhao2013modular}より転載）}}{15}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 織布のレンダリング(\cite {zhao2012structure}より転載)}}{16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Rump2}}{10}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ハイヒールとオーナメント（\cite {jakob2014discrete}より転載）}}{11}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces シャボン玉の薄膜干渉（\cite {iwasaki2004real}より転載）}}{12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 鉱石の多層膜干渉\cite {weidlich2009rendering}}}{12}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces CAPTION}}{13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {岩澤の手法(\cite {iwasawa2004rendering}より転載)}}}{13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sadeghiの手法(\cite {sadeghi2008physically}より転載)}}}{13}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {岡田の手法（\cite {okada2013rendering}より転載）}}}{13}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces 織布のレンダリング（\cite {zhao2013modular}）}}{14}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 織布のレンダリング（拡大）（\cite {zhao2013modular}より転載）}}{14}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces 織布のレンダリング(\cite {zhao2012structure}より転載)}}{15}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces 個眼の模式図}}{18}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces 連立像眼のしくみ（\cite {arikawa-zougan}より転載）}}{20}
@@ -51,7 +51,7 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces テクスチャと球の位置関係}}{40}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces テクスチャ座標および球の格子状配置}}{41}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces ポリゴン上における頂点座標値およびテクスチャ座標値の関係}}{44}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 意図しない球の消失}}{48}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 意図しない球の消失}}{49}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces スライス平面処理}}{49}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces レンズによる屈折}}{51}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces 隣接球処理アルゴリズム}}{52}
@@ -187,7 +187,8 @@
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{88}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{88}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces 複眼的宇宙鳥 Bircco (バーコ)と探索する宇宙蜘蛛}}{92}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces 複眼的宇宙鳥 Bircco (バーコ)と探索する宇宙蜘蛛}}{92}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{92}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{92}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図1}}}{92}

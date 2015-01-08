@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  9 JAN 2015 00:01
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  9 JAN 2015 03:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -642,9 +642,9 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 78.
 File: ./img/what_is_pseudopupil.png Graphic file (type bmp)
  <./img/what_is_pseudopupil.png>
-[4] [5]
+[4]
 File: ./img/displacement.jpg Graphic file (type bmp)
- <./img/displacement.jpg>) [6] [7]
+ <./img/displacement.jpg> [5]) [6] [7]
 \openout2 = `chaps/relatedwork.aux'.
 
  (./chaps/relatedwork.tex [8
@@ -685,23 +685,17 @@ File: ./img/syabon_iwasaki.jpg Graphic file (type bmp)
  <./img/syabon_iwasaki.jpg>
 File: ./img/kouseki_weidlich.jpg Graphic file (type bmp)
 
-<./img/kouseki_weidlich.jpg>
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 93.
-
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 93.
-
-[11] [12]
+<./img/kouseki_weidlich.jpg> [11] [12]
 File: ./img/morpho_s.jpg Graphic file (type bmp)
  <./img/morpho_s.jpg>
 File: ./img/Morpho_sadeghi.png Graphic file (type bmp)
- <./img/Morpho_sadeghi.png>
-File: ./img/morpho_okada.jpg Graphic file (type bmp)
 
-<./img/morpho_okada.jpg> [13] [14]
+<./img/Morpho_sadeghi.png>
+File: ./img/morpho_okada.jpg Graphic file (type bmp)
+ <./img/morpho_okada.jpg> [13]
 File: ./img/mft_purple_cloth_ld.jpg Graphic file (type bmp)
- <./img/mft_purple_cloth_ld.jpg>
+
+<./img/mft_purple_cloth_ld.jpg>
 Overfull \hbox (43.8242pt too wide) in paragraph at lines 131--132
  [] 
  []
@@ -718,16 +712,16 @@ Overfull \hbox (9.11636pt too wide) in paragraph at lines 147--148
  [][] 
  []
 
-) [15] [16]
+[14]) [15]
 \openout2 = `chaps/knowledge.aux'.
 
- (./chaps/knowledge.tex
-第3章
-[17
+ (./chaps/knowledge.tex [16
 
 
 
 ]
+第3章
+[17]
 File: ./img/ommatidia.eps Graphic file (type eps)
  <./img/ommatidia.eps> [18]
 File: ./img/renrituzougan.jpg Graphic file (type bmp)
@@ -834,11 +828,7 @@ File: ./img/sphere_position.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40] [41]
-
-LaTeX Warning: Reference `' on page 42 undefined on input line 117.
-
-[42] [43]
+[40] [41] [42] [43]
 File: ./img/polygon_explain.eps Graphic file (type eps)
  <./img/polygon_explain.eps> [44] [45] [46] [47]
 File: ./img/four_sphere_negative.png Graphic file (type bmp)
@@ -848,22 +838,12 @@ File: ./img/find_first_sphere2.eps Graphic file (type eps)
  <./img/find_first_sphere2.eps> [48] [49]
 File: ./img/sphere_refract.eps Graphic file (type eps)
 
-<./img/sphere_refract.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[50]
+<./img/sphere_refract.eps> [50] [51]
 File: ./img/graph/next_sphere_algorithm.png Graphic file (type bmp)
  <./img/graph/next_sphere_algorithm.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./img/area_division.eps Graphic file (type eps)
-<./img/area_division.eps> [51]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[52] [53] [54]) [55]
+<./img/area_division.eps> [52] [53] [54]) [55]
 \openout2 = `chaps/result.aux'.
 
  (./chaps/result.tex [56
@@ -969,7 +949,7 @@ File: ./img/screenshot/texture/spot.jpg Graphic file (type bmp)
  <./img/screenshot/texture/spot.jpg>
 File: ./img/screenshot/texture/spot.bmp Graphic file (type bmp)
 
-<./img/screenshot/texture/spot.bmp>
+<./img/screenshot/texture/spot.bmp> [63]
 File: ./img/screenshot/texture/a.jpg Graphic file (type bmp)
  <./img/screenshot/texture/a.jpg>
 File: ./img/screenshot/texture/a.bmp Graphic file (type bmp)
@@ -986,18 +966,16 @@ File: ./img/screenshot/texture/spot5.bmp Graphic file (type bmp)
 
 <./img/screenshot/texture/spot5.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 213.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 214.
 
-[63]
 File: ./img/screenshot/plane_wireframe.png Graphic file (type bmp)
- <./img/screenshot/plane_wireframe.png>
+<./img/screenshot/plane_wireframe.png>
 File: ./img/screenshot/sphere_wireframe.png Graphic file (type bmp)
-
-<./img/screenshot/sphere_wireframe.png> [64] [65] [66]
+ <./img/screenshot/sphere_wireframe.png>
+[64] [65] [66]
 File: ./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp Graphic file (t
 ype bmp)
-
-<./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp>
+ <./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp>
 File: ./img/screenshot/sphere/RefracLimit/001/screenshot002.bmp Graphic file (t
 ype bmp)
 
@@ -1019,7 +997,7 @@ ype bmp)
 
 <./img/screenshot/sphere/RefracLimit/010/screenshot002.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 290.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 292.
 
 File: ./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp Graphic file (t
 ype bmp)
@@ -1045,7 +1023,7 @@ ype bmp)
 
 <./img/screenshot/sphere/RefracLimit/010/screenshot001.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 314.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 316.
 
 [67] [68] [69]
 File: ./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png Graphic file (
@@ -1179,7 +1157,7 @@ File: ./img/screenshot/texreso/plane_rs500.bmp Graphic file (type bmp)
 
 <./img/screenshot/texreso/plane_rs500.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 539.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 541.
 
 File: ./img/screenshot/texreso/sphere_rs1.bmp Graphic file (type bmp)
 <./img/screenshot/texreso/sphere_rs1.bmp>
@@ -1199,7 +1177,7 @@ File: ./img/screenshot/texreso/sphere_rs500.bmp Graphic file (type bmp)
 
 <./img/screenshot/texreso/sphere_rs500.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 563.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 565.
 
 [78]
 File: ./img/screenshot/phong/screenshot000.bmp Graphic file (type bmp)
@@ -1272,27 +1250,28 @@ File: ./img/screenshot/obj/tori_head/screenshot004.bmp Graphic file (type bmp)
 \openout2 = `chaps/artfesta.aux'.
 
  (./chaps/artfesta.tex
+第8章
 File: ./img/bircco_green.jpg Graphic file (type bmp)
- <./img/bircco_green.jpg>
+<./img/bircco_green.jpg>
 File: ./img/bircco_red.jpg Graphic file (type bmp)
-
-<./img/bircco_red.jpg>
+ <./img/bircco_red.jpg>
 File: ./img/bircco_youjo1.jpg Graphic file (type bmp)
  <./img/bircco_youjo1.jpg>
 File: ./img/bircco_youjo2.jpg Graphic file (type bmp)
- <./img/bircco_youjo2.jpg>)
-[91
+
+<./img/bircco_youjo2.jpg>) [91
 
 
 
 ] [92]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex) [93
+ (./chaps/acknowledgement.tex [93
 
 
 
-] (./thesis.bbl [94
+] [94])
+[95] (./thesis.bbl [96
 
 
 ]
@@ -1306,41 +1285,36 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 6.
 Missing character: There is no ^^c3 in font txr!
 Missing character: There is no ^^bc in font txr!
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 36.
+ [97]
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 53.
 
 
 (c:/w32tex/share/texmf-dist/tex/latex/txr/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-) [95]
-Underfull \hbox (badness 4366) in paragraph at lines 51--54
+)
+Underfull \hbox (badness 4366) in paragraph at lines 82--85
 []\OT1/txr/m/n/10 scribbly nut.  Crazy bird.  $\OT1/txtt/m/n/10 http : / / www 
 . flickr . com / photos / 60007327 @ N00 /
  []
 
-[96]) [97] [98
+[98]) [99] [100
 
-] [99
-
-] [100
 
 ] (./thesis.aux (./chaps/introduction.aux)
 (./chaps/relatedwork.aux) (./chaps/knowledge.aux) (./chaps/experiment.aux)
 (./chaps/method.aux) (./chaps/result.aux) (./chaps/conclusion.aux)
 (./chaps/artfesta.aux) (./chaps/acknowledgement.aux))
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4296 strings out of 493799
- 60669 string characters out of 6153369
- 104069 words of memory out of 5000000
- 7435 multiletter control sequences out of 15000+600000
+ 4302 strings out of 493799
+ 60811 string characters out of 6153369
+ 104093 words of memory out of 5000000
+ 7441 multiletter control sequences out of 15000+600000
  45073 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,11n,26p,466b,475s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 31i,11n,26p,466b,474s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (112 pages, 213328 bytes).
+Output written on thesis.dvi (112 pages, 220764 bytes).
