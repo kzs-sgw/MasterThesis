@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  7 JAN 2015 23:10
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  8 JAN 2015 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,6 +393,12 @@ LaTeX Warning: Label `FMarker3' multiply defined.
 
 LaTeX Warning: Label `sub@FMarker3' multiply defined.
 
+
+LaTeX Warning: Label `FPhongResult3' multiply defined.
+
+
+LaTeX Warning: Label `sub@FPhongResult3' multiply defined.
+
 ) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
 \openout1 = `thesis.aux'.
 
@@ -767,28 +773,22 @@ File: ./img/exp_eyedistance.eps Graphic file (type eps)
 
 ]
 第5章
-
-LaTeX Warning: Reference `SCalcdata' on page 35 undefined on input line 7.
-
 File: ./img/surface_sphere.eps Graphic file (type eps)
 <./img/surface_sphere.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [35]
-File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps>
+File: ./img/graph/algo_framework.png Graphic file (type bmp)
+ <./img/graph/algo_framework.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [36]
-File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps>
+File: ./img/tex_sphere_pos.eps Graphic file (type eps)
+ <./img/tex_sphere_pos.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `' on page 37 undefined on input line 68.
 
 [37]
 File: ./img/sphere_position.eps Graphic file (type eps)
@@ -801,45 +801,44 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Reference `' on page 40 undefined on input line 117.
 
 [40] [41]
-File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [42]
-File: ./img/TEMP.eps Graphic file (type eps)
- <./img/TEMP.eps> [43] [44] [45]
+File: ./img/polygon_explain.eps Graphic file (type eps)
+ <./img/polygon_explain.eps> [42] [43] [44] [45]
+File: ./img/four_sphere_negative.png Graphic file (type bmp)
 
-LaTeX Warning: Reference `' on page 46 undefined on input line 351.
+<./img/four_sphere_negative.png>
+File: ./img/find_first_sphere2.eps Graphic file (type eps)
+ <./img/find_first_sphere2.eps> [46] [47]
+File: ./img/sphere_refract.eps Graphic file (type eps)
 
+<./img/sphere_refract.eps>
 
-LaTeX Warning: Reference `' on page 46 undefined on input line 352.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46]
-
-LaTeX Warning: Reference `' on page 47 undefined on input line 400.
-
-[47]
+[48]
 File: ./img/graph/next_sphere_algorithm.png Graphic file (type bmp)
  <./img/graph/next_sphere_algorithm.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./img/area_division.eps Graphic file (type eps)
-<./img/area_division.eps>
+<./img/area_division.eps> [49]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48] [49] [50] [51]) [52]
+[50] [51] [52]) [53]
 \openout2 = `chaps/result.aux'.
 
- (./chaps/result.tex
+ (./chaps/result.tex [54
+
+
+
+]
 第6章
 File: ./img/screenshot/sphere/Noise/pscreenshot005.bmp Graphic file (type bmp)
 <./img/screenshot/sphere/Noise/pscreenshot005.bmp>
 File: ./img/screenshot/sphere/Noise/screenshot000.bmp Graphic file (type bmp)
 
-<./img/screenshot/sphere/Noise/screenshot000.bmp> [53
-
-
-
-] [54]
+<./img/screenshot/sphere/Noise/screenshot000.bmp> [55] [56]
 File: ./img/screenshot/sphere/Radius/1_30/screenshot000.bmp Graphic file (type 
 bmp)
 
@@ -900,7 +899,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 LaTeX Warning: Float too large for page by 8.39597pt on input line 124.
 
-[55] [56]
+[57] [58]
 File: ./img/screenshot/sphere/Distortion/tex_tortion1.png Graphic file (type bm
 p)
  <./img/screenshot/sphere/Distortion/tex_tortion1.png>
@@ -927,7 +926,7 @@ mp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 164.
 
-[57] [58]
+[59] [60]
 File: ./img/screenshot/texture/spot.jpg Graphic file (type bmp)
  <./img/screenshot/texture/spot.jpg>
 File: ./img/screenshot/texture/spot.bmp Graphic file (type bmp)
@@ -951,12 +950,12 @@ File: ./img/screenshot/texture/spot5.bmp Graphic file (type bmp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 213.
 
-[59]
+[61]
 File: ./img/screenshot/plane_wireframe.png Graphic file (type bmp)
  <./img/screenshot/plane_wireframe.png>
 File: ./img/screenshot/sphere_wireframe.png Graphic file (type bmp)
 
-<./img/screenshot/sphere_wireframe.png> [60] [61] [62]
+<./img/screenshot/sphere_wireframe.png> [62] [63] [64]
 File: ./img/screenshot/sphere/RefracLimit/000/screenshot002.bmp Graphic file (t
 ype bmp)
 
@@ -1010,7 +1009,7 @@ ype bmp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 314.
 
-[63] [64] [65]
+[65] [66] [67]
 File: ./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png Graphic file (
 type bmp)
  <./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png>
@@ -1022,8 +1021,8 @@ File: ./img/graph/exetime_average.png Graphic file (type bmp)
 
 <./img/graph/exetime_average.png>
 File: ./img/graph/exetime_samp.png Graphic file (type bmp)
- <./img/graph/exetime_samp.png> [66] [67]
-[68]
+ <./img/graph/exetime_samp.png> [68] [69]
+[70]
 File: ./img/screenshot/sphere/RefracLimit/000/marker4.png Graphic file (type bm
 p)
  <./img/screenshot/sphere/RefracLimit/000/marker4.png>
@@ -1054,7 +1053,7 @@ File: ./img/screenshot/sphere/RefracLimit/002/marker.png Graphic file (type bmp
 File: ./img/screenshot/sphere/RefracLimit/003/marker.png Graphic file (type bmp
 )
 
-<./img/screenshot/sphere/RefracLimit/003/marker.png> [69]
+<./img/screenshot/sphere/RefracLimit/003/marker.png> [71]
 File: ./img/screenshot/distance/screenshot000.bmp Graphic file (type bmp)
 
 <./img/screenshot/distance/screenshot000.bmp>
@@ -1069,12 +1068,12 @@ File: ./img/screenshot/distance/screenshot007.bmp Graphic file (type bmp)
 <./img/screenshot/distance/screenshot007.bmp>
 File: ./img/screenshot/distance/merge.png Graphic file (type bmp)
 
-<./img/screenshot/distance/merge.png> [70]
+<./img/screenshot/distance/merge.png> [72]
 File: ./img/graph/dist_plane.png Graphic file (type bmp)
  <./img/graph/dist_plane.png>
 File: ./img/graph/dist_sphere.png Graphic file (type bmp)
 
-<./img/graph/dist_sphere.png> [71]
+<./img/graph/dist_sphere.png> [73]
 File: ./img/screenshot/distance/plane_fps/screenshot001.bmp Graphic file (type 
 bmp)
 
@@ -1122,7 +1121,7 @@ File: ./img/screenshot/distance/sphere_fps/screenshot005.bmp Graphic file (type
 File: ./img/screenshot/distance/sphere_fps/screenshot006.bmp Graphic file (type
  bmp)
 
-<./img/screenshot/distance/sphere_fps/screenshot006.bmp> [72] [73]
+<./img/screenshot/distance/sphere_fps/screenshot006.bmp> [74] [75]
 File: ./img/screenshot/texreso/plane_rs1.bmp Graphic file (type bmp)
 
 <./img/screenshot/texreso/plane_rs1.bmp>
@@ -1164,29 +1163,44 @@ File: ./img/screenshot/texreso/sphere_rs500.bmp Graphic file (type bmp)
 
 LaTeX Warning: Float too large for page by 3.05792pt on input line 563.
 
-[74]
+
+LaTeX Warning: Reference `FPhongResult4' on page 76 undefined on input line 571
+.
+
+[76]
+File: ./img/screenshot/phong/screenshot000.bmp Graphic file (type bmp)
+ <./img/screenshot/phong/screenshot000.bmp>
+File: ./img/screenshot/phong/screenshot001.bmp Graphic file (type bmp)
+
+<./img/screenshot/phong/screenshot001.bmp>
+File: ./img/screenshot/phong/screenshot002.bmp Graphic file (type bmp)
+
+<./img/screenshot/phong/screenshot002.bmp>
+File: ./img/screenshot/phong/screenshot003.bmp Graphic file (type bmp)
+
+<./img/screenshot/phong/screenshot003.bmp> [77] [78] [79]
 File: ./img/screenshot/sphere/RefracLimit/005/screenshot002.bmp Graphic file (t
 ype bmp)
- <./img/screenshot/sphere/RefracLimit/005/screenshot002.bmp>
-File: ./img/arrow4.png Graphic file (type bmp)
 
-<./img/arrow4.png>
+<./img/screenshot/sphere/RefracLimit/005/screenshot002.bmp>
+File: ./img/arrow4.png Graphic file (type bmp)
+ <./img/arrow4.png>
 File: ./img/screenshot/sphere/RefracLimit/005/screenshot001.bmp Graphic file (t
 ype bmp)
- <./img/screenshot/sphere/RefracLimit/005/screenshot001.bmp>
-File: ./img/arrow3.png Graphic file (type bmp)
 
-<./img/arrow3.png> [75] [76] [77]
+<./img/screenshot/sphere/RefracLimit/005/screenshot001.bmp>
+File: ./img/arrow3.png Graphic file (type bmp)
+ <./img/arrow3.png>
+[80]
 File: ./img/crazy_bird.jpg Graphic file (type bmp)
  <./img/crazy_bird.jpg>
 File: ./img/arrow_crazy_bird.png Graphic file (type bmp)
-
-<./img/arrow_crazy_bird.png>
+ <./img/arrow_crazy_bird.png> [81]
 File: ./img/yagi1-hex-real.png Graphic file (type bmp)
- <./img/yagi1-hex-real.png>
-File: ./img/yagi1-ring-real.png Graphic file (type bmp)
 
-<./img/yagi1-ring-real.png> [78]
+<./img/yagi1-hex-real.png>
+File: ./img/yagi1-ring-real.png Graphic file (type bmp)
+ <./img/yagi1-ring-real.png> [82] [83] [84]
 File: ./img/screenshot/obj/shell/screenshot001.bmp Graphic file (type bmp)
 
 <./img/screenshot/obj/shell/screenshot001.bmp>
@@ -1210,24 +1224,24 @@ File: ./img/screenshot/obj/tori_head/screenshot003.bmp Graphic file (type bmp)
 <./img/screenshot/obj/tori_head/screenshot003.bmp>
 File: ./img/screenshot/obj/tori_head/screenshot004.bmp Graphic file (type bmp)
 
-<./img/screenshot/obj/tori_head/screenshot004.bmp> [79] [80] [81]) [82]
-[83]
+<./img/screenshot/obj/tori_head/screenshot004.bmp> [85]) [86]
 \openout2 = `chaps/conclusion.aux'.
 
- (./chaps/conclusion.tex [84
 
-
-
-]
+(./chaps/conclusion.tex
 第7章
-[85]) [86]
+[87
+
+
+
+]) [88]
 \openout2 = `chaps/acknowledgement.aux'.
 
- (./chaps/acknowledgement.tex) [87
+ (./chaps/acknowledgement.tex) [89
 
 
 
-] (./thesis.bbl [88
+] (./thesis.bbl [90
 
 
 ]
@@ -1250,11 +1264,11 @@ Underfull \hbox (badness 6016) in paragraph at lines 16--19
 . flickr . com / photos / 60007327 @ N00 /
  []
 
-) [89] [90
+) [91] [92
 
-] [91
+] [93
 
-] [92
+] [94
 
 ] (./thesis.aux (./chaps/introduction.aux)
 (./chaps/relatedwork.aux) (./chaps/knowledge.aux) (./chaps/experiment.aux)
@@ -1268,12 +1282,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3769 strings out of 493799
- 52085 string characters out of 6153369
- 101502 words of memory out of 5000000
- 6940 multiletter control sequences out of 15000+600000
+ 3795 strings out of 493799
+ 52763 string characters out of 6153369
+ 101627 words of memory out of 5000000
+ 6959 multiletter control sequences out of 15000+600000
  44730 words of font info for 156 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,11n,26p,466b,475s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (104 pages, 197008 bytes).
+Output written on thesis.dvi (106 pages, 201592 bytes).

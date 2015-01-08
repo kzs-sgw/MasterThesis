@@ -4,7 +4,7 @@
 \secref{SObjective}で述べたように、本研究の目的は複眼表面に観測される光学的現象をリアルタイムレンダリングによって表現することである。
 本章では、レンダリング時の計算アルゴリズムについて詳細に解説していく。
 まず、\secref{SFramework}および\secref{STextureandsphere}で本手法で用いた複眼の近似モデルを提案する。
-次に\secref{SCalcdata}では、アプリケーションから画像処理用演算プロセッサ（GPU: Graphics Processing Unit）へと転送するデータと、その生成時に用いた計算アルゴリズムを説明する。
+次に\secref{SCalcData}では、アプリケーションから画像処理用演算プロセッサ（GPU: Graphics Processing Unit）へと転送するデータと、その生成時に用いた計算アルゴリズムを説明する。
 そして\secref{SFirstsphere}以降では、画像処理用演算プロセッサにおいて描画色を求める手法を説明する。
 
 \section{フレームワーク}
@@ -37,7 +37,7 @@
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=3.0in]{./img/TEMP}
+  \includegraphics[width=3.0in]{./img/graph/algo_framework.png}
   \caption{アルゴリズムフレームワーク}
   \label{FAlgoframework}
 \end{figure}
@@ -55,7 +55,7 @@
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=4.0in]{./img/TEMP}
+  \includegraphics[width=4.0in]{./img/tex_sphere_pos.eps}
   \caption{テクスチャと球の位置関係}
   \label{FTexturesphereposition}
 \end{figure}
@@ -65,7 +65,7 @@
 具体的には、テクスチャとして用いている正方形画像の各頂点と格子の各点を対応させ、テクスチャ座標軸方向と格子の平行線を一致させる。
 正規化されたテクスチャをタイル状に繰り返し適用し、格子の中心と面の法線方向から見た球の中心座標を一致させる。
 すなわち、球の中心座標とポリゴンとの間には距離がある。
-球の半径を$r$として、\chapref{CExperiment}の実験装置に基づきポリゴンとテクスチャ平面との距離は$2r$とした\figref{}。
+球の半径を$r$として、\chapref{CExperiment}の実験装置に基づきポリゴンとテクスチャ平面との距離は$2r$とした\figref{FModel}。
 
 色素細胞として用いるテクスチャ座標値と球の配列に利用するテクスチャ座標値は独立して扱うことができるため、必ずしも同一のものを利用する必要はない。
 すなわち、色の計算に用いるために用いるテクスチャと球の配置に利用するテクスチャは独立しており、計算上は別々の座標値を用いることが可能である。
@@ -74,7 +74,7 @@
 \begin{figure}[h]
   \centering
   \includegraphics[width=3.0in]{./img/sphere_position.eps}
-  \caption{テクスチャおよび球の格子状配置}
+  \caption{テクスチャ座標および球の格子状配置}
   \label{FGrid}
 \end{figure}
 
@@ -153,7 +153,7 @@ $\bm{D}_u$および$\bm{D}_v$はポリゴン毎に変化するベクトル変数
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=3.0in]{./img/TEMP}
+  \includegraphics[width=4.0in]{./img/polygon_explain.eps}
   \caption{ポリゴン上における頂点座標値およびテクスチャ座標値の関係}
   \label{FVertexandtexture}
 \end{figure}
@@ -203,14 +203,14 @@ $\bm{D}_u$および$\bm{D}_v$はポリゴン毎に変化するベクトル変数
 そして、係数$i,j,k,l$は$\bm{T}_{10}$および$\bm{T}_{20}$から導くことができる。
 
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=3.0in]{./img/TEMP}
-  \caption{平面上の変位ベクトル}
-  \label{FAtoB}
-\end{figure}
+%% \begin{figure}[h]
+%%   \centering
+%%   \includegraphics[width=3.0in]{./img/TEMP}
+%%   \caption{平面上の変位ベクトル}
+%%   \label{FAtoB}
+%% \end{figure}
 
-続いて、ポリゴン平面上の任意の位置にある点$A$および$B$を考える\figref{FAtoB}。
+続いて、ポリゴン平面上の任意の位置にある点$A$および$B$を考える。%% \figref{FAtoB}
 点$A$の頂点座標値を$\bm{P}_A$そして点$B$の頂点座標値を$\bm{P}_B$とすると、点$A$および点$B$の3次元空間上における位置の変位は、$c,d$を適当な係数として以下のように表すことができる。
 
 \begin{eqnarray}
@@ -348,9 +348,23 @@ b' = \lceil b \rceil - 0.5
 とすると$\bm{S}$は近傍球の中心座標の推定値となる。
 推定した球と視線ベクトル$\bm{V}$との交差判定を行い、交差する場合には次の屈折計算へ進む。
 しかし、この操作を一度のみ行うだけでは不十分であり正確な近傍球を推定できておらず不具合を生じてしまう。
-間違った近傍球推定を行ってしまうと\figref{}のように、表示されるべき球の一部が消失してしまう。
-これを防止するために仮想的なスライス平面を作成し、オブジェクト内部方向へ段階的に移動させる\figref{}。
+間違った近傍球推定を行ってしまうと\figref{FFourSphereNegative}のように、表示されるべき球の一部が消失してしまう。
+これを防止するために仮想的なスライス平面を作成し、オブジェクト内部方向へ段階的に移動させる\figref{FFindFirstSphere}。
 球の半径$r$よりも小さい値のオフセット距離を取り、法線の逆方向へポリゴンと平行に平面を順次作成していく。
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=3.0in]{./img/four_sphere_negative.png}
+  \caption{意図しない球の消失}
+  \label{FFourSphereNegative}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=4.5in]{./img/find_first_sphere2.eps}
+  \caption{スライス平面処理}
+  \label{FFindFirstSphere}
+\end{figure}
+
 
 視線ベクトル$\bm{V}$を作成した仮想平面まで伸ばし両者の交点位置を求め、再度近傍球の推定を行う。
 球の推定にはこの交点位置におけるテクスチャ座標値が必要であるが、3次元空間の点からテクスチャ座標値を逆計算するためには点がポリゴンの平面上に位置している必要がある。
@@ -397,7 +411,13 @@ b_s &=& \frac{(\bm{D}_u \cdot \bm{D}_u)(\bm{P}_{s'c} \cdot \bm{D}_v) - (\bm{D}_u
 \label{SRefraction}
 
 球と交差した視線は屈折によって進行方向を変化させる。
-視線が入射した球の中心点を$C$とすると、点$C$の座標値$\bm{C}$と視線ベクトル$\bm{V}$および$r$から球と視線の交点$I_n$が求まる\figref{}。
+視線が入射した球の中心点を$C$とすると、点$C$の座標値$\bm{C}$と視線ベクトル$\bm{V}$および$r$から球と視線の交点$I_n$が求まる\figref{FSphereRefract}。
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=4.5in]{./img/sphere_refract.eps}
+  \caption{レンズによる屈折}
+  \label{FSphereRefract}
+\end{figure}
 点$I_n$の座標値を$\bm{I}_n$とすると、これらから点$I_n$における法線ベクトル$\bm{N}_n$は
 
 \begin{equation}
@@ -478,26 +498,22 @@ Inner ProcessおよびOuter Processでどの隣接球とも交差しないか、
 
 
 テクスチャ平面は色素細胞による色への寄与を求めるための平面であり、具体的にはテクスチャ平面上の視線の到達点の位置における色を返す。
-正確には、テクスチャ平面の色は複眼表面に現れる色そのものではなく、光の吸収度を代表するものと考えられる。
+
 色素細胞は昆虫などの複眼を持つ生物のなかで光を受容する部位に相当するので、光の吸収度が高いほど観測者にとっては暗く見える。
-そのため、適用されるテクスチャ画像はグレースケール画像であればよい。
-最終的には、画素値を正規化し通常のレンダリングにより計算した色へ乗算される。
+テクスチャ平面の色は複眼表面に現れる色そのものではなく、複眼内部からの反射色を表していると考えられる。
 
 
 
 \section{光源処理および陰影処理}
 \label{SPhongandshade}
 
-光源処理及び陰影処理は通常のPhongの反射モデル等を用いて計算を行う。
-正規化されたテクスチャ色情報を$\bm{c}_t$とすると、最終的に描画される色$\bm{c}$は次の用に計算される。
-
+本手法ではモデルに立体感をつけるための光源処理および陰影処理はPhongの反射モデルを用いて近似的に行っている。
+正規化されたテクスチャ色情報を$\bm{c}_t$とすると、最終的に描画される色$\bm{c}$は次のように計算される。
 \begin{equation}
 \label{EColor}
 \bm{c} = \bm{c}_t(\bm{a} + \bm{d}) + \bm{s}
 \end{equation}
-
-\noindent
 ここで、$\bm{a}$は環境反射光、$\bm{d}$は拡散反射光、そして$\bm{s}$は鏡面反射光である。
 
-
-\textcolor{red}{********}
+本来、レンズは透明な材質であるためフレネル反射などの影響を考慮する必要がある。
+しかしながら、本研究では偽瞳孔を第一目標として色素細胞との相互作用について優先的に扱っているため、光源や陰影に関する詳細な手法については今後の課題とする。

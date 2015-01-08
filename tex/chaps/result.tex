@@ -563,6 +563,33 @@ $l = 1$の場合、side pupilのさらに外側に位置するsecond side pupil(
 \end{figure}
 
 %------------------------------------------------------------------------------------------
+\section{光源および陰影処理}
+\label{SPhongResult}
+
+光源および陰影処理の例としてphongシェーディングを適用した場合の結果画像を掲載する\figref{FPhongResult}。
+\secref{SPhongandshade}で述べたように、本手法ではモデルに立体感をつけるための光源処理および陰影処理はPhongの反射モデルを用いて近似的に行っている。
+\figref{FPhongResult1}, \figref{FPhongResult2}はオブジェクト本来の法線に対して処理を行ったものであ、\figref{FPhongResult3}, \figref{FPhongResult4}はオブジェクト表面上のレンズの法線に対して処理を行ったものである。
+本来、レンズは透明な材質であるためフレネル反射などの影響を考慮した手法に関する研究を今後行う必要がある。
+
+\begin{figure}[htbp]
+  \centering
+\subfigure[図1（オブジェクト法線）]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/phong/screenshot000.bmp}
+\label{FPhongResult1}}
+\subfigure[図2（オブジェクト法線）]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/phong/screenshot001.bmp}
+\label{FPhongResult2}}\\
+\subfigure[図3（レンズ法線）]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/phong/screenshot002.bmp}
+\label{FPhongResult3}}
+\subfigure[図4（レンズ法線）]{
+\includegraphics*[width=.45\columnwidth]{./img/screenshot/phong/screenshot003.bmp}
+\label{FPhongResult4}}
+  \caption{phongシェーディングとの併用}
+  \label{FPhongResult}
+\end{figure}
+
+%------------------------------------------------------------------------------------------
 \newpage
 \section{実物との比較}
 \label{SCompareWithReal}
