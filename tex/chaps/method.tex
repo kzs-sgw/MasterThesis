@@ -52,15 +52,12 @@
 
 ひとつのテクスチャおよび球の組み合わせは複眼における個眼をモデル化したものである。
 そのため、実際の個眼と同様にひとつのテクスチャ単位とひとつの球の位置を合わせて配置する必要がある\figref{FTexturesphereposition}。
-
 \begin{figure}[h]
   \centering
   \includegraphics[width=4.0in]{./img/tex_sphere_pos.eps}
   \caption{テクスチャと球の位置関係}
   \label{FTexturesphereposition}
 \end{figure}
-
-\noindent
 今回用いた手法では、格子状に球を配置させてテクスチャとの位置合わせを行う\figref{FGrid}。
 具体的には、テクスチャとして用いている正方形画像の各頂点と格子の各点を対応させ、テクスチャ座標軸方向と格子の平行線を一致させる。
 正規化されたテクスチャをタイル状に繰り返し適用し、格子の中心と面の法線方向から見た球の中心座標を一致させる。

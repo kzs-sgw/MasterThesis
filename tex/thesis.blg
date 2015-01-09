@@ -8,7 +8,6 @@ A level-1 auxiliary file: chaps/experiment.aux
 A level-1 auxiliary file: chaps/method.aux
 A level-1 auxiliary file: chaps/result.aux
 A level-1 auxiliary file: chaps/conclusion.aux
-A level-1 auxiliary file: chaps/artfesta.aux
 A level-1 auxiliary file: chaps/acknowledgement.aux
 The style file: jplain.bst
 Database file #1: sagawa.bib.bib
@@ -17,7 +16,7 @@ Warning--empty journal in yagi1955studies
 Warning--empty journal in yagi1958studies
 You've used 26 entries,
             2620 wiz_defined-function locations,
-            749 strings with 8967 characters,
+            748 strings with 8949 characters,
 and the built_in function-call counts, 10457 in all, are:
 = -- 892
 > -- 362

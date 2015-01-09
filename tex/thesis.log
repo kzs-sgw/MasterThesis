@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  9 JAN 2015 03:59
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.sjis) (TeX Live 2014/W32TeX) (preloaded format=platex 2014.10.19)  9 JAN 2015 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,14 +444,14 @@ LaTeX Warning: Label `FMarker3' multiply defined.
 
 LaTeX Warning: Label `sub@FMarker3' multiply defined.
 
-) (./chaps/conclusion.aux) (./chaps/artfesta.aux) (./chaps/acknowledgement.aux)
-)
+) (./chaps/conclusion.aux) (./chaps/acknowledgement.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 104.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 104
 .
- (c:/w32tex/share/texmf-dist/tex/latex/txr/omltxmi.fd
+
+(c:/w32tex/share/texmf-dist/tex/latex/txr/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 104.
@@ -644,7 +644,7 @@ File: ./img/what_is_pseudopupil.png Graphic file (type bmp)
  <./img/what_is_pseudopupil.png>
 [4]
 File: ./img/displacement.jpg Graphic file (type bmp)
- <./img/displacement.jpg> [5]) [6] [7]
+ <./img/displacement.jpg> [5] [6]) [7]
 \openout2 = `chaps/relatedwork.aux'.
 
  (./chaps/relatedwork.tex [8
@@ -653,8 +653,9 @@ File: ./img/displacement.jpg Graphic file (type bmp)
 
 ]
 第2章
+[9]
 File: ./img/back_hq.png Graphic file (type bmp)
-<./img/back_hq.png>
+ <./img/back_hq.png>
 Overfull \hbox (43.8242pt too wide) in paragraph at lines 24--25
  [] 
  []
@@ -665,9 +666,8 @@ Overfull \hbox (60.15292pt too wide) in paragraph at lines 22--36
 []$[]$ $[]$ 
  []
 
-[9]
 File: ./img/porsche01.png Graphic file (type bmp)
- <./img/porsche01.png>
+<./img/porsche01.png>
 Overfull \hbox (43.8242pt too wide) in paragraph at lines 42--43
  [] 
  []
@@ -692,7 +692,7 @@ File: ./img/Morpho_sadeghi.png Graphic file (type bmp)
 
 <./img/Morpho_sadeghi.png>
 File: ./img/morpho_okada.jpg Graphic file (type bmp)
- <./img/morpho_okada.jpg> [13]
+ <./img/morpho_okada.jpg> [13] [14]
 File: ./img/mft_purple_cloth_ld.jpg Graphic file (type bmp)
 
 <./img/mft_purple_cloth_ld.jpg>
@@ -712,35 +712,33 @@ Overfull \hbox (9.11636pt too wide) in paragraph at lines 147--148
  [][] 
  []
 
-[14]) [15]
+) [15] [16]
 \openout2 = `chaps/knowledge.aux'.
 
- (./chaps/knowledge.tex [16
-
-
-
-]
+ (./chaps/knowledge.tex
 第3章
-[17]
 File: ./img/ommatidia.eps Graphic file (type eps)
- <./img/ommatidia.eps> [18]
+<./img/ommatidia.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17
+
+
+
+] [18]
 File: ./img/renrituzougan.jpg Graphic file (type bmp)
- <./img/renrituzougan.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ <./img/renrituzougan.jpg> [19]
 File: ./img/tyoufukuzougan.jpg Graphic file (type bmp)
-<./img/tyoufukuzougan.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ <./img/tyoufukuzougan.jpg>
 File: ./img/fukugan_kakudai.jpg Graphic file (type bmp)
-<./img/fukugan_kakudai.jpg> [19] [20] [21]
+
+<./img/fukugan_kakudai.jpg> [20] [21]
 File: ./img/yagi4-3types.png Graphic file (type bmp)
  <./img/yagi4-3types.png> [22]
-[23]
 File: ./img/sidepupil_exp.eps Graphic file (type eps)
- <./img/sidepupil_exp.eps>) [24]
+
+<./img/sidepupil_exp.eps> [23]) [24]
 \openout2 = `chaps/experiment.aux'.
 
  (./chaps/experiment.tex
@@ -862,11 +860,11 @@ bmp)
 
 <./img/screenshot/sphere/Radius/1_30/screenshot000.bmp>
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 88.
+(Font)              scaled to size 5.76599pt on input line 89.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 88.
+(Font)              scaled to size 7.68799pt on input line 89.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 88.
+(Font)              scaled to size 5.76599pt on input line 89.
 File: ./img/screenshot/sphere/Radius/1_30/screenshot001.bmp Graphic file (type 
 bmp)
 
@@ -912,10 +910,10 @@ bmp)
 
 <./img/screenshot/sphere/Radius/1_10/screenshot002.bmp>
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 122.
+(Font)              scaled to size 8.64899pt on input line 123.
 
 
-LaTeX Warning: Float too large for page by 8.39597pt on input line 124.
+LaTeX Warning: Float too large for page by 8.39597pt on input line 125.
 
 [59] [60]
 File: ./img/screenshot/sphere/Distortion/tex_tortion1.png Graphic file (type bm
@@ -942,7 +940,7 @@ mp)
 
 <./img/screenshot/sphere/Distortion/screenshot002.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 164.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 168.
 
 [61] [62]
 File: ./img/screenshot/texture/spot.jpg Graphic file (type bmp)
@@ -966,7 +964,7 @@ File: ./img/screenshot/texture/spot5.bmp Graphic file (type bmp)
 
 <./img/screenshot/texture/spot5.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 214.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 218.
 
 File: ./img/screenshot/plane_wireframe.png Graphic file (type bmp)
 <./img/screenshot/plane_wireframe.png>
@@ -997,7 +995,7 @@ ype bmp)
 
 <./img/screenshot/sphere/RefracLimit/010/screenshot002.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 292.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 296.
 
 File: ./img/screenshot/sphere/RefracLimit/000/screenshot001.bmp Graphic file (t
 ype bmp)
@@ -1023,7 +1021,7 @@ ype bmp)
 
 <./img/screenshot/sphere/RefracLimit/010/screenshot001.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 316.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 320.
 
 [67] [68] [69]
 File: ./img/screenshot/sphere/RefracLimit/001/pupil4_explain.png Graphic file (
@@ -1157,7 +1155,7 @@ File: ./img/screenshot/texreso/plane_rs500.bmp Graphic file (type bmp)
 
 <./img/screenshot/texreso/plane_rs500.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 541.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 545.
 
 File: ./img/screenshot/texreso/sphere_rs1.bmp Graphic file (type bmp)
 <./img/screenshot/texreso/sphere_rs1.bmp>
@@ -1177,7 +1175,7 @@ File: ./img/screenshot/texreso/sphere_rs500.bmp Graphic file (type bmp)
 
 <./img/screenshot/texreso/sphere_rs500.bmp>
 
-LaTeX Warning: Float too large for page by 3.05792pt on input line 565.
+LaTeX Warning: Float too large for page by 3.05792pt on input line 569.
 
 [78]
 File: ./img/screenshot/phong/screenshot000.bmp Graphic file (type bmp)
@@ -1236,22 +1234,9 @@ File: ./img/screenshot/obj/tori_head/screenshot003.bmp Graphic file (type bmp)
 <./img/screenshot/obj/tori_head/screenshot003.bmp>
 File: ./img/screenshot/obj/tori_head/screenshot004.bmp Graphic file (type bmp)
 
-<./img/screenshot/obj/tori_head/screenshot004.bmp>) [87] [88]
-\openout2 = `chaps/conclusion.aux'.
-
-
-(./chaps/conclusion.tex
-第7章
-[89
-
-
-
-]) [90]
-\openout2 = `chaps/artfesta.aux'.
-
- (./chaps/artfesta.tex
-第8章
+<./img/screenshot/obj/tori_head/screenshot004.bmp> [87] [88]
 File: ./img/bircco_green.jpg Graphic file (type bmp)
+
 <./img/bircco_green.jpg>
 File: ./img/bircco_red.jpg Graphic file (type bmp)
  <./img/bircco_red.jpg>
@@ -1259,19 +1244,23 @@ File: ./img/bircco_youjo1.jpg Graphic file (type bmp)
  <./img/bircco_youjo1.jpg>
 File: ./img/bircco_youjo2.jpg Graphic file (type bmp)
 
-<./img/bircco_youjo2.jpg>) [91
+<./img/bircco_youjo2.jpg>) [89]
+\openout2 = `chaps/conclusion.aux'.
+
+ (./chaps/conclusion.tex [90
 
 
 
-] [92]
+]
+第7章
+[91]) [92]
 \openout2 = `chaps/acknowledgement.aux'.
 
  (./chaps/acknowledgement.tex [93
 
 
 
-] [94])
-[95] (./thesis.bbl [96
+] [94]) [95] (./thesis.bbl [96
 
 
 ]
@@ -1285,11 +1274,11 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 6.
 Missing character: There is no ^^c3 in font txr!
 Missing character: There is no ^^bc in font txr!
- [97]
+
+[97]
 LaTeX Font Info:    Try loading font information for OT1+txtt on input line 53.
 
-
-(c:/w32tex/share/texmf-dist/tex/latex/txr/ot1txtt.fd
+ (c:/w32tex/share/texmf-dist/tex/latex/txr/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
 Underfull \hbox (badness 4366) in paragraph at lines 82--85
@@ -1303,18 +1292,18 @@ Underfull \hbox (badness 4366) in paragraph at lines 82--85
 ] (./thesis.aux (./chaps/introduction.aux)
 (./chaps/relatedwork.aux) (./chaps/knowledge.aux) (./chaps/experiment.aux)
 (./chaps/method.aux) (./chaps/result.aux) (./chaps/conclusion.aux)
-(./chaps/artfesta.aux) (./chaps/acknowledgement.aux))
+(./chaps/acknowledgement.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4302 strings out of 493799
- 60811 string characters out of 6153369
- 104093 words of memory out of 5000000
- 7441 multiletter control sequences out of 15000+600000
+ 4294 strings out of 493799
+ 60672 string characters out of 6153369
+ 103766 words of memory out of 5000000
+ 7440 multiletter control sequences out of 15000+600000
  45073 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,11n,26p,466b,474s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on thesis.dvi (112 pages, 220764 bytes).
+Output written on thesis.dvi (112 pages, 219796 bytes).

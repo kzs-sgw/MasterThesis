@@ -9,19 +9,19 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Rump2}}{10}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces ハイヒールとオーナメント（\cite {jakob2014discrete}より転載）}}{11}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces シャボン玉の薄膜干渉（\cite {iwasaki2004real}より転載）}}{12}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces 鉱石の多層膜干渉\cite {weidlich2009rendering}}}{12}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces CAPTION}}{13}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {岩澤の手法(\cite {iwasawa2004rendering}より転載)}}}{13}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sadeghiの手法(\cite {sadeghi2008physically}より転載)}}}{13}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {岡田の手法（\cite {okada2013rendering}より転載）}}}{13}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces 織布のレンダリング（\cite {zhao2013modular}）}}{14}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces 織布のレンダリング（拡大）（\cite {zhao2013modular}より転載）}}{14}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 織布のレンダリング(\cite {zhao2012structure}より転載)}}{15}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 鉱石の多層膜干渉(\cite {weidlich2009rendering}より転載)}}{12}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces 様々な手法によるモルフォチョウのレンダリング}}{14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {岩澤の手法(\cite {iwasawa2004rendering}より転載)}}}{14}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sadeghiの手法(\cite {sadeghi2008physically}より転載)}}}{14}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {岡田の手法（\cite {okada2013rendering}より転載）}}}{14}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces 織布のレンダリング（\cite {zhao2013modular}より転載）}}{15}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 織布のレンダリング（拡大）（\cite {zhao2013modular}より転載）}}{15}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces 織布のレンダリング(\cite {zhao2012structure}より転載)}}{16}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces 個眼の模式図}}{18}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 連立像眼のしくみ（\cite {arikawa-zougan}より転載）}}{20}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 重複像眼のしくみ（\cite {arikawa-zougan}より転載）}}{21}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 複眼表面の拡大画像（\cite {tinycafe}より転載）}}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 連立像眼のしくみ（\cite {arikawa-zougan}より転載）}}{19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 重複像眼のしくみ（\cite {arikawa-zougan}より転載）}}{20}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 複眼表面の拡大画像（\cite {tinycafe}より転載）}}{21}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces 色素細胞の上下移動と偽瞳孔(\cite {yagi1958studies}より転載)}}{23}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Side pupilの原理}}{24}
 \addvspace {10\p@ }
@@ -186,10 +186,9 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{88}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図3}}}{88}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図4}}}{88}
+\contentsline {figure}{\numberline {6.27}{\ignorespaces 複眼的宇宙鳥 Bircco (バーコ)と探索する宇宙蜘蛛}}{89}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{89}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{89}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図1}}}{89}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図2}}}{89}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces 複眼的宇宙鳥 Bircco (バーコ)と探索する宇宙蜘蛛}}{92}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {図1}}}{92}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {図2}}}{92}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {図1}}}{92}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {図2}}}{92}
